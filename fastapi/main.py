@@ -38,4 +38,13 @@ def predict_species(sepal_length, sepal_width, petal_length, petal_width):
     prediction = model.predict(features)
     return iris.target_names[prediction[0]]
 
+# Define the Pydantic model for your input data
+from pydantic import BaseModel
+
+class IrisData(BaseModel):
+    sepal_length: float
+    sepal_width: float
+    petal_length: float
+    petal_width: float
+
 
