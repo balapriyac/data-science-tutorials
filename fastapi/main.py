@@ -47,4 +47,9 @@ class IrisData(BaseModel):
     petal_length: float
     petal_width: float
 
+# Create API endpoint
+@app.post("/predict/")
+async def predict_species_api(iris_data: IrisData):
+    species = predict_species(iris_data.sepal_length, iris_data.sepal_width, iris_data.petal_length, iris_data.petal_width)
+    return {"species": species}
 
