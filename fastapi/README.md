@@ -16,7 +16,7 @@ Also install scikit-learn:
 ```bash
 $ pip3 install scikit-learn
 ```
-Check main.py for the complete code.
+Check [main.py](https://github.com/balapriyac/data-science-tutorials/blob/main/fastapi/main.py) for the complete code.
 
 ## Run the App
 
