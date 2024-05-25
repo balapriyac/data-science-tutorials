@@ -29,7 +29,7 @@ iris = load_iris()
 X, y = iris.data, iris.target
 
 # Train a logistic regression model
-model = LogisticRegression(max_iter=1000)
+model = LogisticRegression()
 model.fit(X, y)
 
 # Define a function to predict the species
