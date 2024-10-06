@@ -1,10 +1,11 @@
 from fastapi import FastAPI
-import joblib
+import pickle
 import pandas as pd
 from pydantic import BaseModel
 
-# Load the saved model
-model = joblib.load('linear_regression_model.pkl')
+# Load the saved model using pickle
+with open('linear_regression_model.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 # Create the FastAPI app
 app = FastAPI()
