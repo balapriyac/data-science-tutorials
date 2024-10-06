@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-import joblib
+import pickle
 
 # Load the California Housing dataset
 data = fetch_california_housing(as_frame=True)
@@ -24,5 +24,6 @@ model.fit(X_train, y_train)
 score = model.score(X_test, y_test)
 print(f"Model R-squared: {score:.4f}")
 
-# Save the trained model to a file
-joblib.dump(model, 'linear_regression_model.pkl')
+# Save the model using pickle
+with open('linear_regression_model.pkl', 'wb') as f:
+    pickle.dump(model, f)
