@@ -1,10 +1,7 @@
 import duckdb
 
-# Load the CSV file into DuckDB
-con = duckdb.connect()
-
 # View the first 5 rows of the data
-con.execute("SELECT * FROM 'sales_data.csv' LIMIT 5").df()
+duckdb.sql("SELECT * FROM 'sales_data.csv' LIMIT 5").df()
 
 # Calculate total sales (Price * Quantity_Sold) per region
 query = """
@@ -13,7 +10,7 @@ FROM 'sales_data.csv'
 GROUP BY Region
 ORDER BY Total_Sales DESC
 """
-total_sales = con.execute(query).df()
+total_sales = duckdb.sql(query).df()
 
 print("Total sales per region:")
 print(total_sales)
@@ -26,7 +23,7 @@ GROUP BY Product_Name
 ORDER BY Total_Quantity DESC
 LIMIT 5
 """
-top_products = con.execute(query).df()
+top_products = duckdb.sql(query).df()
 
 print("Top 5 best-selling products:")
 print(top_products)
@@ -37,7 +34,7 @@ SELECT Region, AVG(Price) as Average_Price
 FROM 'sales_data.csv'
 GROUP BY Region
 """
-avg_price_region = con.execute(query).df()
+avg_price_region = duckdb.sql(query).df()
 
 print("Average price per region:")
 print(avg_price_region)
@@ -49,7 +46,7 @@ FROM 'sales_data.csv'
 GROUP BY Region
 ORDER BY Total_Quantity DESC
 """
-total_quantity_region = con.execute(query).df()
+total_quantity_region = duckdb.sql(query).df()
 
 print("Total quantity sold per region:")
 print(total_quantity_region)
@@ -61,6 +58,6 @@ FROM 'sales_data.csv' s
 JOIN 'product_details.csv' p
 ON s.Product_ID = p.Product_ID
 """
-joined_data = con.execute(query).df()
+joined_data = duckdb.sql(query).df()
 
 print(joined_data.head())
