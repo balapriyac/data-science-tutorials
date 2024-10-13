@@ -26,3 +26,12 @@ Install these required packages using pip:
 $ pip3 install pandas scikit-learn fastapi uvicorn
 ```
 
+Run the script to train the model and save it:
+
+```
+$ python3 model_training.py
+```
+
+You should be able to find the .pkl file (`linear_regression_model.pkl`) in the `model/` directory.
+
+
