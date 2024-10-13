@@ -34,4 +34,19 @@ $ python3 model_training.py
 
 You should be able to find the .pkl file (`linear_regression_model.pkl`) in the `model/` directory.
 
+Use FastAPI to build an API to serve model predictions and containerize it using Docker.
+
+Build the Docker image by running the following `docker build` command:
+
+```
+$ docker build -t house-price-prediction-api .
+```
+
+Next run the Docker container:
+
+```
+$ docker run -d -p 80:80 house-price-prediction-api
+```
+
+
 
