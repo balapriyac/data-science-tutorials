@@ -5,4 +5,6 @@ Contents
 - [FastAPI](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)
 - [Machine Learning](https://github.com/balapriyac/data-science-tutorials/tree/main/machine-learning)
 - [Pandas](https://github.com/balapriyac/data-science-tutorials/tree/main/pandas)
+- [PostgreSQL]()
+- [PySpark]()
 - [Statistics](https://github.com/balapriyac/data-science-tutorials/tree/main/statistics)
