@@ -2,6 +2,7 @@ from sklearn.datasets import load_wine
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 import pandas as pd
 import pickle
 
@@ -33,3 +34,14 @@ def train_model(X_train, y_train):
         pickle.dump(model, f)
 
     return model
+
+def evaluate_model(model, X_test, y_test):
+    y_pred = model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Accuracy: {accuracy:.2f}")
+
+if __name__ == "__main__":
+    df = load_wine_data()
+    X_train_scaled, X_test_scaled, y_train, y_test = preprocess_data(df)
+    model = train_model(X_train_scaled, y_train)
+    evaluate_model(model, X_test_scaled, y_test)
