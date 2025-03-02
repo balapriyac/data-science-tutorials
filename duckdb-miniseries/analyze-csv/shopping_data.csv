@@ -1,0 +1,31 @@
+customer_id,customer_name,age,gender,purchase_amount,category,purchase_date,payment_method
+1,Customer 1,56,Male,406.11,Books,2024-01-01,PayPal
+2,Customer 2,46,Male,159.26,Electronics,2024-01-02,Credit Card
+3,Customer 3,32,Female,57.86,Electronics,2024-01-03,Cash
+4,Customer 4,60,Female,345.27,Electronics,2024-01-04,Cash
+5,Customer 5,25,Female,225.67,Groceries,2024-01-05,Debit Card
+6,Customer 6,38,Female,69.8,Electronics,2024-01-06,Credit Card
+7,Customer 7,56,Female,252.64,Electronics,2024-01-07,Cash
+8,Customer 8,36,Male,26.85,Electronics,2024-01-08,PayPal
+9,Customer 9,40,Female,455.57,Groceries,2024-01-09,PayPal
+10,Customer 10,28,Female,136.8,Electronics,2024-01-10,Debit Card
+11,Customer 11,28,Male,334.64,Books,2024-01-11,Cash
+12,Customer 12,41,Female,162.74,Electronics,2024-01-12,Credit Card
+13,Customer 13,53,Male,264.83,Books,2024-01-13,PayPal
+14,Customer 14,57,Female,277.89,Books,2024-01-14,Cash
+15,Customer 15,41,Male,100.58,Books,2024-01-15,Cash
+16,Customer 16,20,Female,485.1,Groceries,2024-01-16,Debit Card
+17,Customer 17,39,Female,389.82,Groceries,2024-01-17,PayPal
+18,Customer 18,19,Male,470.35,Groceries,2024-01-18,PayPal
+19,Customer 19,41,Male,448.47,Electronics,2024-01-19,Credit Card
+20,Customer 20,61,Male,302.97,Books,2024-01-20,PayPal
+21,Customer 21,47,Male,461.72,Groceries,2024-01-21,Credit Card
+22,Customer 22,55,Male,53.36,Groceries,2024-01-22,PayPal
+23,Customer 23,19,Male,106.03,Electronics,2024-01-23,Debit Card
+24,Customer 24,38,Male,32.16,Groceries,2024-01-24,PayPal
+25,Customer 25,50,Male,169.41,Electronics,2024-01-25,Credit Card
+26,Customer 26,29,Female,200.45,Clothing,2024-01-26,Credit Card
+27,Customer 27,39,Female,142.96,Groceries,2024-01-27,Debit Card
+28,Customer 28,61,Male,416.08,Clothing,2024-01-28,PayPal
+29,Customer 29,42,Female,184.81,Electronics,2024-01-29,PayPal
+30,Customer 30,44,Female,147.66,Books,2024-01-30,Debit Card
