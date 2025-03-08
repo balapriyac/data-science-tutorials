@@ -1,0 +1,1001 @@
+ride_id,date,pickup_location,dropoff_location,fare,tip,total_amount,total_distance_km,duration_min,payment_type
+1,2024-02-08,Airport,Downtown,24.1,2.89,26.990000000000002,29.62,91.26,Cash
+2,2024-02-21,Business District,Airport,8.92,1.94,10.86,8.87,33.83,Digital Wallet
+3,2024-01-29,Suburbs,Business District,41.71,3.51,45.22,3.86,12.21,Credit Card
+4,2024-01-15,Business District,Airport,21.81,4.5,26.31,25.05,114.99,Credit Card
+5,2024-02-12,Suburbs,Airport,28.69,0.21,28.900000000000002,21.49,62.89,Cash
+6,2024-01-08,Airport,Suburbs,10.05,0.92,10.97,18.9,54.44,Digital Wallet
+7,2024-01-21,Airport,Suburbs,5.12,0.84,5.96,5.52,15.44,Credit Card
+8,2024-02-08,Airport,Airport,33.71,6.39,40.1,14.88,44.62,Digital Wallet
+9,2024-02-27,Airport,Airport,28.18,4.88,33.06,23.64,86.81,Credit Card
+10,2024-01-19,Airport,Airport,31.71,6.64,38.35,9.81,40.43,Digital Wallet
+11,2024-01-23,Suburbs,Suburbs,40.72,0.07,40.79,10.04,40.04,Cash
+12,2024-01-11,Suburbs,Suburbs,34.1,1.03,35.13,1.09,4.82,Digital Wallet
+13,2024-01-11,Airport,Downtown,12.86,3.35,16.21,6.05,28.18,Credit Card
+14,2024-01-24,Business District,Downtown,21.23,4.34,25.57,26.39,117.39,Cash
+15,2024-02-22,Downtown,Airport,45.77,1.55,47.32,13.81,28.4,Digital Wallet
+16,2024-02-05,Airport,Business District,39.65,10.02,49.67,29.54,124.3,Credit Card
+17,2024-02-09,Business District,Business District,30.05,2.18,32.230000000000004,12.48,32.76,Cash
+18,2024-01-24,Downtown,Suburbs,16.5,2.37,18.87,21.74,52.15,Digital Wallet
+19,2024-01-03,Airport,Suburbs,18.59,0.81,19.4,9.18,35.94,Credit Card
+20,2024-01-22,Airport,Suburbs,37.94,8.08,46.019999999999996,11.55,34.18,Digital Wallet
+21,2024-02-22,Suburbs,Airport,43.3,8.66,51.959999999999994,6.53,14.18,Digital Wallet
+22,2024-01-02,Downtown,Business District,35.21,2.23,37.44,11.06,26.69,Cash
+23,2024-01-24,Downtown,Downtown,41.43,10.73,52.16,16.87,33.79,Cash
+24,2024-02-13,Business District,Airport,39.5,4.76,44.26,29.76,140.16,Credit Card
+25,2024-01-30,Suburbs,Downtown,11.74,1.03,12.77,20.26,42.02,Cash
+26,2024-02-07,Suburbs,Downtown,24.08,1.1,25.18,6.78,17.82,Credit Card
+27,2024-01-02,Suburbs,Airport,11.88,0.95,12.83,2.3,7.47,Digital Wallet
+28,2024-02-29,Suburbs,Downtown,15.59,0.1,15.69,4.66,14.3,Digital Wallet
+29,2024-01-21,Downtown,Business District,44.12,7.72,51.839999999999996,17.31,81.97,Credit Card
+30,2024-02-02,Downtown,Downtown,26.28,6.64,32.92,23.19,49.18,Digital Wallet
+31,2024-01-12,Airport,Business District,29.09,4.79,33.88,28.27,99.98,Cash
+32,2024-02-27,Airport,Business District,13.03,0.86,13.889999999999999,1.46,5.9,Digital Wallet
+33,2024-01-22,Suburbs,Business District,19.05,0.19,19.240000000000002,16.16,77.49,Cash
+34,2024-02-13,Suburbs,Suburbs,15.36,0.99,16.349999999999998,14.66,56.6,Credit Card
+35,2024-01-25,Suburbs,Downtown,14.28,1.78,16.06,20.03,88.36,Credit Card
+36,2024-02-18,Airport,Airport,33.71,7.68,41.39,17.23,38.79,Digital Wallet
+37,2024-01-27,Business District,Airport,16.56,0.93,17.49,20.92,66.06,Digital Wallet
+38,2024-02-28,Business District,Downtown,33.44,7.22,40.66,20.08,62.69,Cash
+39,2024-02-11,Airport,Suburbs,7.63,1.98,9.61,4.39,20.45,Cash
+40,2024-01-28,Airport,Suburbs,11.38,1.55,12.930000000000001,24.19,59.37,Digital Wallet
+41,2024-02-29,Airport,Business District,17.35,4.28,21.630000000000003,4.57,11.22,Digital Wallet
+42,2024-01-16,Airport,Downtown,31.87,5.3,37.17,21.26,63.48,Credit Card
+43,2024-01-15,Airport,Downtown,35.41,6.77,42.17999999999999,13.07,28.28,Credit Card
+44,2024-02-16,Airport,Airport,24.92,3.93,28.85,15.9,40.5,Credit Card
+45,2024-02-20,Suburbs,Downtown,25.06,3.48,28.54,27.2,133.16,Digital Wallet
+46,2024-02-13,Suburbs,Suburbs,37.6,2.65,40.25,26.81,88.06,Digital Wallet
+47,2024-02-24,Suburbs,Downtown,5.71,0.52,6.23,24.72,96.31,Digital Wallet
+48,2024-02-21,Suburbs,Airport,20.35,1.77,22.12,15.79,65.98,Credit Card
+49,2024-02-26,Airport,Business District,41.84,7.07,48.910000000000004,22.35,69.3,Digital Wallet
+50,2024-01-03,Business District,Airport,32.14,1.16,33.3,15.87,38.75,Cash
+51,2024-02-06,Downtown,Airport,20.18,5.55,25.73,26.22,68.69,Digital Wallet
+52,2024-02-20,Airport,Business District,45.75,9.89,55.64,12.68,37.28,Digital Wallet
+53,2024-01-07,Downtown,Airport,39.77,4.79,44.56,29.14,113.89,Digital Wallet
+54,2024-01-21,Business District,Airport,16.92,0.81,17.73,28.04,89.58,Digital Wallet
+55,2024-01-09,Suburbs,Downtown,34.04,9.01,43.05,22.51,45.48,Digital Wallet
+56,2024-02-08,Business District,Downtown,31.81,7.86,39.67,9.1,32.49,Cash
+57,2024-01-18,Airport,Business District,23.05,4.99,28.04,4.82,22.97,Cash
+58,2024-01-04,Suburbs,Downtown,21.51,1.75,23.26,25.79,114.41,Digital Wallet
+59,2024-01-25,Airport,Downtown,20.46,2.47,22.93,5.79,25.91,Credit Card
+60,2024-02-29,Suburbs,Airport,32.77,1.01,33.78,25.77,113.01,Digital Wallet
+61,2024-01-14,Downtown,Suburbs,24.91,1.41,26.32,15.23,45.25,Digital Wallet
+62,2024-02-19,Downtown,Downtown,42.43,9.97,52.4,12.79,54.94,Digital Wallet
+63,2024-02-27,Downtown,Suburbs,35.13,7.54,42.67,27.19,66.06,Credit Card
+64,2024-01-09,Business District,Downtown,8.15,1.45,9.6,18.51,73.54,Credit Card
+65,2024-01-26,Airport,Downtown,33.81,9.09,42.900000000000006,17.72,69.55,Credit Card
+66,2024-02-22,Business District,Business District,17.2,3.01,20.21,17.2,35.72,Cash
+67,2024-01-02,Downtown,Business District,31.68,4.44,36.12,11.76,51.32,Credit Card
+68,2024-01-20,Airport,Business District,35.61,3.64,39.25,23.78,112.0,Cash
+69,2024-01-28,Downtown,Suburbs,15.39,4.34,19.73,8.33,23.34,Cash
+70,2024-02-16,Business District,Airport,25.56,0.63,26.189999999999998,28.23,125.26,Credit Card
+71,2024-02-29,Business District,Downtown,13.56,3.79,17.35,26.93,60.52,Credit Card
+72,2024-01-07,Business District,Downtown,7.36,1.83,9.190000000000001,10.79,41.0,Credit Card
+73,2024-02-13,Downtown,Downtown,22.03,0.86,22.89,22.15,76.57,Cash
+74,2024-01-08,Airport,Suburbs,21.33,3.62,24.95,17.62,64.1,Digital Wallet
+75,2024-02-16,Airport,Business District,49.8,12.95,62.75,10.79,51.56,Credit Card
+76,2024-02-04,Downtown,Airport,25.09,4.3,29.39,29.67,136.9,Credit Card
+77,2024-01-14,Airport,Suburbs,20.01,5.45,25.46,1.73,7.53,Credit Card
+78,2024-01-17,Downtown,Business District,31.12,8.8,39.92,8.33,23.5,Cash
+79,2024-02-05,Airport,Suburbs,8.99,1.14,10.13,16.08,76.15,Cash
+80,2024-02-19,Suburbs,Airport,48.27,5.46,53.730000000000004,16.14,37.0,Digital Wallet
+81,2024-02-09,Suburbs,Business District,33.57,9.43,43.0,18.08,82.44,Credit Card
+82,2024-01-04,Business District,Suburbs,38.97,7.89,46.86,22.8,68.05,Cash
+83,2024-01-02,Suburbs,Airport,12.67,0.44,13.11,19.08,41.24,Digital Wallet
+84,2024-01-06,Suburbs,Downtown,23.43,0.3,23.73,18.41,73.79,Credit Card
+85,2024-02-23,Suburbs,Airport,24.02,4.07,28.09,2.55,6.87,Cash
+86,2024-02-11,Downtown,Downtown,41.98,11.71,53.69,11.92,32.55,Credit Card
+87,2024-01-04,Suburbs,Suburbs,5.06,1.28,6.34,7.73,22.56,Credit Card
+88,2024-02-23,Suburbs,Business District,18.54,3.76,22.299999999999997,8.7,19.06,Cash
+89,2024-01-29,Business District,Business District,49.16,2.05,51.209999999999994,17.08,43.24,Cash
+90,2024-01-18,Suburbs,Suburbs,26.37,2.01,28.380000000000003,6.79,13.68,Cash
+91,2024-01-26,Suburbs,Business District,22.21,5.83,28.04,9.52,31.76,Credit Card
+92,2024-02-13,Airport,Business District,10.39,0.57,10.96,7.88,17.75,Credit Card
+93,2024-02-03,Business District,Downtown,48.84,4.08,52.92,28.51,115.41,Digital Wallet
+94,2024-01-10,Business District,Suburbs,5.9,0.23,6.130000000000001,28.4,76.88,Credit Card
+95,2024-02-05,Business District,Airport,38.17,7.74,45.910000000000004,18.69,90.29,Cash
+96,2024-01-14,Business District,Downtown,39.59,11.21,50.800000000000004,27.81,128.31,Credit Card
+97,2024-01-31,Business District,Suburbs,15.96,1.29,17.25,23.79,68.24,Digital Wallet
+98,2024-02-17,Business District,Downtown,35.22,5.02,40.239999999999995,18.11,78.77,Digital Wallet
+99,2024-01-15,Downtown,Airport,9.18,1.75,10.93,1.19,5.25,Cash
+100,2024-01-08,Suburbs,Airport,16.57,4.97,21.54,23.4,116.06,Cash
+101,2024-01-14,Business District,Suburbs,40.46,1.27,41.730000000000004,21.37,81.07,Digital Wallet
+102,2024-01-23,Suburbs,Airport,43.91,6.57,50.48,18.84,42.31,Digital Wallet
+103,2024-02-29,Suburbs,Downtown,32.38,3.74,36.120000000000005,23.05,90.83,Digital Wallet
+104,2024-02-26,Downtown,Airport,27.81,7.22,35.03,15.87,61.5,Cash
+105,2024-02-09,Business District,Downtown,12.17,1.74,13.91,21.42,83.86,Digital Wallet
+106,2024-01-21,Airport,Downtown,7.84,0.26,8.1,28.12,82.15,Digital Wallet
+107,2024-01-16,Downtown,Airport,10.29,1.96,12.25,11.9,54.49,Cash
+108,2024-02-14,Airport,Suburbs,15.23,3.52,18.75,21.54,105.08,Credit Card
+109,2024-01-18,Suburbs,Business District,20.38,0.02,20.4,14.79,39.24,Credit Card
+110,2024-02-16,Suburbs,Airport,22.14,5.71,27.85,20.56,46.56,Digital Wallet
+111,2024-02-22,Downtown,Downtown,20.58,1.15,21.729999999999997,23.12,59.73,Credit Card
+112,2024-01-24,Downtown,Downtown,15.76,2.61,18.37,2.32,10.35,Credit Card
+113,2024-01-26,Airport,Airport,27.94,3.49,31.43,19.75,79.59,Credit Card
+114,2024-01-25,Business District,Suburbs,42.14,9.1,51.24,7.58,29.62,Credit Card
+115,2024-02-29,Airport,Suburbs,17.59,1.96,19.55,20.43,65.49,Digital Wallet
+116,2024-02-29,Downtown,Downtown,47.41,12.37,59.779999999999994,14.58,54.43,Credit Card
+117,2024-02-29,Airport,Downtown,44.3,9.71,54.01,23.43,68.5,Credit Card
+118,2024-02-14,Downtown,Suburbs,12.28,2.39,14.67,4.58,15.72,Cash
+119,2024-02-10,Airport,Business District,40.38,9.65,50.03,19.16,83.91,Digital Wallet
+120,2024-01-29,Downtown,Airport,30.86,6.98,37.84,9.08,44.89,Cash
+121,2024-01-15,Downtown,Downtown,30.5,0.33,30.83,25.74,123.49,Cash
+122,2024-02-14,Downtown,Downtown,22.6,2.68,25.28,27.92,134.06,Digital Wallet
+123,2024-01-01,Business District,Suburbs,27.55,7.69,35.24,29.9,95.88,Credit Card
+124,2024-01-25,Airport,Airport,22.87,0.86,23.73,24.08,82.03,Cash
+125,2024-01-07,Airport,Suburbs,29.29,6.48,35.769999999999996,22.86,94.11,Digital Wallet
+126,2024-01-09,Airport,Airport,33.26,9.72,42.98,7.25,34.56,Credit Card
+127,2024-01-24,Downtown,Airport,35.34,0.55,35.89,10.74,26.06,Digital Wallet
+128,2024-01-01,Airport,Airport,28.96,5.93,34.89,14.5,42.23,Cash
+129,2024-02-13,Airport,Downtown,37.46,5.26,42.72,23.43,56.65,Credit Card
+130,2024-01-08,Downtown,Business District,11.36,1.97,13.33,27.53,105.61,Credit Card
+131,2024-01-24,Suburbs,Suburbs,14.54,0.37,14.909999999999998,6.49,18.94,Digital Wallet
+132,2024-01-11,Downtown,Business District,41.84,0.54,42.38,27.75,82.65,Credit Card
+133,2024-02-20,Airport,Suburbs,19.51,3.9,23.41,21.17,46.84,Cash
+134,2024-01-17,Downtown,Airport,6.03,1.49,7.5200000000000005,18.71,57.05,Cash
+135,2024-01-08,Suburbs,Downtown,11.92,2.8,14.719999999999999,6.8,31.19,Cash
+136,2024-02-04,Downtown,Business District,15.06,2.46,17.52,2.61,7.04,Digital Wallet
+137,2024-02-04,Airport,Downtown,48.08,1.44,49.519999999999996,17.49,71.46,Credit Card
+138,2024-02-02,Suburbs,Suburbs,30.79,6.36,37.15,19.89,77.35,Credit Card
+139,2024-02-28,Business District,Downtown,46.97,3.41,50.379999999999995,7.11,32.64,Credit Card
+140,2024-01-05,Airport,Downtown,30.88,8.44,39.32,17.14,41.08,Cash
+141,2024-02-11,Suburbs,Business District,26.57,6.68,33.25,25.84,127.46,Credit Card
+142,2024-02-08,Suburbs,Airport,19.12,4.07,23.19,25.22,94.52,Cash
+143,2024-02-27,Business District,Downtown,32.29,9.19,41.48,27.89,139.07,Credit Card
+144,2024-02-10,Downtown,Airport,11.26,0.11,11.37,11.61,54.97,Cash
+145,2024-01-28,Downtown,Suburbs,45.42,10.03,55.45,10.22,27.23,Credit Card
+146,2024-01-07,Airport,Downtown,42.32,4.19,46.51,22.73,49.29,Digital Wallet
+147,2024-01-09,Business District,Business District,19.29,5.24,24.53,13.5,37.35,Digital Wallet
+148,2024-01-08,Downtown,Suburbs,47.88,3.83,51.71,3.54,12.68,Cash
+149,2024-01-12,Business District,Suburbs,42.13,9.16,51.290000000000006,9.2,23.14,Cash
+150,2024-02-03,Downtown,Business District,34.98,9.21,44.19,13.14,32.88,Credit Card
+151,2024-02-02,Suburbs,Downtown,10.48,0.13,10.610000000000001,9.48,32.12,Credit Card
+152,2024-02-17,Downtown,Downtown,26.52,3.16,29.68,10.63,22.32,Digital Wallet
+153,2024-02-24,Business District,Suburbs,27.77,6.35,34.12,9.52,22.52,Credit Card
+154,2024-01-23,Suburbs,Downtown,15.46,2.11,17.57,2.2,7.14,Cash
+155,2024-01-24,Suburbs,Airport,8.6,0.69,9.29,19.48,42.65,Cash
+156,2024-02-06,Suburbs,Business District,39.95,2.63,42.580000000000005,18.32,58.45,Cash
+157,2024-02-04,Business District,Airport,10.49,0.41,10.9,19.95,68.27,Cash
+158,2024-02-13,Airport,Downtown,31.74,8.16,39.9,6.58,22.07,Cash
+159,2024-02-09,Airport,Suburbs,47.14,8.14,55.28,9.57,44.09,Digital Wallet
+160,2024-01-22,Airport,Business District,44.42,1.02,45.440000000000005,18.97,68.11,Digital Wallet
+161,2024-01-27,Business District,Downtown,17.5,2.01,19.509999999999998,18.39,62.6,Cash
+162,2024-02-04,Suburbs,Downtown,43.32,4.78,48.1,15.68,50.68,Credit Card
+163,2024-01-01,Airport,Suburbs,5.01,0.27,5.279999999999999,11.16,49.69,Cash
+164,2024-02-04,Business District,Suburbs,5.8,0.76,6.56,27.47,128.7,Digital Wallet
+165,2024-02-06,Airport,Airport,32.11,3.2,35.31,10.85,49.47,Cash
+166,2024-02-16,Downtown,Business District,21.42,2.2,23.62,14.21,57.13,Digital Wallet
+167,2024-01-14,Airport,Business District,22.39,4.96,27.35,20.67,49.86,Digital Wallet
+168,2024-01-03,Airport,Suburbs,30.4,2.04,32.44,16.75,47.41,Cash
+169,2024-01-01,Suburbs,Airport,13.63,2.62,16.25,11.06,23.65,Cash
+170,2024-01-05,Business District,Business District,14.53,2.49,17.02,13.63,65.32,Credit Card
+171,2024-01-26,Suburbs,Suburbs,26.81,4.57,31.38,24.04,95.74,Digital Wallet
+172,2024-02-24,Suburbs,Downtown,38.94,7.75,46.69,9.07,38.45,Credit Card
+173,2024-01-14,Suburbs,Business District,32.88,5.41,38.290000000000006,5.13,15.06,Cash
+174,2024-02-08,Suburbs,Airport,18.38,4.85,23.229999999999997,10.08,45.73,Digital Wallet
+175,2024-01-27,Suburbs,Airport,24.37,4.94,29.310000000000002,25.64,71.25,Credit Card
+176,2024-01-09,Airport,Airport,12.68,2.08,14.76,3.58,7.18,Credit Card
+177,2024-01-15,Suburbs,Downtown,8.36,2.08,10.44,29.76,93.13,Credit Card
+178,2024-01-15,Suburbs,Business District,40.22,7.31,47.53,16.69,61.96,Cash
+179,2024-01-26,Business District,Business District,16.94,1.48,18.42,29.56,101.57,Cash
+180,2024-02-11,Downtown,Downtown,13.0,0.81,13.81,28.23,129.47,Cash
+181,2024-02-29,Airport,Business District,36.12,1.65,37.769999999999996,14.13,32.73,Digital Wallet
+182,2024-01-13,Airport,Downtown,32.81,8.85,41.660000000000004,6.76,24.75,Cash
+183,2024-02-20,Airport,Downtown,33.49,7.13,40.620000000000005,5.78,20.46,Digital Wallet
+184,2024-02-01,Suburbs,Downtown,15.3,4.3,19.6,7.96,22.64,Credit Card
+185,2024-02-08,Suburbs,Airport,15.47,2.8,18.27,21.59,96.44,Credit Card
+186,2024-02-18,Suburbs,Business District,14.94,2.12,17.06,8.92,37.99,Cash
+187,2024-02-21,Business District,Downtown,12.82,0.23,13.05,10.9,45.76,Credit Card
+188,2024-02-01,Downtown,Business District,34.51,6.95,41.46,14.01,64.85,Cash
+189,2024-01-04,Suburbs,Airport,43.16,7.54,50.699999999999996,27.48,114.55,Digital Wallet
+190,2024-01-30,Downtown,Downtown,37.59,11.17,48.760000000000005,6.49,17.49,Credit Card
+191,2024-02-06,Business District,Suburbs,40.64,2.92,43.56,1.15,4.73,Cash
+192,2024-01-23,Airport,Airport,23.22,3.7,26.919999999999998,2.74,8.01,Credit Card
+193,2024-02-08,Suburbs,Suburbs,34.43,6.72,41.15,27.24,74.27,Credit Card
+194,2024-02-14,Downtown,Business District,20.94,4.05,24.990000000000002,19.78,43.89,Cash
+195,2024-01-15,Downtown,Business District,28.65,4.82,33.47,8.92,37.75,Credit Card
+196,2024-02-12,Suburbs,Airport,26.67,6.22,32.89,6.14,25.38,Credit Card
+197,2024-01-29,Airport,Business District,12.96,0.8,13.760000000000002,9.53,25.76,Credit Card
+198,2024-02-05,Airport,Suburbs,22.42,4.88,27.3,4.33,18.39,Credit Card
+199,2024-01-13,Airport,Downtown,48.37,8.99,57.36,28.3,134.52,Digital Wallet
+200,2024-02-01,Business District,Downtown,16.19,4.35,20.54,23.74,55.17,Credit Card
+201,2024-01-07,Downtown,Downtown,11.02,2.8,13.82,14.41,38.88,Credit Card
+202,2024-02-28,Downtown,Airport,23.84,2.25,26.09,26.08,110.86,Cash
+203,2024-02-20,Downtown,Business District,40.57,3.36,43.93,8.23,23.24,Digital Wallet
+204,2024-01-22,Business District,Suburbs,31.2,9.19,40.39,21.8,84.45,Cash
+205,2024-01-28,Downtown,Business District,35.64,5.64,41.28,25.83,57.95,Cash
+206,2024-01-02,Business District,Business District,13.54,3.68,17.22,11.35,38.1,Cash
+207,2024-02-11,Airport,Business District,32.85,1.62,34.47,22.97,96.87,Digital Wallet
+208,2024-02-14,Suburbs,Downtown,19.56,3.77,23.33,9.56,38.81,Cash
+209,2024-02-26,Downtown,Suburbs,42.54,10.34,52.879999999999995,9.67,42.99,Cash
+210,2024-02-22,Downtown,Suburbs,33.32,9.47,42.79,4.1,18.99,Cash
+211,2024-01-06,Airport,Business District,13.95,1.41,15.36,13.76,59.44,Credit Card
+212,2024-01-28,Suburbs,Downtown,7.91,1.72,9.63,22.16,88.97,Cash
+213,2024-01-28,Business District,Downtown,6.92,1.12,8.04,28.27,59.23,Digital Wallet
+214,2024-02-13,Suburbs,Suburbs,21.71,0.39,22.1,18.51,66.73,Digital Wallet
+215,2024-02-13,Airport,Downtown,16.96,3.51,20.47,26.03,55.0,Credit Card
+216,2024-01-20,Airport,Downtown,34.07,7.05,41.12,24.85,109.94,Digital Wallet
+217,2024-01-30,Suburbs,Downtown,27.47,7.67,35.14,6.03,17.86,Digital Wallet
+218,2024-01-11,Business District,Airport,16.97,2.53,19.5,15.09,55.64,Credit Card
+219,2024-02-27,Business District,Business District,11.72,0.81,12.530000000000001,4.39,12.46,Cash
+220,2024-02-24,Downtown,Suburbs,10.72,0.14,10.860000000000001,20.78,90.34,Credit Card
+221,2024-01-28,Business District,Suburbs,43.91,5.48,49.39,28.55,133.03,Cash
+222,2024-01-25,Suburbs,Airport,15.96,1.45,17.41,4.98,15.92,Cash
+223,2024-02-08,Airport,Business District,34.33,7.84,42.17,22.28,102.24,Digital Wallet
+224,2024-02-02,Downtown,Suburbs,41.48,4.41,45.89,19.33,54.15,Credit Card
+225,2024-01-01,Downtown,Downtown,32.63,9.29,41.92,17.92,64.58,Digital Wallet
+226,2024-02-26,Airport,Suburbs,43.68,12.61,56.29,12.31,56.33,Digital Wallet
+227,2024-01-27,Business District,Downtown,22.66,4.22,26.88,11.3,33.65,Cash
+228,2024-02-26,Airport,Airport,48.03,13.38,61.410000000000004,2.31,11.23,Digital Wallet
+229,2024-02-21,Business District,Downtown,10.99,2.51,13.5,7.32,17.32,Credit Card
+230,2024-01-13,Airport,Suburbs,9.6,1.57,11.17,1.44,2.96,Digital Wallet
+231,2024-02-10,Suburbs,Suburbs,34.64,1.87,36.51,17.86,84.16,Digital Wallet
+232,2024-01-03,Business District,Suburbs,47.43,6.53,53.96,4.07,8.98,Cash
+233,2024-02-08,Suburbs,Airport,41.4,6.97,48.37,26.32,130.96,Credit Card
+234,2024-01-06,Downtown,Airport,8.44,2.19,10.629999999999999,16.17,78.49,Digital Wallet
+235,2024-01-08,Airport,Business District,17.57,2.54,20.11,21.29,51.33,Cash
+236,2024-01-27,Downtown,Suburbs,46.86,12.62,59.48,12.91,46.64,Digital Wallet
+237,2024-01-09,Downtown,Downtown,16.39,3.32,19.71,17.26,44.1,Credit Card
+238,2024-02-06,Downtown,Airport,40.15,1.65,41.8,28.34,93.08,Digital Wallet
+239,2024-02-02,Downtown,Suburbs,42.13,12.58,54.71,3.4,7.43,Digital Wallet
+240,2024-02-20,Airport,Suburbs,27.3,4.32,31.62,8.36,22.34,Cash
+241,2024-02-11,Downtown,Airport,22.39,2.63,25.02,23.62,72.98,Digital Wallet
+242,2024-02-13,Airport,Business District,25.26,4.99,30.25,3.86,12.8,Cash
+243,2024-01-24,Airport,Airport,15.21,0.5,15.71,3.19,15.73,Credit Card
+244,2024-01-15,Suburbs,Airport,45.02,8.6,53.620000000000005,11.48,50.78,Digital Wallet
+245,2024-02-28,Business District,Downtown,25.28,3.78,29.060000000000002,3.67,15.46,Credit Card
+246,2024-02-23,Business District,Downtown,44.71,5.45,50.160000000000004,17.97,64.89,Credit Card
+247,2024-02-01,Airport,Business District,9.76,2.79,12.55,7.56,34.17,Digital Wallet
+248,2024-02-01,Suburbs,Suburbs,49.47,7.76,57.23,26.98,81.42,Cash
+249,2024-01-24,Airport,Airport,24.95,1.64,26.59,23.72,97.89,Credit Card
+250,2024-02-10,Airport,Business District,7.15,0.98,8.13,21.29,106.05,Credit Card
+251,2024-02-21,Airport,Downtown,6.71,1.85,8.56,18.89,55.61,Digital Wallet
+252,2024-02-18,Suburbs,Airport,38.58,2.04,40.62,26.04,104.73,Digital Wallet
+253,2024-02-18,Business District,Suburbs,34.66,2.22,36.879999999999995,7.47,33.86,Digital Wallet
+254,2024-02-27,Suburbs,Downtown,41.1,0.16,41.26,26.32,124.95,Digital Wallet
+255,2024-02-21,Downtown,Downtown,9.74,0.04,9.78,23.9,99.28,Digital Wallet
+256,2024-01-12,Suburbs,Downtown,6.6,1.64,8.24,22.7,64.71,Digital Wallet
+257,2024-02-08,Suburbs,Business District,27.89,6.13,34.02,17.28,51.47,Cash
+258,2024-01-02,Suburbs,Suburbs,22.44,2.39,24.830000000000002,8.14,16.79,Credit Card
+259,2024-01-03,Suburbs,Airport,25.79,5.4,31.189999999999998,13.28,56.87,Cash
+260,2024-02-18,Business District,Business District,49.62,5.88,55.5,24.01,51.1,Cash
+261,2024-02-06,Downtown,Business District,48.68,13.92,62.6,1.92,8.82,Digital Wallet
+262,2024-02-18,Business District,Business District,47.4,13.75,61.15,23.68,55.79,Credit Card
+263,2024-02-25,Business District,Downtown,40.27,4.75,45.02,7.96,20.02,Cash
+264,2024-01-17,Suburbs,Suburbs,20.97,5.37,26.34,5.18,17.77,Digital Wallet
+265,2024-02-28,Airport,Business District,23.55,5.46,29.01,4.36,18.37,Digital Wallet
+266,2024-02-18,Airport,Airport,29.73,2.76,32.49,1.79,4.33,Credit Card
+267,2024-01-02,Business District,Suburbs,42.37,2.95,45.32,16.18,53.72,Cash
+268,2024-01-02,Business District,Airport,8.09,1.11,9.2,7.33,25.28,Cash
+269,2024-01-28,Suburbs,Suburbs,24.09,5.65,29.740000000000002,29.69,78.29,Cash
+270,2024-02-23,Business District,Airport,8.72,2.51,11.23,17.66,41.44,Digital Wallet
+271,2024-01-23,Suburbs,Downtown,28.16,6.45,34.61,5.0,22.55,Credit Card
+272,2024-02-06,Airport,Business District,45.45,11.66,57.11,20.97,73.55,Credit Card
+273,2024-02-01,Airport,Airport,40.21,7.27,47.480000000000004,27.03,55.23,Cash
+274,2024-02-02,Downtown,Suburbs,15.25,3.82,19.07,22.61,99.69,Digital Wallet
+275,2024-01-01,Airport,Business District,48.92,11.51,60.43,3.22,15.91,Cash
+276,2024-01-19,Business District,Business District,35.03,3.96,38.99,26.98,103.0,Credit Card
+277,2024-01-02,Airport,Suburbs,5.47,0.91,6.38,24.02,84.34,Digital Wallet
+278,2024-02-22,Suburbs,Airport,16.49,3.98,20.47,5.59,25.91,Cash
+279,2024-02-13,Airport,Downtown,16.73,0.23,16.96,2.5,12.14,Cash
+280,2024-01-26,Downtown,Downtown,8.12,1.97,10.09,17.16,73.16,Digital Wallet
+281,2024-02-01,Airport,Airport,48.19,2.57,50.76,5.53,18.45,Credit Card
+282,2024-01-06,Suburbs,Business District,26.52,4.09,30.61,25.2,95.17,Digital Wallet
+283,2024-02-01,Suburbs,Business District,45.31,10.99,56.300000000000004,11.39,46.73,Cash
+284,2024-02-24,Business District,Business District,19.5,1.48,20.98,27.47,70.95,Cash
+285,2024-01-04,Airport,Business District,10.64,0.78,11.42,17.4,58.14,Cash
+286,2024-02-24,Suburbs,Airport,26.35,3.18,29.53,6.3,28.28,Cash
+287,2024-01-11,Downtown,Business District,10.13,2.72,12.850000000000001,5.05,20.02,Credit Card
+288,2024-02-25,Business District,Suburbs,26.87,0.0,26.87,17.72,57.3,Credit Card
+289,2024-02-28,Downtown,Business District,46.41,12.55,58.959999999999994,23.09,92.13,Cash
+290,2024-01-17,Airport,Downtown,28.43,1.31,29.74,23.66,55.71,Credit Card
+291,2024-02-07,Airport,Business District,32.74,9.72,42.46,9.0,28.84,Credit Card
+292,2024-01-24,Airport,Airport,12.05,3.45,15.5,6.92,30.31,Credit Card
+293,2024-01-05,Business District,Downtown,6.97,1.03,8.0,1.49,3.97,Cash
+294,2024-02-21,Suburbs,Airport,9.99,1.54,11.530000000000001,20.7,52.95,Digital Wallet
+295,2024-02-03,Business District,Airport,31.93,4.61,36.54,3.22,15.62,Digital Wallet
+296,2024-01-06,Downtown,Downtown,9.28,1.77,11.049999999999999,13.2,34.71,Digital Wallet
+297,2024-01-22,Business District,Airport,21.92,0.6,22.520000000000003,18.45,51.34,Cash
+298,2024-01-11,Downtown,Airport,29.75,0.29,30.04,28.18,138.33,Credit Card
+299,2024-02-17,Business District,Business District,22.49,0.39,22.88,10.04,42.21,Credit Card
+300,2024-01-16,Suburbs,Suburbs,12.37,1.65,14.02,8.24,33.77,Cash
+301,2024-02-02,Downtown,Airport,17.32,1.43,18.75,19.97,91.04,Cash
+302,2024-01-09,Airport,Airport,46.77,8.73,55.5,18.96,44.51,Digital Wallet
+303,2024-02-29,Airport,Airport,35.42,10.55,45.97,10.63,43.77,Digital Wallet
+304,2024-02-28,Business District,Business District,27.32,3.17,30.490000000000002,27.91,97.99,Cash
+305,2024-01-06,Airport,Suburbs,5.57,0.96,6.53,25.5,114.43,Digital Wallet
+306,2024-01-16,Downtown,Downtown,49.66,6.19,55.849999999999994,7.5,26.43,Credit Card
+307,2024-01-29,Airport,Business District,35.22,8.95,44.17,7.94,30.65,Cash
+308,2024-01-03,Suburbs,Business District,19.26,5.21,24.470000000000002,15.86,54.45,Cash
+309,2024-01-20,Suburbs,Suburbs,44.57,11.73,56.3,23.43,80.47,Credit Card
+310,2024-02-29,Business District,Suburbs,16.63,4.86,21.49,2.28,9.81,Credit Card
+311,2024-02-28,Downtown,Business District,29.48,0.24,29.72,21.11,82.03,Credit Card
+312,2024-02-05,Suburbs,Downtown,33.62,8.47,42.089999999999996,19.8,77.22,Digital Wallet
+313,2024-01-19,Suburbs,Business District,14.95,3.37,18.32,7.71,25.84,Cash
+314,2024-01-26,Downtown,Suburbs,49.03,3.36,52.39,20.76,74.6,Digital Wallet
+315,2024-01-03,Airport,Downtown,38.67,11.09,49.760000000000005,28.27,119.78,Credit Card
+316,2024-01-19,Airport,Suburbs,30.1,1.34,31.44,2.36,10.57,Digital Wallet
+317,2024-01-20,Business District,Downtown,13.13,2.68,15.81,10.27,42.0,Credit Card
+318,2024-02-01,Airport,Airport,7.42,0.5,7.92,13.71,65.43,Digital Wallet
+319,2024-01-07,Downtown,Suburbs,19.4,2.51,21.909999999999997,27.08,120.8,Digital Wallet
+320,2024-02-21,Suburbs,Suburbs,38.89,8.39,47.28,28.91,106.55,Credit Card
+321,2024-02-10,Airport,Business District,17.12,2.89,20.01,13.88,55.72,Digital Wallet
+322,2024-02-02,Business District,Suburbs,29.28,3.76,33.04,22.75,108.72,Cash
+323,2024-02-09,Airport,Suburbs,37.76,3.7,41.46,16.42,63.34,Digital Wallet
+324,2024-02-08,Downtown,Airport,9.86,2.48,12.34,16.6,74.28,Digital Wallet
+325,2024-01-18,Business District,Suburbs,35.84,1.55,37.39,9.06,36.84,Cash
+326,2024-02-09,Airport,Airport,9.13,1.18,10.31,7.29,26.65,Credit Card
+327,2024-01-01,Business District,Airport,48.43,13.13,61.56,9.35,25.48,Cash
+328,2024-01-11,Downtown,Airport,26.98,6.85,33.83,17.13,56.15,Digital Wallet
+329,2024-01-28,Suburbs,Airport,11.78,1.42,13.2,1.85,9.07,Credit Card
+330,2024-02-26,Downtown,Downtown,20.41,4.67,25.08,27.31,108.51,Digital Wallet
+331,2024-01-25,Downtown,Business District,23.6,5.83,29.43,5.53,20.42,Digital Wallet
+332,2024-02-19,Downtown,Downtown,39.12,10.43,49.55,7.38,35.42,Cash
+333,2024-01-23,Downtown,Suburbs,38.45,6.28,44.730000000000004,16.03,60.27,Cash
+334,2024-01-31,Suburbs,Downtown,32.54,2.0,34.54,21.59,77.25,Credit Card
+335,2024-01-30,Suburbs,Downtown,9.77,0.75,10.52,3.78,16.17,Credit Card
+336,2024-02-11,Business District,Suburbs,11.82,1.05,12.870000000000001,10.21,42.25,Credit Card
+337,2024-02-04,Airport,Suburbs,9.22,1.64,10.860000000000001,29.09,75.04,Digital Wallet
+338,2024-01-07,Suburbs,Suburbs,30.97,0.3,31.27,8.61,29.39,Cash
+339,2024-02-29,Suburbs,Downtown,44.47,8.49,52.96,10.08,34.45,Cash
+340,2024-01-16,Airport,Downtown,24.52,2.68,27.2,25.26,79.18,Cash
+341,2024-01-26,Suburbs,Suburbs,12.24,1.08,13.32,2.46,8.74,Credit Card
+342,2024-02-17,Downtown,Business District,30.11,7.94,38.05,14.47,46.87,Cash
+343,2024-02-26,Downtown,Business District,41.53,5.73,47.260000000000005,12.01,31.2,Cash
+344,2024-02-21,Airport,Airport,38.38,1.09,39.470000000000006,10.18,32.95,Cash
+345,2024-02-29,Business District,Suburbs,44.67,11.08,55.75,9.29,20.59,Credit Card
+346,2024-02-18,Business District,Airport,17.51,0.25,17.76,3.65,13.6,Cash
+347,2024-01-02,Airport,Business District,13.73,2.99,16.72,10.13,46.2,Credit Card
+348,2024-01-01,Airport,Airport,44.59,10.35,54.940000000000005,2.25,9.4,Cash
+349,2024-02-17,Downtown,Suburbs,34.59,3.66,38.25,23.65,72.87,Cash
+350,2024-01-12,Business District,Suburbs,18.99,4.7,23.689999999999998,12.55,28.38,Cash
+351,2024-01-05,Suburbs,Suburbs,38.41,5.94,44.349999999999994,13.87,36.15,Credit Card
+352,2024-02-06,Downtown,Downtown,41.68,5.79,47.47,26.91,97.86,Credit Card
+353,2024-02-01,Airport,Airport,32.67,0.44,33.11,20.08,52.63,Cash
+354,2024-02-28,Business District,Business District,35.95,3.13,39.080000000000005,1.23,4.47,Digital Wallet
+355,2024-02-24,Suburbs,Business District,21.89,6.11,28.0,28.35,76.4,Credit Card
+356,2024-01-09,Suburbs,Business District,29.24,3.44,32.68,7.88,35.83,Credit Card
+357,2024-02-10,Downtown,Downtown,28.59,4.69,33.28,4.12,13.15,Cash
+358,2024-02-04,Business District,Downtown,43.16,6.89,50.05,23.28,63.71,Digital Wallet
+359,2024-01-19,Business District,Suburbs,42.8,7.58,50.379999999999995,15.51,68.82,Cash
+360,2024-02-17,Airport,Business District,42.47,0.78,43.25,13.58,41.13,Credit Card
+361,2024-01-16,Business District,Downtown,5.5,0.6,6.1,8.24,19.24,Credit Card
+362,2024-01-03,Business District,Suburbs,38.73,8.4,47.129999999999995,16.88,62.65,Cash
+363,2024-01-20,Downtown,Business District,39.14,2.35,41.49,8.96,33.55,Cash
+364,2024-01-24,Business District,Airport,35.53,2.17,37.7,27.15,112.51,Digital Wallet
+365,2024-02-23,Suburbs,Suburbs,39.03,0.12,39.15,7.24,19.7,Digital Wallet
+366,2024-02-25,Downtown,Downtown,42.89,5.63,48.52,26.65,88.78,Credit Card
+367,2024-02-02,Downtown,Downtown,26.16,6.93,33.09,17.22,49.03,Digital Wallet
+368,2024-01-24,Airport,Suburbs,27.59,0.43,28.02,25.03,56.14,Digital Wallet
+369,2024-02-21,Business District,Suburbs,10.61,0.61,11.219999999999999,21.67,100.33,Credit Card
+370,2024-01-11,Airport,Downtown,22.34,2.08,24.42,21.2,88.76,Credit Card
+371,2024-02-18,Suburbs,Airport,33.95,7.45,41.400000000000006,10.41,30.23,Credit Card
+372,2024-01-08,Downtown,Business District,40.12,7.71,47.83,7.78,29.55,Credit Card
+373,2024-02-05,Downtown,Airport,14.77,1.84,16.61,7.12,18.54,Cash
+374,2024-02-07,Downtown,Suburbs,11.2,2.55,13.75,25.86,120.78,Credit Card
+375,2024-02-09,Suburbs,Airport,34.84,6.37,41.21,24.79,58.13,Credit Card
+376,2024-01-20,Suburbs,Downtown,5.08,1.37,6.45,13.78,27.72,Credit Card
+377,2024-02-04,Airport,Suburbs,13.03,3.2,16.23,4.84,16.97,Digital Wallet
+378,2024-02-17,Airport,Business District,6.31,0.48,6.789999999999999,12.09,45.33,Credit Card
+379,2024-01-25,Airport,Downtown,12.51,1.02,13.53,18.96,70.85,Cash
+380,2024-02-04,Business District,Downtown,13.16,0.49,13.65,14.18,30.68,Cash
+381,2024-01-25,Downtown,Business District,22.45,2.27,24.72,23.63,69.52,Credit Card
+382,2024-01-29,Downtown,Business District,23.1,6.93,30.03,29.93,104.68,Cash
+383,2024-01-18,Airport,Airport,44.34,5.4,49.74,6.54,17.33,Digital Wallet
+384,2024-02-15,Downtown,Suburbs,27.95,1.85,29.8,14.33,66.17,Credit Card
+385,2024-01-18,Airport,Business District,37.55,8.59,46.14,13.5,30.53,Cash
+386,2024-01-02,Business District,Business District,9.69,1.58,11.27,9.83,34.03,Cash
+387,2024-02-23,Business District,Suburbs,15.14,0.68,15.82,6.74,27.46,Credit Card
+388,2024-02-04,Suburbs,Business District,36.63,4.18,40.81,2.91,8.11,Cash
+389,2024-01-16,Business District,Business District,7.38,0.92,8.3,26.73,103.52,Credit Card
+390,2024-02-10,Airport,Airport,26.9,6.08,32.98,13.18,59.15,Cash
+391,2024-02-05,Business District,Downtown,31.97,0.2,32.17,15.41,39.62,Digital Wallet
+392,2024-02-02,Suburbs,Downtown,32.1,2.59,34.69,27.59,131.1,Cash
+393,2024-01-04,Downtown,Downtown,6.03,0.94,6.970000000000001,23.51,86.06,Cash
+394,2024-02-02,Airport,Downtown,19.49,1.57,21.06,4.78,13.85,Credit Card
+395,2024-01-14,Downtown,Business District,33.64,6.34,39.980000000000004,17.4,57.29,Cash
+396,2024-01-21,Suburbs,Suburbs,11.7,1.69,13.389999999999999,13.83,40.61,Credit Card
+397,2024-02-17,Suburbs,Suburbs,36.29,3.94,40.23,24.12,100.71,Digital Wallet
+398,2024-01-20,Suburbs,Airport,38.57,10.98,49.55,22.0,96.56,Credit Card
+399,2024-02-25,Downtown,Airport,49.19,9.33,58.519999999999996,21.02,94.57,Credit Card
+400,2024-01-08,Downtown,Business District,14.44,0.56,15.0,10.88,53.94,Cash
+401,2024-01-07,Downtown,Suburbs,42.13,7.08,49.21,24.34,106.46,Digital Wallet
+402,2024-01-03,Downtown,Suburbs,28.41,6.65,35.06,2.52,9.59,Credit Card
+403,2024-01-17,Suburbs,Downtown,21.81,4.64,26.45,5.63,16.99,Cash
+404,2024-02-02,Suburbs,Business District,10.51,0.54,11.05,10.73,38.99,Cash
+405,2024-02-17,Airport,Business District,38.1,11.11,49.21,3.23,6.86,Credit Card
+406,2024-01-12,Airport,Downtown,15.61,2.1,17.71,7.81,33.07,Cash
+407,2024-02-28,Downtown,Business District,21.71,1.04,22.75,25.07,83.68,Credit Card
+408,2024-02-20,Business District,Business District,7.81,0.42,8.23,28.5,58.71,Credit Card
+409,2024-01-22,Business District,Airport,41.06,1.21,42.27,9.83,21.5,Credit Card
+410,2024-02-24,Suburbs,Suburbs,39.5,9.52,49.019999999999996,8.67,27.42,Digital Wallet
+411,2024-01-22,Suburbs,Business District,38.01,1.39,39.4,9.12,34.2,Credit Card
+412,2024-02-15,Suburbs,Airport,18.47,0.69,19.16,9.05,30.7,Cash
+413,2024-01-30,Airport,Suburbs,12.81,3.27,16.080000000000002,2.04,7.87,Digital Wallet
+414,2024-02-07,Airport,Downtown,33.69,3.48,37.169999999999995,27.88,95.93,Cash
+415,2024-02-07,Suburbs,Airport,27.33,0.25,27.58,7.2,28.69,Digital Wallet
+416,2024-02-14,Suburbs,Airport,13.02,0.2,13.219999999999999,13.18,35.02,Digital Wallet
+417,2024-02-20,Suburbs,Suburbs,35.87,1.53,37.4,1.28,2.99,Digital Wallet
+418,2024-02-23,Business District,Downtown,49.6,3.18,52.78,25.88,98.07,Digital Wallet
+419,2024-01-08,Airport,Airport,38.62,7.71,46.33,22.2,76.68,Cash
+420,2024-01-27,Business District,Business District,38.3,1.81,40.11,28.46,59.21,Credit Card
+421,2024-01-27,Business District,Business District,47.76,1.7,49.46,23.67,74.36,Cash
+422,2024-02-03,Suburbs,Business District,14.13,3.24,17.37,10.1,23.42,Credit Card
+423,2024-01-21,Suburbs,Downtown,30.45,6.13,36.58,8.19,29.44,Cash
+424,2024-01-30,Downtown,Airport,49.08,6.41,55.489999999999995,21.23,67.67,Digital Wallet
+425,2024-02-02,Downtown,Business District,12.44,2.05,14.489999999999998,11.56,44.38,Digital Wallet
+426,2024-01-28,Business District,Downtown,36.51,3.42,39.93,17.42,76.94,Credit Card
+427,2024-02-16,Airport,Business District,31.36,4.54,35.9,1.18,3.42,Credit Card
+428,2024-02-02,Suburbs,Suburbs,31.39,4.77,36.16,2.79,13.63,Cash
+429,2024-01-05,Suburbs,Airport,36.4,4.23,40.629999999999995,16.53,59.62,Credit Card
+430,2024-02-29,Business District,Airport,46.83,12.74,59.57,17.42,67.15,Cash
+431,2024-02-17,Downtown,Downtown,40.22,0.19,40.41,22.79,92.12,Credit Card
+432,2024-01-19,Airport,Downtown,7.53,1.77,9.3,4.83,19.32,Credit Card
+433,2024-01-04,Downtown,Airport,43.37,1.62,44.989999999999995,15.88,56.1,Credit Card
+434,2024-02-04,Downtown,Business District,15.15,3.62,18.77,6.64,21.82,Digital Wallet
+435,2024-02-18,Downtown,Business District,21.96,4.06,26.02,3.7,8.0,Digital Wallet
+436,2024-01-17,Downtown,Suburbs,25.78,6.52,32.3,12.9,26.65,Cash
+437,2024-02-13,Suburbs,Business District,26.64,0.78,27.42,5.74,17.64,Credit Card
+438,2024-01-28,Suburbs,Downtown,24.58,4.12,28.7,7.43,22.3,Cash
+439,2024-01-30,Downtown,Downtown,47.18,7.09,54.269999999999996,10.21,32.3,Credit Card
+440,2024-01-29,Airport,Business District,36.77,7.79,44.56,8.52,20.58,Digital Wallet
+441,2024-02-15,Business District,Downtown,33.4,5.35,38.75,3.54,14.92,Digital Wallet
+442,2024-02-22,Airport,Airport,7.24,1.17,8.41,3.61,16.5,Credit Card
+443,2024-01-06,Airport,Airport,45.68,5.89,51.57,6.6,31.79,Credit Card
+444,2024-02-04,Airport,Business District,45.92,4.25,50.17,2.47,8.59,Digital Wallet
+445,2024-02-29,Downtown,Airport,40.11,5.8,45.91,19.17,78.65,Digital Wallet
+446,2024-02-10,Suburbs,Airport,5.32,0.19,5.510000000000001,9.33,42.61,Cash
+447,2024-02-06,Airport,Suburbs,7.58,2.19,9.77,9.11,29.65,Digital Wallet
+448,2024-01-24,Downtown,Suburbs,15.14,3.24,18.380000000000003,10.63,31.13,Credit Card
+449,2024-01-29,Airport,Airport,10.91,3.12,14.030000000000001,20.22,97.26,Cash
+450,2024-02-18,Airport,Business District,22.95,1.56,24.509999999999998,26.25,93.11,Credit Card
+451,2024-02-15,Downtown,Suburbs,46.52,12.27,58.790000000000006,23.01,80.35,Cash
+452,2024-02-22,Suburbs,Downtown,26.24,6.37,32.61,22.1,56.03,Credit Card
+453,2024-01-31,Suburbs,Downtown,5.6,1.14,6.739999999999999,15.05,34.98,Digital Wallet
+454,2024-02-04,Business District,Downtown,17.72,3.32,21.04,21.12,95.6,Credit Card
+455,2024-02-29,Downtown,Business District,7.01,0.67,7.68,17.03,65.44,Cash
+456,2024-02-02,Business District,Airport,6.63,1.62,8.25,7.27,21.65,Credit Card
+457,2024-02-21,Business District,Downtown,17.41,2.62,20.03,7.05,18.16,Cash
+458,2024-01-21,Business District,Business District,17.4,0.37,17.77,9.6,35.2,Credit Card
+459,2024-02-01,Suburbs,Suburbs,40.42,3.79,44.21,27.41,102.84,Digital Wallet
+460,2024-01-23,Downtown,Airport,48.87,13.71,62.58,16.88,44.24,Digital Wallet
+461,2024-02-02,Business District,Suburbs,21.7,5.54,27.24,22.28,101.47,Credit Card
+462,2024-01-03,Downtown,Business District,24.3,7.16,31.46,11.05,24.89,Credit Card
+463,2024-01-18,Downtown,Downtown,43.02,8.1,51.120000000000005,12.82,39.34,Credit Card
+464,2024-01-25,Suburbs,Downtown,17.07,1.27,18.34,4.64,18.75,Cash
+465,2024-02-11,Business District,Business District,12.04,0.59,12.629999999999999,5.97,16.85,Credit Card
+466,2024-01-31,Business District,Downtown,43.39,2.43,45.82,24.99,112.03,Credit Card
+467,2024-02-23,Downtown,Airport,7.09,0.04,7.13,17.96,75.78,Cash
+468,2024-02-27,Airport,Business District,32.89,3.85,36.74,10.79,47.12,Digital Wallet
+469,2024-01-03,Suburbs,Suburbs,30.29,1.74,32.03,24.28,57.24,Credit Card
+470,2024-02-09,Suburbs,Business District,20.57,2.54,23.11,8.15,19.74,Credit Card
+471,2024-02-15,Suburbs,Airport,19.18,5.38,24.56,29.3,83.78,Digital Wallet
+472,2024-01-24,Suburbs,Airport,39.73,5.13,44.86,11.0,39.1,Digital Wallet
+473,2024-02-19,Business District,Business District,8.89,2.34,11.23,10.78,45.75,Cash
+474,2024-02-01,Business District,Business District,15.66,2.84,18.5,10.05,45.32,Credit Card
+475,2024-02-16,Airport,Downtown,37.96,2.81,40.77,4.54,18.67,Credit Card
+476,2024-01-22,Suburbs,Airport,29.67,3.17,32.84,4.22,20.2,Cash
+477,2024-01-23,Suburbs,Business District,10.76,0.27,11.03,19.8,83.48,Digital Wallet
+478,2024-01-02,Downtown,Business District,44.7,4.47,49.17,26.38,77.0,Cash
+479,2024-01-27,Business District,Airport,22.71,4.62,27.330000000000002,23.93,66.89,Digital Wallet
+480,2024-02-11,Suburbs,Business District,42.25,0.91,43.16,5.09,20.81,Cash
+481,2024-01-02,Airport,Downtown,40.45,2.49,42.940000000000005,16.82,43.37,Digital Wallet
+482,2024-01-26,Airport,Airport,33.1,3.79,36.89,4.06,9.25,Cash
+483,2024-01-17,Business District,Downtown,27.25,8.03,35.28,2.31,8.31,Digital Wallet
+484,2024-02-09,Airport,Downtown,49.08,11.56,60.64,20.04,89.48,Digital Wallet
+485,2024-02-02,Airport,Downtown,11.52,2.53,14.049999999999999,16.52,38.06,Digital Wallet
+486,2024-01-09,Business District,Downtown,37.63,1.31,38.940000000000005,3.38,14.79,Digital Wallet
+487,2024-02-12,Suburbs,Airport,13.6,3.19,16.79,2.01,8.91,Digital Wallet
+488,2024-02-23,Suburbs,Downtown,20.22,4.76,24.979999999999997,29.7,102.37,Credit Card
+489,2024-02-17,Airport,Downtown,18.89,3.41,22.3,1.87,4.06,Digital Wallet
+490,2024-02-08,Airport,Business District,47.62,14.15,61.769999999999996,13.89,35.06,Credit Card
+491,2024-01-29,Suburbs,Airport,48.53,4.74,53.27,15.63,64.43,Digital Wallet
+492,2024-02-11,Business District,Airport,13.24,3.74,16.98,4.4,18.2,Credit Card
+493,2024-02-24,Airport,Suburbs,5.99,1.64,7.63,5.9,27.7,Credit Card
+494,2024-01-26,Downtown,Airport,37.4,0.13,37.53,11.2,41.98,Cash
+495,2024-02-04,Business District,Airport,23.81,3.22,27.029999999999998,23.09,54.78,Digital Wallet
+496,2024-02-19,Airport,Suburbs,9.0,2.64,11.64,15.71,37.14,Cash
+497,2024-01-25,Airport,Airport,35.77,1.11,36.88,19.5,81.19,Cash
+498,2024-01-24,Downtown,Airport,29.53,4.85,34.38,29.57,75.44,Digital Wallet
+499,2024-01-13,Downtown,Airport,49.12,14.43,63.55,23.27,69.46,Cash
+500,2024-02-29,Suburbs,Airport,15.23,2.54,17.77,13.6,47.08,Digital Wallet
+501,2024-02-27,Business District,Suburbs,23.18,1.32,24.5,13.95,28.94,Cash
+502,2024-01-07,Business District,Airport,29.41,5.14,34.55,18.94,52.02,Digital Wallet
+503,2024-02-26,Suburbs,Airport,40.63,2.49,43.120000000000005,20.3,65.44,Digital Wallet
+504,2024-02-05,Business District,Suburbs,29.7,4.63,34.33,15.52,44.06,Digital Wallet
+505,2024-02-14,Business District,Business District,32.58,0.72,33.3,19.7,47.46,Credit Card
+506,2024-01-20,Business District,Downtown,15.18,2.76,17.939999999999998,1.68,7.03,Cash
+507,2024-01-01,Business District,Business District,43.11,6.68,49.79,13.46,59.75,Credit Card
+508,2024-01-08,Business District,Suburbs,24.29,5.39,29.68,9.09,25.2,Cash
+509,2024-02-15,Downtown,Downtown,11.34,2.15,13.49,4.75,20.54,Cash
+510,2024-01-16,Business District,Suburbs,34.89,5.75,40.64,3.89,12.28,Cash
+511,2024-01-14,Downtown,Suburbs,14.72,3.05,17.77,18.49,65.09,Credit Card
+512,2024-01-12,Business District,Airport,9.39,0.41,9.8,16.18,73.91,Cash
+513,2024-02-20,Suburbs,Downtown,43.79,7.82,51.61,8.35,35.49,Credit Card
+514,2024-01-23,Airport,Airport,25.71,1.33,27.04,14.66,64.73,Digital Wallet
+515,2024-01-15,Downtown,Downtown,38.72,10.75,49.47,15.27,36.81,Cash
+516,2024-01-28,Business District,Suburbs,18.08,0.37,18.45,6.66,14.71,Cash
+517,2024-02-03,Suburbs,Suburbs,40.41,5.22,45.629999999999995,19.91,93.18,Digital Wallet
+518,2024-01-02,Airport,Business District,10.04,2.1,12.139999999999999,23.65,74.82,Digital Wallet
+519,2024-02-01,Downtown,Downtown,21.02,2.89,23.91,23.95,68.58,Cash
+520,2024-01-23,Airport,Airport,49.01,1.35,50.36,18.47,77.1,Digital Wallet
+521,2024-01-22,Suburbs,Business District,40.73,6.76,47.489999999999995,15.84,71.43,Credit Card
+522,2024-02-20,Downtown,Business District,27.38,5.27,32.65,2.77,12.71,Credit Card
+523,2024-01-25,Airport,Business District,20.29,4.28,24.57,9.35,27.56,Cash
+524,2024-02-27,Business District,Airport,44.25,4.96,49.21,3.7,16.86,Credit Card
+525,2024-01-22,Downtown,Business District,29.52,4.99,34.51,28.95,61.46,Credit Card
+526,2024-02-27,Airport,Airport,39.13,5.29,44.42,4.92,10.57,Cash
+527,2024-02-27,Suburbs,Business District,38.93,7.85,46.78,5.4,20.9,Digital Wallet
+528,2024-01-22,Suburbs,Airport,5.81,1.02,6.83,26.8,58.67,Cash
+529,2024-02-18,Downtown,Suburbs,10.68,1.68,12.36,28.37,84.37,Credit Card
+530,2024-02-21,Airport,Suburbs,34.68,2.6,37.28,23.21,93.26,Cash
+531,2024-02-11,Downtown,Suburbs,12.27,0.01,12.28,1.16,3.49,Cash
+532,2024-01-06,Downtown,Suburbs,16.5,0.86,17.36,1.04,2.64,Credit Card
+533,2024-01-15,Airport,Suburbs,47.6,1.67,49.27,11.96,34.01,Credit Card
+534,2024-02-23,Airport,Business District,30.21,4.07,34.28,5.16,17.4,Cash
+535,2024-02-12,Business District,Business District,38.78,7.12,45.9,1.53,5.24,Credit Card
+536,2024-02-29,Airport,Business District,30.11,1.92,32.03,14.46,62.89,Credit Card
+537,2024-02-06,Suburbs,Airport,29.86,8.41,38.269999999999996,28.35,120.5,Credit Card
+538,2024-02-02,Downtown,Airport,9.24,0.02,9.26,10.39,35.02,Credit Card
+539,2024-01-08,Downtown,Airport,20.46,4.74,25.200000000000003,20.17,91.51,Credit Card
+540,2024-02-22,Suburbs,Airport,17.71,3.32,21.03,19.91,46.64,Credit Card
+541,2024-02-29,Airport,Suburbs,22.58,2.53,25.11,8.28,22.9,Digital Wallet
+542,2024-02-13,Suburbs,Suburbs,40.93,0.62,41.55,19.86,89.05,Cash
+543,2024-02-13,Suburbs,Suburbs,21.74,4.09,25.83,7.16,22.44,Credit Card
+544,2024-01-05,Business District,Downtown,25.33,2.93,28.259999999999998,4.54,22.44,Cash
+545,2024-02-08,Suburbs,Business District,22.88,6.43,29.31,21.34,72.53,Digital Wallet
+546,2024-01-04,Downtown,Airport,9.2,1.5,10.7,4.29,18.77,Credit Card
+547,2024-01-06,Suburbs,Airport,24.85,7.01,31.86,29.91,95.92,Cash
+548,2024-02-14,Downtown,Suburbs,13.8,0.91,14.71,6.32,20.7,Credit Card
+549,2024-02-01,Downtown,Airport,13.4,2.92,16.32,18.23,57.4,Credit Card
+550,2024-02-21,Downtown,Airport,9.23,1.71,10.940000000000001,12.93,53.75,Credit Card
+551,2024-01-30,Airport,Business District,21.05,4.67,25.72,4.67,17.01,Credit Card
+552,2024-02-16,Business District,Suburbs,39.09,2.52,41.61000000000001,1.81,8.74,Credit Card
+553,2024-02-04,Downtown,Business District,17.44,3.48,20.92,19.06,52.47,Credit Card
+554,2024-02-24,Downtown,Downtown,19.06,2.85,21.91,24.4,56.16,Credit Card
+555,2024-02-09,Airport,Downtown,33.92,7.56,41.480000000000004,25.42,80.83,Digital Wallet
+556,2024-02-21,Downtown,Downtown,13.81,1.35,15.16,15.0,57.75,Digital Wallet
+557,2024-01-16,Suburbs,Suburbs,45.36,12.11,57.47,23.55,107.92,Credit Card
+558,2024-01-13,Suburbs,Airport,28.41,0.72,29.13,20.51,62.32,Credit Card
+559,2024-02-19,Business District,Suburbs,25.14,6.09,31.23,22.0,87.15,Digital Wallet
+560,2024-02-29,Downtown,Suburbs,30.1,7.78,37.88,15.29,46.64,Digital Wallet
+561,2024-02-11,Airport,Airport,12.47,3.06,15.530000000000001,19.37,74.61,Digital Wallet
+562,2024-01-30,Suburbs,Business District,32.61,5.02,37.629999999999995,24.36,113.38,Credit Card
+563,2024-01-19,Airport,Downtown,21.34,2.81,24.15,12.54,33.78,Cash
+564,2024-01-17,Airport,Business District,45.37,13.56,58.93,24.37,78.29,Cash
+565,2024-02-25,Suburbs,Downtown,12.6,0.87,13.469999999999999,18.17,90.48,Cash
+566,2024-01-19,Airport,Suburbs,27.82,4.56,32.38,5.81,26.76,Cash
+567,2024-01-28,Suburbs,Downtown,31.92,6.42,38.34,1.72,6.35,Credit Card
+568,2024-02-27,Airport,Suburbs,6.5,1.37,7.87,11.52,40.89,Cash
+569,2024-02-24,Suburbs,Business District,21.37,1.31,22.68,16.85,48.09,Digital Wallet
+570,2024-01-26,Downtown,Suburbs,37.97,7.45,45.42,25.35,90.03,Digital Wallet
+571,2024-02-06,Business District,Business District,41.92,10.29,52.21,4.7,21.36,Cash
+572,2024-01-26,Suburbs,Airport,19.09,0.29,19.38,24.21,98.18,Digital Wallet
+573,2024-02-22,Suburbs,Airport,40.94,11.2,52.14,26.03,74.71,Credit Card
+574,2024-01-23,Business District,Airport,48.55,0.43,48.98,5.37,13.99,Cash
+575,2024-01-09,Suburbs,Suburbs,43.56,4.65,48.21,25.7,71.85,Cash
+576,2024-01-12,Suburbs,Airport,10.29,0.05,10.34,29.75,74.65,Credit Card
+577,2024-02-22,Airport,Downtown,38.29,0.89,39.18,22.08,50.5,Digital Wallet
+578,2024-01-01,Business District,Business District,19.39,5.3,24.69,23.76,77.4,Credit Card
+579,2024-02-27,Downtown,Business District,49.48,5.27,54.75,29.84,69.82,Credit Card
+580,2024-02-27,Suburbs,Downtown,26.84,3.42,30.259999999999998,18.56,46.69,Digital Wallet
+581,2024-01-01,Business District,Suburbs,10.51,0.68,11.19,9.93,36.16,Credit Card
+582,2024-02-16,Airport,Suburbs,37.63,6.74,44.370000000000005,25.29,63.07,Digital Wallet
+583,2024-02-03,Downtown,Business District,19.54,3.49,23.03,18.82,41.25,Digital Wallet
+584,2024-02-01,Business District,Airport,49.87,5.57,55.44,17.85,52.7,Credit Card
+585,2024-02-23,Downtown,Suburbs,49.09,4.9,53.99,8.36,22.25,Digital Wallet
+586,2024-02-17,Downtown,Suburbs,34.53,9.17,43.7,22.93,81.31,Credit Card
+587,2024-01-25,Downtown,Downtown,10.84,1.25,12.09,3.37,7.77,Digital Wallet
+588,2024-02-09,Suburbs,Downtown,35.91,5.32,41.23,27.8,118.3,Cash
+589,2024-02-14,Suburbs,Airport,9.19,0.78,9.969999999999999,10.45,49.31,Digital Wallet
+590,2024-02-22,Airport,Suburbs,6.32,1.49,7.8100000000000005,4.71,19.92,Digital Wallet
+591,2024-01-01,Airport,Suburbs,42.03,5.01,47.04,13.83,49.77,Credit Card
+592,2024-01-16,Business District,Downtown,14.44,2.22,16.66,2.23,10.22,Digital Wallet
+593,2024-02-08,Airport,Suburbs,22.06,1.68,23.74,20.85,85.17,Cash
+594,2024-01-05,Downtown,Business District,48.81,14.46,63.27,27.18,55.22,Cash
+595,2024-01-22,Downtown,Downtown,20.16,1.76,21.92,25.28,80.45,Digital Wallet
+596,2024-01-29,Suburbs,Airport,18.34,4.24,22.58,4.69,21.35,Digital Wallet
+597,2024-02-24,Downtown,Downtown,46.32,5.94,52.26,4.66,14.16,Cash
+598,2024-01-03,Business District,Suburbs,9.98,0.62,10.6,24.59,51.78,Credit Card
+599,2024-01-12,Downtown,Airport,39.18,9.4,48.58,27.8,117.83,Cash
+600,2024-01-26,Downtown,Downtown,49.46,4.95,54.410000000000004,14.36,63.27,Cash
+601,2024-01-16,Business District,Business District,45.56,11.83,57.39,15.47,38.39,Digital Wallet
+602,2024-02-20,Airport,Business District,34.33,9.43,43.76,10.23,36.95,Digital Wallet
+603,2024-02-06,Airport,Downtown,19.13,4.93,24.06,26.93,69.37,Cash
+604,2024-01-22,Business District,Business District,16.44,0.17,16.610000000000003,19.7,81.91,Credit Card
+605,2024-02-26,Suburbs,Business District,41.87,9.89,51.76,9.36,26.35,Cash
+606,2024-01-29,Downtown,Business District,44.59,5.5,50.09,9.66,28.48,Cash
+607,2024-01-14,Business District,Airport,28.64,7.51,36.15,26.84,121.72,Credit Card
+608,2024-01-28,Downtown,Business District,16.0,3.06,19.06,1.4,4.8,Cash
+609,2024-01-05,Suburbs,Business District,10.08,2.52,12.6,10.36,41.54,Cash
+610,2024-02-16,Downtown,Business District,8.92,1.34,10.26,17.08,54.78,Digital Wallet
+611,2024-02-18,Business District,Airport,37.36,6.0,43.36,5.3,15.34,Credit Card
+612,2024-01-30,Downtown,Downtown,23.91,1.04,24.95,3.67,14.23,Digital Wallet
+613,2024-02-15,Airport,Suburbs,45.74,10.76,56.5,24.64,60.73,Digital Wallet
+614,2024-02-21,Suburbs,Business District,38.29,4.82,43.11,26.94,84.03,Credit Card
+615,2024-01-05,Suburbs,Downtown,13.61,2.04,15.649999999999999,24.88,65.36,Credit Card
+616,2024-01-12,Suburbs,Business District,32.62,7.68,40.3,27.06,110.6,Cash
+617,2024-01-16,Business District,Airport,24.6,4.42,29.020000000000003,17.04,82.35,Digital Wallet
+618,2024-01-26,Suburbs,Downtown,30.98,1.87,32.85,24.56,122.47,Credit Card
+619,2024-01-26,Airport,Airport,38.21,6.77,44.980000000000004,12.14,40.68,Digital Wallet
+620,2024-02-17,Business District,Business District,41.28,5.05,46.33,20.32,56.03,Digital Wallet
+621,2024-01-21,Airport,Business District,42.97,6.05,49.019999999999996,29.68,98.79,Credit Card
+622,2024-02-08,Downtown,Airport,16.43,0.14,16.57,7.55,34.29,Cash
+623,2024-02-05,Downtown,Suburbs,6.4,0.4,6.800000000000001,12.31,32.23,Digital Wallet
+624,2024-02-02,Downtown,Airport,38.27,3.23,41.5,14.92,72.46,Credit Card
+625,2024-01-30,Downtown,Business District,9.79,2.09,11.879999999999999,5.0,15.13,Cash
+626,2024-02-06,Airport,Airport,19.17,0.07,19.240000000000002,3.35,16.61,Digital Wallet
+627,2024-01-23,Business District,Suburbs,5.17,0.63,5.8,25.06,113.17,Credit Card
+628,2024-02-27,Business District,Airport,35.68,9.89,45.57,29.33,129.81,Digital Wallet
+629,2024-01-10,Suburbs,Suburbs,12.52,0.42,12.94,12.74,37.63,Credit Card
+630,2024-02-23,Airport,Suburbs,34.49,5.34,39.83,3.54,7.17,Credit Card
+631,2024-01-05,Downtown,Airport,49.63,11.71,61.34,2.91,9.16,Digital Wallet
+632,2024-02-05,Airport,Airport,8.27,2.34,10.61,26.85,78.01,Digital Wallet
+633,2024-02-03,Suburbs,Downtown,8.47,1.9,10.370000000000001,14.45,30.52,Credit Card
+634,2024-02-21,Suburbs,Business District,20.32,4.39,24.71,10.28,36.15,Cash
+635,2024-01-31,Airport,Suburbs,43.99,10.91,54.900000000000006,14.82,47.56,Digital Wallet
+636,2024-01-10,Airport,Downtown,14.7,1.97,16.669999999999998,10.23,39.93,Credit Card
+637,2024-02-27,Airport,Airport,21.22,5.13,26.349999999999998,15.18,58.65,Credit Card
+638,2024-01-19,Business District,Business District,8.08,0.02,8.1,25.93,61.25,Cash
+639,2024-02-27,Downtown,Downtown,39.34,10.91,50.25,18.18,89.64,Cash
+640,2024-02-01,Airport,Suburbs,23.37,3.11,26.48,21.14,54.14,Cash
+641,2024-01-01,Airport,Downtown,39.17,6.5,45.67,11.58,38.63,Digital Wallet
+642,2024-02-25,Airport,Suburbs,45.66,3.49,49.15,22.42,77.67,Credit Card
+643,2024-01-05,Suburbs,Airport,15.47,3.45,18.92,20.33,90.25,Credit Card
+644,2024-02-14,Suburbs,Business District,41.33,0.95,42.28,4.47,10.27,Credit Card
+645,2024-01-04,Business District,Business District,7.66,2.01,9.67,17.61,57.87,Cash
+646,2024-01-16,Downtown,Business District,45.45,11.29,56.74,8.45,32.83,Credit Card
+647,2024-01-24,Business District,Airport,34.28,2.22,36.5,24.32,64.34,Digital Wallet
+648,2024-01-16,Downtown,Suburbs,44.34,10.77,55.11,13.35,51.83,Cash
+649,2024-02-24,Suburbs,Airport,5.01,1.18,6.1899999999999995,29.85,142.41,Cash
+650,2024-01-02,Suburbs,Business District,12.61,2.39,15.0,3.68,18.37,Cash
+651,2024-02-18,Suburbs,Airport,22.54,2.53,25.07,23.63,49.56,Cash
+652,2024-01-28,Business District,Airport,22.08,1.8,23.88,20.54,55.6,Digital Wallet
+653,2024-02-01,Airport,Airport,15.2,1.06,16.259999999999998,23.26,68.17,Credit Card
+654,2024-01-27,Airport,Suburbs,22.17,2.12,24.290000000000003,9.92,31.72,Digital Wallet
+655,2024-01-20,Suburbs,Downtown,10.8,2.93,13.73,15.27,41.64,Credit Card
+656,2024-01-24,Airport,Downtown,23.57,0.55,24.12,24.1,62.91,Digital Wallet
+657,2024-01-12,Airport,Airport,41.11,10.22,51.33,7.74,37.64,Cash
+658,2024-02-19,Business District,Downtown,26.56,2.78,29.34,7.55,35.9,Cash
+659,2024-02-04,Downtown,Downtown,5.81,0.91,6.72,16.98,36.35,Digital Wallet
+660,2024-02-29,Suburbs,Airport,23.96,5.71,29.67,16.18,48.81,Digital Wallet
+661,2024-02-02,Suburbs,Airport,6.22,1.65,7.869999999999999,9.19,29.55,Credit Card
+662,2024-02-02,Business District,Business District,48.48,5.01,53.489999999999995,9.64,26.19,Digital Wallet
+663,2024-02-20,Business District,Downtown,10.74,1.49,12.23,9.06,35.21,Digital Wallet
+664,2024-02-12,Airport,Suburbs,36.85,4.58,41.43,23.37,91.64,Credit Card
+665,2024-02-06,Suburbs,Airport,48.77,0.19,48.96,19.91,90.62,Credit Card
+666,2024-01-12,Downtown,Business District,42.17,3.74,45.910000000000004,25.14,106.16,Credit Card
+667,2024-01-03,Business District,Suburbs,36.47,5.02,41.489999999999995,29.29,106.26,Digital Wallet
+668,2024-01-01,Downtown,Downtown,42.78,5.28,48.06,14.75,58.42,Credit Card
+669,2024-02-02,Downtown,Business District,49.18,10.65,59.83,2.93,8.27,Cash
+670,2024-02-09,Suburbs,Airport,32.96,3.8,36.76,2.39,9.03,Cash
+671,2024-01-10,Suburbs,Suburbs,30.16,4.43,34.59,9.57,33.19,Cash
+672,2024-02-12,Business District,Airport,33.27,4.29,37.56,28.04,67.3,Digital Wallet
+673,2024-02-13,Suburbs,Downtown,28.97,6.44,35.41,16.17,44.11,Cash
+674,2024-01-29,Suburbs,Suburbs,33.58,8.69,42.269999999999996,8.88,25.53,Digital Wallet
+675,2024-01-13,Suburbs,Downtown,25.24,4.03,29.27,12.58,60.04,Digital Wallet
+676,2024-01-12,Downtown,Downtown,14.83,3.51,18.34,18.36,49.41,Cash
+677,2024-01-31,Business District,Business District,10.41,0.93,11.34,19.94,57.18,Credit Card
+678,2024-02-15,Airport,Airport,8.08,1.31,9.39,5.46,16.97,Digital Wallet
+679,2024-01-02,Downtown,Suburbs,16.85,1.75,18.6,29.33,117.06,Cash
+680,2024-02-20,Suburbs,Downtown,7.08,0.88,7.96,16.8,39.56,Digital Wallet
+681,2024-02-19,Downtown,Downtown,30.52,6.71,37.23,4.93,23.97,Credit Card
+682,2024-02-04,Suburbs,Suburbs,17.77,4.7,22.47,26.92,123.74,Credit Card
+683,2024-01-23,Suburbs,Downtown,42.1,1.53,43.63,3.16,11.79,Cash
+684,2024-01-17,Downtown,Business District,8.34,1.59,9.93,27.32,109.88,Digital Wallet
+685,2024-01-26,Business District,Business District,15.19,2.65,17.84,29.9,61.29,Digital Wallet
+686,2024-01-08,Suburbs,Business District,37.86,1.34,39.2,21.31,64.29,Digital Wallet
+687,2024-01-29,Business District,Business District,31.95,2.03,33.98,23.34,102.39,Digital Wallet
+688,2024-01-26,Airport,Downtown,7.9,0.74,8.64,10.78,24.07,Cash
+689,2024-01-10,Suburbs,Suburbs,44.48,2.23,46.709999999999994,28.31,80.6,Credit Card
+690,2024-01-26,Business District,Suburbs,44.48,3.25,47.73,16.36,61.45,Cash
+691,2024-02-03,Business District,Suburbs,19.87,1.6,21.470000000000002,22.24,61.59,Digital Wallet
+692,2024-02-20,Airport,Suburbs,20.32,2.05,22.37,27.8,133.49,Digital Wallet
+693,2024-02-10,Business District,Airport,49.51,11.13,60.64,29.28,70.07,Credit Card
+694,2024-01-07,Business District,Suburbs,33.18,5.69,38.87,25.16,110.51,Digital Wallet
+695,2024-01-04,Airport,Airport,28.91,8.55,37.46,9.79,34.5,Cash
+696,2024-02-27,Suburbs,Airport,42.72,5.32,48.04,29.03,123.41,Cash
+697,2024-02-22,Business District,Business District,17.84,4.03,21.87,19.22,56.36,Credit Card
+698,2024-02-19,Business District,Airport,24.31,6.36,30.669999999999998,27.99,99.18,Cash
+699,2024-02-14,Business District,Downtown,17.05,3.47,20.52,20.61,94.2,Cash
+700,2024-01-11,Downtown,Airport,40.51,5.01,45.519999999999996,9.91,33.7,Cash
+701,2024-01-29,Airport,Business District,30.8,6.96,37.76,11.73,36.12,Cash
+702,2024-02-25,Downtown,Airport,34.65,2.12,36.769999999999996,16.96,61.2,Digital Wallet
+703,2024-02-05,Airport,Downtown,16.35,1.61,17.96,23.91,99.28,Cash
+704,2024-01-25,Suburbs,Downtown,14.91,2.45,17.36,10.22,34.04,Credit Card
+705,2024-01-21,Suburbs,Downtown,26.98,4.66,31.64,17.81,85.78,Credit Card
+706,2024-02-26,Business District,Business District,38.19,0.25,38.44,11.02,31.79,Cash
+707,2024-02-05,Airport,Business District,28.64,8.12,36.76,24.66,84.49,Credit Card
+708,2024-01-10,Suburbs,Suburbs,6.47,1.35,7.82,14.54,62.1,Cash
+709,2024-02-06,Airport,Business District,44.08,6.56,50.64,3.22,13.1,Credit Card
+710,2024-01-09,Suburbs,Downtown,7.91,2.21,10.120000000000001,5.82,26.72,Credit Card
+711,2024-01-24,Downtown,Downtown,48.01,6.32,54.33,2.77,13.82,Cash
+712,2024-02-04,Suburbs,Business District,6.13,1.8,7.93,15.48,50.78,Cash
+713,2024-02-18,Downtown,Airport,36.25,5.57,41.82,4.08,9.52,Digital Wallet
+714,2024-02-04,Suburbs,Business District,8.7,0.3,9.0,4.31,9.01,Cash
+715,2024-02-17,Business District,Business District,45.98,10.55,56.53,28.29,118.27,Cash
+716,2024-02-05,Downtown,Downtown,25.9,5.28,31.18,26.31,121.61,Digital Wallet
+717,2024-01-18,Suburbs,Suburbs,11.19,2.59,13.78,14.11,37.56,Cash
+718,2024-02-18,Business District,Downtown,20.34,5.81,26.15,29.59,73.25,Cash
+719,2024-02-08,Downtown,Suburbs,12.42,2.89,15.31,1.01,2.21,Digital Wallet
+720,2024-02-01,Business District,Downtown,12.68,2.33,15.01,18.81,84.05,Cash
+721,2024-01-24,Airport,Business District,47.66,12.26,59.919999999999995,18.88,55.4,Cash
+722,2024-01-23,Airport,Downtown,25.04,5.06,30.099999999999998,14.27,45.74,Digital Wallet
+723,2024-02-01,Downtown,Downtown,40.5,4.96,45.46,12.51,43.89,Digital Wallet
+724,2024-02-06,Suburbs,Downtown,33.78,8.97,42.75,14.21,64.21,Credit Card
+725,2024-01-12,Downtown,Business District,35.44,2.36,37.8,13.03,51.5,Cash
+726,2024-02-18,Business District,Business District,10.93,2.34,13.27,22.18,85.29,Credit Card
+727,2024-02-24,Suburbs,Business District,15.54,4.11,19.65,4.93,12.46,Credit Card
+728,2024-01-13,Airport,Business District,40.4,8.86,49.26,6.73,23.82,Digital Wallet
+729,2024-01-23,Suburbs,Suburbs,48.68,10.18,58.86,6.24,25.87,Cash
+730,2024-01-25,Airport,Suburbs,16.82,3.8,20.62,8.61,42.36,Cash
+731,2024-02-04,Suburbs,Airport,17.22,2.4,19.619999999999997,16.23,42.27,Digital Wallet
+732,2024-02-10,Suburbs,Business District,26.28,6.89,33.17,4.23,8.58,Credit Card
+733,2024-01-30,Suburbs,Suburbs,49.27,3.01,52.28,26.18,58.27,Digital Wallet
+734,2024-01-17,Business District,Downtown,17.1,0.65,17.75,9.62,30.09,Cash
+735,2024-02-18,Business District,Business District,23.31,2.0,25.31,5.71,25.48,Digital Wallet
+736,2024-01-20,Downtown,Airport,45.12,7.2,52.32,20.59,41.62,Cash
+737,2024-02-17,Downtown,Airport,5.13,0.79,5.92,2.1,7.08,Credit Card
+738,2024-01-25,Airport,Airport,6.79,1.67,8.46,18.98,56.71,Cash
+739,2024-01-22,Business District,Downtown,32.18,3.91,36.09,21.25,45.85,Credit Card
+740,2024-01-13,Airport,Suburbs,45.83,6.66,52.489999999999995,7.23,24.23,Credit Card
+741,2024-02-28,Downtown,Downtown,15.75,0.06,15.81,2.22,6.14,Cash
+742,2024-01-19,Airport,Business District,26.13,3.21,29.34,11.55,35.29,Cash
+743,2024-02-18,Downtown,Airport,25.27,4.91,30.18,3.86,15.89,Credit Card
+744,2024-02-05,Business District,Downtown,26.28,0.12,26.400000000000002,4.38,15.61,Digital Wallet
+745,2024-01-12,Suburbs,Downtown,33.01,2.78,35.79,8.37,19.87,Cash
+746,2024-02-10,Business District,Suburbs,26.14,1.63,27.77,9.57,46.74,Credit Card
+747,2024-01-19,Airport,Suburbs,25.14,0.32,25.46,16.37,63.97,Credit Card
+748,2024-01-12,Airport,Airport,26.34,3.79,30.13,20.67,88.83,Digital Wallet
+749,2024-01-09,Business District,Downtown,31.59,1.72,33.31,18.19,40.7,Cash
+750,2024-01-07,Business District,Downtown,29.17,6.5,35.67,5.3,11.35,Credit Card
+751,2024-01-28,Downtown,Suburbs,43.44,11.05,54.489999999999995,5.99,12.33,Digital Wallet
+752,2024-01-14,Airport,Downtown,7.23,1.18,8.41,26.48,67.96,Credit Card
+753,2024-01-31,Airport,Downtown,42.5,12.52,55.019999999999996,17.19,55.75,Cash
+754,2024-02-21,Business District,Downtown,42.98,5.81,48.79,26.23,126.1,Digital Wallet
+755,2024-01-19,Suburbs,Suburbs,17.82,2.74,20.560000000000002,11.77,39.68,Credit Card
+756,2024-02-27,Airport,Airport,25.83,7.67,33.5,18.82,54.03,Digital Wallet
+757,2024-02-16,Suburbs,Business District,24.73,1.72,26.45,16.19,59.67,Cash
+758,2024-01-16,Business District,Airport,14.83,4.19,19.02,10.25,23.94,Digital Wallet
+759,2024-02-22,Business District,Business District,22.86,0.29,23.15,14.63,56.01,Cash
+760,2024-01-05,Downtown,Downtown,7.0,0.94,7.9399999999999995,15.57,57.69,Credit Card
+761,2024-02-04,Airport,Airport,17.5,0.37,17.87,6.82,29.84,Cash
+762,2024-01-12,Suburbs,Business District,41.75,9.13,50.88,10.14,50.3,Credit Card
+763,2024-01-25,Downtown,Suburbs,17.81,3.25,21.06,23.95,65.93,Credit Card
+764,2024-02-21,Airport,Suburbs,41.82,8.87,50.69,27.56,97.26,Cash
+765,2024-02-28,Downtown,Airport,28.92,3.25,32.17,11.43,54.02,Credit Card
+766,2024-01-21,Business District,Airport,44.59,4.94,49.53,9.9,43.12,Digital Wallet
+767,2024-02-05,Airport,Downtown,30.87,0.42,31.290000000000003,6.66,23.06,Credit Card
+768,2024-02-22,Downtown,Airport,6.34,0.67,7.01,20.68,100.01,Cash
+769,2024-01-23,Downtown,Downtown,35.39,9.87,45.26,10.37,22.52,Digital Wallet
+770,2024-01-16,Suburbs,Downtown,7.02,0.8,7.819999999999999,29.64,142.06,Digital Wallet
+771,2024-02-26,Downtown,Suburbs,25.28,6.31,31.59,10.44,22.46,Credit Card
+772,2024-02-08,Airport,Suburbs,46.82,11.83,58.65,12.43,45.27,Credit Card
+773,2024-02-14,Airport,Business District,12.43,1.39,13.82,18.5,86.42,Cash
+774,2024-02-22,Suburbs,Suburbs,22.54,4.27,26.81,24.25,67.61,Digital Wallet
+775,2024-02-11,Airport,Suburbs,37.84,1.08,38.92,14.62,49.95,Cash
+776,2024-02-27,Business District,Airport,44.7,1.39,46.09,13.26,39.42,Credit Card
+777,2024-02-08,Airport,Suburbs,35.19,0.51,35.699999999999996,29.87,145.06,Digital Wallet
+778,2024-01-14,Airport,Business District,16.62,2.9,19.52,1.3,5.81,Cash
+779,2024-01-31,Downtown,Airport,35.36,4.52,39.879999999999995,26.96,111.26,Cash
+780,2024-02-27,Downtown,Business District,18.35,3.02,21.37,5.33,20.06,Cash
+781,2024-01-05,Airport,Suburbs,37.33,5.84,43.17,23.79,106.15,Cash
+782,2024-02-04,Suburbs,Business District,47.93,5.04,52.97,18.92,60.11,Cash
+783,2024-01-23,Downtown,Airport,37.46,7.61,45.07,10.91,36.47,Digital Wallet
+784,2024-01-29,Suburbs,Downtown,43.83,9.97,53.8,26.34,110.36,Cash
+785,2024-02-12,Airport,Business District,5.09,0.02,5.109999999999999,1.37,4.21,Digital Wallet
+786,2024-01-11,Airport,Business District,37.29,2.32,39.61,7.57,16.59,Cash
+787,2024-01-18,Business District,Airport,42.33,9.06,51.39,17.44,38.77,Credit Card
+788,2024-02-16,Downtown,Airport,6.83,0.79,7.62,11.19,26.25,Credit Card
+789,2024-01-12,Airport,Business District,44.22,8.79,53.01,18.7,86.19,Cash
+790,2024-01-09,Business District,Suburbs,16.55,1.72,18.27,1.7,5.81,Credit Card
+791,2024-01-10,Downtown,Business District,34.94,4.1,39.04,4.38,18.13,Digital Wallet
+792,2024-02-27,Airport,Airport,41.02,1.95,42.970000000000006,4.69,14.91,Cash
+793,2024-02-13,Airport,Downtown,34.82,2.7,37.52,6.49,18.02,Digital Wallet
+794,2024-01-17,Downtown,Downtown,9.15,1.66,10.81,14.32,43.56,Cash
+795,2024-02-07,Downtown,Suburbs,31.83,4.14,35.97,22.81,99.97,Credit Card
+796,2024-01-07,Downtown,Business District,29.73,6.91,36.64,27.26,105.65,Digital Wallet
+797,2024-02-15,Airport,Downtown,45.51,11.64,57.15,25.23,121.43,Credit Card
+798,2024-01-13,Airport,Business District,23.19,3.77,26.96,6.71,27.1,Credit Card
+799,2024-02-09,Business District,Airport,19.45,4.42,23.869999999999997,13.79,51.17,Cash
+800,2024-02-11,Suburbs,Downtown,38.74,3.57,42.31,6.78,25.97,Digital Wallet
+801,2024-01-09,Downtown,Suburbs,23.57,2.93,26.5,8.67,41.85,Credit Card
+802,2024-02-19,Airport,Airport,34.07,7.29,41.36,15.6,68.09,Cash
+803,2024-01-27,Airport,Suburbs,34.09,3.95,38.040000000000006,2.98,6.17,Cash
+804,2024-02-27,Downtown,Airport,44.96,7.94,52.9,7.33,26.41,Cash
+805,2024-01-02,Suburbs,Downtown,31.94,1.78,33.72,28.13,114.35,Credit Card
+806,2024-01-05,Downtown,Suburbs,27.6,4.97,32.57,14.52,61.65,Cash
+807,2024-01-29,Suburbs,Suburbs,11.25,2.91,14.16,13.92,36.74,Digital Wallet
+808,2024-02-06,Airport,Airport,10.21,2.66,12.870000000000001,1.42,6.53,Digital Wallet
+809,2024-02-07,Suburbs,Suburbs,11.94,2.59,14.53,8.17,39.77,Credit Card
+810,2024-01-19,Business District,Airport,12.73,2.85,15.58,26.12,70.79,Digital Wallet
+811,2024-01-08,Airport,Airport,33.7,5.64,39.34,5.77,26.82,Cash
+812,2024-02-17,Business District,Airport,38.34,6.72,45.06,13.04,29.87,Credit Card
+813,2024-02-14,Downtown,Airport,28.85,1.16,30.01,1.42,3.08,Cash
+814,2024-01-01,Downtown,Downtown,42.31,5.63,47.940000000000005,14.87,35.5,Credit Card
+815,2024-01-22,Downtown,Airport,49.61,6.71,56.32,1.61,3.5,Credit Card
+816,2024-02-21,Suburbs,Business District,41.9,12.05,53.95,24.77,112.33,Cash
+817,2024-01-17,Airport,Suburbs,36.27,4.69,40.96,24.92,54.25,Digital Wallet
+818,2024-01-07,Downtown,Business District,28.96,4.77,33.730000000000004,23.84,67.11,Digital Wallet
+819,2024-01-25,Downtown,Downtown,25.2,4.03,29.23,9.22,21.31,Credit Card
+820,2024-02-14,Airport,Business District,8.8,1.68,10.48,25.28,72.96,Cash
+821,2024-01-04,Downtown,Suburbs,22.97,5.16,28.13,16.75,38.05,Cash
+822,2024-02-05,Business District,Business District,45.96,3.1,49.06,11.84,47.41,Credit Card
+823,2024-01-06,Airport,Downtown,41.36,6.56,47.92,19.13,45.91,Digital Wallet
+824,2024-02-29,Airport,Airport,14.72,3.65,18.37,1.36,6.2,Cash
+825,2024-01-31,Airport,Business District,26.0,3.61,29.61,5.15,22.93,Digital Wallet
+826,2024-01-19,Business District,Downtown,41.75,3.49,45.24,22.53,45.98,Digital Wallet
+827,2024-02-13,Airport,Downtown,8.03,1.58,9.61,8.08,37.87,Credit Card
+828,2024-02-23,Business District,Suburbs,22.43,5.54,27.97,18.34,38.27,Credit Card
+829,2024-02-08,Airport,Suburbs,43.33,0.82,44.15,12.17,33.09,Digital Wallet
+830,2024-01-27,Suburbs,Business District,23.18,5.4,28.58,25.79,54.09,Cash
+831,2024-01-10,Downtown,Airport,8.49,2.09,10.58,28.62,86.08,Cash
+832,2024-01-26,Suburbs,Downtown,29.41,4.07,33.480000000000004,26.62,94.28,Credit Card
+833,2024-01-19,Downtown,Business District,43.78,12.91,56.69,8.85,38.85,Digital Wallet
+834,2024-02-08,Business District,Downtown,31.56,7.45,39.01,6.63,19.98,Cash
+835,2024-01-03,Suburbs,Downtown,15.18,3.52,18.7,14.76,60.76,Cash
+836,2024-02-14,Airport,Airport,22.29,5.0,27.29,1.21,3.1,Credit Card
+837,2024-01-13,Downtown,Airport,25.26,1.14,26.400000000000002,1.75,7.44,Digital Wallet
+838,2024-02-19,Downtown,Business District,31.07,2.02,33.09,17.05,46.17,Cash
+839,2024-01-28,Suburbs,Airport,39.17,5.45,44.620000000000005,16.09,39.11,Credit Card
+840,2024-02-27,Business District,Airport,9.45,0.75,10.2,29.84,76.28,Cash
+841,2024-01-20,Suburbs,Business District,45.03,5.61,50.64,6.85,17.44,Cash
+842,2024-01-28,Business District,Airport,5.55,1.48,7.029999999999999,8.49,30.04,Cash
+843,2024-01-08,Business District,Suburbs,21.65,5.35,27.0,4.29,19.45,Credit Card
+844,2024-02-10,Downtown,Downtown,6.23,1.18,7.41,27.61,61.81,Digital Wallet
+845,2024-02-08,Suburbs,Downtown,22.68,5.84,28.52,23.56,97.09,Credit Card
+846,2024-01-01,Suburbs,Downtown,28.66,6.74,35.4,24.85,98.48,Digital Wallet
+847,2024-01-03,Business District,Downtown,28.03,3.61,31.64,27.18,125.51,Cash
+848,2024-01-13,Suburbs,Business District,12.45,0.75,13.2,16.22,44.32,Digital Wallet
+849,2024-01-28,Airport,Downtown,34.06,5.25,39.31,14.08,47.17,Cash
+850,2024-02-26,Airport,Downtown,7.02,1.55,8.57,10.58,50.55,Cash
+851,2024-02-29,Suburbs,Downtown,39.29,5.14,44.43,18.09,72.0,Credit Card
+852,2024-02-18,Suburbs,Downtown,47.6,9.52,57.120000000000005,14.17,44.87,Cash
+853,2024-01-25,Business District,Suburbs,20.29,0.57,20.86,14.1,33.76,Credit Card
+854,2024-02-25,Airport,Downtown,28.28,6.35,34.63,28.17,78.52,Digital Wallet
+855,2024-02-02,Airport,Suburbs,22.05,5.38,27.43,29.54,110.59,Digital Wallet
+856,2024-02-07,Downtown,Business District,5.3,1.12,6.42,24.1,100.12,Cash
+857,2024-02-22,Business District,Airport,22.36,6.49,28.85,22.95,54.47,Credit Card
+858,2024-01-06,Downtown,Downtown,40.63,10.08,50.71,20.74,78.79,Cash
+859,2024-02-27,Airport,Airport,31.82,8.62,40.44,5.82,21.25,Credit Card
+860,2024-02-13,Business District,Airport,9.56,2.68,12.24,2.71,9.6,Credit Card
+861,2024-02-14,Suburbs,Business District,43.12,10.37,53.489999999999995,21.03,85.6,Credit Card
+862,2024-02-01,Business District,Airport,28.9,5.85,34.75,22.13,99.86,Digital Wallet
+863,2024-02-14,Suburbs,Suburbs,42.88,0.07,42.95,2.36,7.01,Credit Card
+864,2024-02-16,Suburbs,Airport,31.11,4.35,35.46,27.91,130.26,Digital Wallet
+865,2024-01-21,Business District,Airport,30.19,5.17,35.36,3.64,9.03,Credit Card
+866,2024-01-16,Suburbs,Airport,9.74,0.89,10.63,9.29,23.4,Digital Wallet
+867,2024-02-23,Downtown,Downtown,12.53,1.2,13.729999999999999,20.5,57.41,Digital Wallet
+868,2024-01-21,Airport,Downtown,48.74,14.05,62.790000000000006,5.93,13.99,Digital Wallet
+869,2024-01-11,Suburbs,Suburbs,15.28,4.09,19.369999999999997,2.61,7.02,Cash
+870,2024-02-29,Downtown,Suburbs,48.99,12.48,61.47,10.6,24.58,Credit Card
+871,2024-02-06,Suburbs,Downtown,28.94,3.52,32.46,23.21,103.64,Cash
+872,2024-02-05,Airport,Suburbs,11.11,0.05,11.16,13.0,31.42,Credit Card
+873,2024-02-04,Downtown,Downtown,9.47,0.23,9.700000000000001,19.94,84.58,Credit Card
+874,2024-01-19,Airport,Business District,14.4,1.35,15.75,17.81,38.18,Cash
+875,2024-01-20,Airport,Airport,46.65,0.22,46.87,1.64,7.95,Digital Wallet
+876,2024-02-26,Downtown,Airport,23.64,0.12,23.76,29.67,122.64,Credit Card
+877,2024-01-18,Downtown,Suburbs,22.79,6.27,29.06,2.2,4.44,Digital Wallet
+878,2024-02-16,Downtown,Downtown,19.09,4.04,23.13,29.07,124.76,Cash
+879,2024-02-10,Business District,Downtown,11.62,1.08,12.7,16.95,60.04,Digital Wallet
+880,2024-02-18,Downtown,Suburbs,26.95,1.07,28.02,28.93,125.5,Credit Card
+881,2024-01-14,Downtown,Downtown,10.85,1.67,12.52,4.33,15.45,Credit Card
+882,2024-01-15,Downtown,Business District,42.6,0.07,42.67,15.22,59.71,Credit Card
+883,2024-01-31,Downtown,Airport,21.67,6.1,27.770000000000003,5.92,25.81,Cash
+884,2024-01-01,Suburbs,Suburbs,21.87,2.72,24.59,2.48,7.97,Credit Card
+885,2024-02-22,Business District,Suburbs,26.33,3.18,29.509999999999998,18.91,37.97,Cash
+886,2024-02-23,Airport,Downtown,24.99,2.93,27.919999999999998,7.03,31.99,Digital Wallet
+887,2024-02-23,Downtown,Suburbs,49.77,1.04,50.81,18.04,56.69,Credit Card
+888,2024-01-03,Suburbs,Business District,29.54,5.66,35.2,4.26,14.86,Credit Card
+889,2024-01-16,Suburbs,Downtown,8.97,1.97,10.940000000000001,10.63,21.51,Credit Card
+890,2024-01-23,Suburbs,Downtown,32.31,6.55,38.86,23.67,82.28,Digital Wallet
+891,2024-02-26,Airport,Downtown,11.82,0.49,12.31,13.67,67.8,Credit Card
+892,2024-01-11,Downtown,Downtown,6.39,1.11,7.5,19.2,54.43,Cash
+893,2024-01-12,Business District,Business District,48.68,8.32,57.0,19.78,63.02,Digital Wallet
+894,2024-01-10,Business District,Downtown,39.81,10.37,50.18,25.47,103.45,Digital Wallet
+895,2024-02-01,Suburbs,Suburbs,49.1,5.58,54.68,10.42,46.31,Digital Wallet
+896,2024-01-16,Airport,Business District,26.5,2.95,29.45,20.93,68.07,Digital Wallet
+897,2024-01-08,Airport,Airport,28.95,5.37,34.32,28.89,84.62,Digital Wallet
+898,2024-02-07,Airport,Airport,12.58,2.39,14.97,22.18,106.76,Cash
+899,2024-01-12,Business District,Suburbs,16.11,2.27,18.38,15.21,61.32,Digital Wallet
+900,2024-01-24,Suburbs,Suburbs,42.73,5.68,48.41,19.29,45.47,Credit Card
+901,2024-01-28,Downtown,Business District,21.03,3.12,24.150000000000002,22.45,49.54,Digital Wallet
+902,2024-02-22,Business District,Airport,42.21,10.9,53.11,18.76,64.73,Digital Wallet
+903,2024-01-08,Suburbs,Airport,36.91,5.11,42.019999999999996,1.48,3.94,Digital Wallet
+904,2024-02-27,Suburbs,Airport,12.97,3.66,16.630000000000003,6.65,18.37,Digital Wallet
+905,2024-01-28,Downtown,Airport,27.84,4.21,32.05,24.5,113.51,Digital Wallet
+906,2024-02-05,Downtown,Airport,35.48,10.1,45.58,8.91,20.21,Cash
+907,2024-01-26,Downtown,Downtown,15.58,3.89,19.47,22.22,92.13,Cash
+908,2024-01-08,Airport,Suburbs,42.38,4.61,46.99,11.79,33.17,Digital Wallet
+909,2024-02-27,Downtown,Downtown,29.52,7.65,37.17,16.13,69.05,Cash
+910,2024-02-29,Suburbs,Airport,12.44,0.41,12.85,2.97,12.38,Credit Card
+911,2024-02-19,Downtown,Business District,31.23,8.67,39.9,6.26,12.66,Digital Wallet
+912,2024-01-28,Suburbs,Business District,49.99,9.47,59.46,28.76,101.45,Credit Card
+913,2024-01-28,Business District,Airport,11.77,0.19,11.959999999999999,26.81,64.83,Credit Card
+914,2024-02-06,Airport,Airport,41.75,8.07,49.82,19.92,91.61,Digital Wallet
+915,2024-02-10,Business District,Business District,14.33,4.19,18.52,14.33,66.13,Credit Card
+916,2024-02-05,Business District,Downtown,40.21,0.84,41.050000000000004,20.6,67.05,Credit Card
+917,2024-01-27,Suburbs,Downtown,38.06,6.33,44.39,18.94,63.13,Credit Card
+918,2024-02-23,Business District,Airport,18.52,4.15,22.67,17.49,50.89,Digital Wallet
+919,2024-01-17,Suburbs,Downtown,19.66,4.78,24.44,2.72,11.29,Digital Wallet
+920,2024-01-09,Downtown,Business District,40.66,5.05,45.709999999999994,19.35,59.52,Credit Card
+921,2024-02-02,Downtown,Downtown,25.77,1.58,27.35,23.3,65.32,Digital Wallet
+922,2024-02-22,Suburbs,Airport,37.89,0.48,38.37,29.83,98.34,Digital Wallet
+923,2024-01-20,Downtown,Business District,11.66,2.03,13.69,1.32,3.0,Credit Card
+924,2024-01-13,Airport,Downtown,43.37,5.89,49.26,22.18,94.04,Digital Wallet
+925,2024-01-28,Business District,Suburbs,36.99,10.53,47.52,17.58,35.82,Cash
+926,2024-02-17,Airport,Business District,45.81,0.83,46.64,13.59,53.46,Digital Wallet
+927,2024-01-29,Business District,Business District,10.96,2.25,13.21,4.7,11.98,Cash
+928,2024-01-13,Downtown,Suburbs,31.69,0.24,31.93,12.86,34.69,Credit Card
+929,2024-02-15,Airport,Suburbs,31.96,1.64,33.6,11.28,44.07,Digital Wallet
+930,2024-02-04,Downtown,Business District,20.91,2.85,23.76,9.78,48.69,Credit Card
+931,2024-01-06,Business District,Suburbs,25.63,3.5,29.13,22.2,96.2,Credit Card
+932,2024-01-18,Suburbs,Airport,6.71,1.38,8.09,21.32,57.08,Credit Card
+933,2024-02-20,Suburbs,Airport,38.56,10.53,49.09,18.08,45.71,Credit Card
+934,2024-01-05,Airport,Airport,29.72,5.7,35.42,28.22,129.78,Credit Card
+935,2024-02-16,Downtown,Business District,7.6,2.17,9.77,11.15,37.16,Digital Wallet
+936,2024-01-25,Downtown,Suburbs,35.63,9.42,45.050000000000004,8.07,19.46,Cash
+937,2024-01-02,Airport,Suburbs,26.01,4.56,30.57,20.02,91.82,Digital Wallet
+938,2024-01-10,Suburbs,Downtown,6.55,1.64,8.19,6.77,30.11,Digital Wallet
+939,2024-02-25,Business District,Downtown,48.63,9.37,58.0,10.14,50.21,Digital Wallet
+940,2024-01-30,Airport,Suburbs,47.71,1.12,48.83,7.51,35.52,Digital Wallet
+941,2024-02-19,Business District,Suburbs,28.08,6.24,34.32,3.01,13.71,Cash
+942,2024-02-28,Suburbs,Suburbs,9.22,0.26,9.48,25.0,53.94,Digital Wallet
+943,2024-02-14,Downtown,Business District,38.96,6.94,45.9,8.38,19.39,Credit Card
+944,2024-01-05,Suburbs,Suburbs,27.14,5.72,32.86,14.72,54.57,Digital Wallet
+945,2024-02-24,Airport,Downtown,18.61,0.37,18.98,2.26,8.12,Digital Wallet
+946,2024-02-25,Downtown,Business District,27.11,1.88,28.99,21.28,71.8,Cash
+947,2024-02-02,Airport,Suburbs,28.51,7.83,36.34,10.59,33.79,Cash
+948,2024-02-23,Airport,Downtown,30.32,5.61,35.93,22.6,74.44,Credit Card
+949,2024-01-01,Suburbs,Business District,24.86,1.84,26.7,12.96,48.05,Digital Wallet
+950,2024-01-18,Airport,Suburbs,32.26,6.68,38.94,6.68,13.4,Digital Wallet
+951,2024-02-01,Suburbs,Suburbs,46.34,8.3,54.64,15.88,44.18,Digital Wallet
+952,2024-02-16,Downtown,Suburbs,21.3,3.21,24.51,4.78,16.99,Credit Card
+953,2024-02-18,Suburbs,Business District,37.66,11.03,48.69,13.78,57.42,Cash
+954,2024-01-11,Downtown,Downtown,45.25,9.28,54.53,10.2,25.73,Credit Card
+955,2024-01-21,Suburbs,Downtown,25.52,2.87,28.39,27.45,99.94,Digital Wallet
+956,2024-01-26,Business District,Airport,24.96,5.99,30.950000000000003,2.77,11.48,Cash
+957,2024-01-25,Business District,Suburbs,32.1,8.52,40.620000000000005,21.13,70.44,Cash
+958,2024-01-22,Airport,Airport,31.61,1.19,32.8,6.3,13.11,Credit Card
+959,2024-02-28,Suburbs,Airport,41.3,2.48,43.779999999999994,10.25,34.31,Cash
+960,2024-01-27,Suburbs,Downtown,26.44,1.72,28.16,13.05,37.71,Cash
+961,2024-02-18,Downtown,Business District,49.83,10.33,60.16,27.33,130.88,Digital Wallet
+962,2024-01-13,Airport,Business District,7.68,1.39,9.07,8.03,19.06,Digital Wallet
+963,2024-02-02,Suburbs,Downtown,5.14,0.95,6.09,3.65,14.44,Cash
+964,2024-02-03,Airport,Business District,33.81,9.54,43.35,10.24,22.1,Cash
+965,2024-02-10,Business District,Airport,18.43,4.29,22.72,4.04,13.49,Credit Card
+966,2024-02-04,Suburbs,Suburbs,15.82,0.61,16.43,4.73,17.32,Credit Card
+967,2024-01-01,Suburbs,Downtown,19.04,1.98,21.02,17.64,51.05,Cash
+968,2024-01-21,Airport,Suburbs,16.52,2.16,18.68,2.77,9.32,Digital Wallet
+969,2024-02-17,Suburbs,Business District,6.39,0.76,7.1499999999999995,1.9,4.73,Cash
+970,2024-02-24,Airport,Suburbs,48.72,9.78,58.5,21.72,63.26,Cash
+971,2024-01-06,Suburbs,Business District,14.93,3.99,18.92,11.49,44.39,Digital Wallet
+972,2024-01-28,Downtown,Business District,38.03,3.49,41.52,4.64,13.48,Digital Wallet
+973,2024-01-17,Airport,Airport,39.32,6.51,45.83,8.35,39.24,Credit Card
+974,2024-01-05,Suburbs,Business District,46.82,11.09,57.91,19.62,76.23,Credit Card
+975,2024-01-31,Business District,Airport,6.37,0.8,7.17,8.99,29.81,Credit Card
+976,2024-01-05,Suburbs,Airport,44.24,2.23,46.47,15.34,32.46,Credit Card
+977,2024-02-07,Business District,Airport,28.73,4.09,32.82,4.53,15.85,Digital Wallet
+978,2024-01-03,Business District,Downtown,33.46,0.55,34.01,18.05,77.51,Cash
+979,2024-02-22,Downtown,Downtown,34.0,9.61,43.61,10.17,28.44,Credit Card
+980,2024-01-23,Airport,Business District,41.89,0.94,42.83,19.18,84.78,Credit Card
+981,2024-02-06,Suburbs,Airport,20.0,2.63,22.63,24.44,67.34,Digital Wallet
+982,2024-02-22,Downtown,Downtown,37.99,6.04,44.03,18.74,83.79,Digital Wallet
+983,2024-02-06,Suburbs,Airport,28.79,8.51,37.3,9.58,21.61,Cash
+984,2024-01-10,Business District,Suburbs,40.7,2.03,42.730000000000004,8.42,38.72,Cash
+985,2024-01-10,Airport,Suburbs,49.57,1.7,51.27,10.5,36.72,Digital Wallet
+986,2024-01-19,Suburbs,Suburbs,14.03,0.04,14.069999999999999,5.77,16.67,Credit Card
+987,2024-01-17,Suburbs,Business District,49.76,2.32,52.08,6.25,17.47,Credit Card
+988,2024-01-21,Business District,Airport,9.04,0.56,9.6,23.93,78.87,Credit Card
+989,2024-01-14,Suburbs,Suburbs,5.1,0.96,6.06,12.16,60.77,Cash
+990,2024-01-09,Suburbs,Downtown,6.99,0.46,7.45,13.64,36.3,Credit Card
+991,2024-02-15,Business District,Suburbs,20.38,0.13,20.509999999999998,18.23,42.1,Credit Card
+992,2024-01-01,Downtown,Suburbs,33.48,8.3,41.78,18.1,67.97,Digital Wallet
+993,2024-02-20,Business District,Suburbs,8.11,0.89,9.0,2.95,10.22,Credit Card
+994,2024-02-14,Downtown,Business District,5.25,0.56,5.8100000000000005,25.11,89.71,Digital Wallet
+995,2024-01-13,Airport,Downtown,47.17,4.28,51.45,6.14,24.56,Credit Card
+996,2024-01-04,Downtown,Airport,41.99,12.29,54.28,21.97,61.55,Cash
+997,2024-01-01,Downtown,Downtown,41.41,2.11,43.519999999999996,23.41,110.78,Credit Card
+998,2024-02-18,Airport,Airport,44.8,12.07,56.87,21.73,71.86,Credit Card
+999,2024-02-09,Downtown,Business District,36.5,8.51,45.01,17.79,42.47,Digital Wallet
+1000,2024-02-01,Business District,Business District,9.7,0.22,9.92,1.42,6.0,Digital Wallet
