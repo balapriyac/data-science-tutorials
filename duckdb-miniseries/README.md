@@ -1,1 +1,1 @@
-
+This directory contains the code and notebooks for a DuckDB mini-series I've been working on. The mini-series focuses on working with common data formats and performing basic statistical analysis with DuckDB.
