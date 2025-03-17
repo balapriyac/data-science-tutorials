@@ -28,3 +28,26 @@ text = "Phone numbers: 555-1234, 555-5678, 5551234"
 pattern = r"\b\d{3}-?\d{4}\b"
 matches = re.findall(pattern, text)
 print(matches)
+
+
+
+text = "Python is popular in data science."
+
+# ^ anchors to the start of the string
+start_matches = re.findall(r"^Python", text)
+print(start_matches)
+
+# $ anchors to the end of the string
+end_matches = re.findall(r"science\.$", text)
+print(end_matches)
+     
+text = "Dates: 2023-10-15, 2022-05-22"
+pattern = r"(\d{4})-(\d{2})-(\d{2})"
+
+# findall returns tuples of the captured groups
+matches = re.findall(pattern, text)
+print(matches)
+
+# You can use these to create structured data
+for year, month, day in matches:
+    print(f"Year: {year}, Month: {month}, Day: {day}")
