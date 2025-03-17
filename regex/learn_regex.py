@@ -23,6 +23,17 @@ pattern = r"\b[a-d][a-z]*\b"
 text = "apple banana cherry date elephant fig grape kiwi lemon mango orange"
 matches = re.findall(pattern, text)
 print(matches)
+
+
+text = "Contact: john.doe@example.com"
+pattern = r"(?P[\w.]+)@(?P[\w.]+)"
+
+match = re.search(pattern, text)
+if match:
+    print(f"Username: {match.group('username')}")
+    print(f"Domain: {match.group('domain')}")
+
+     
      
 text = "Phone numbers: 555-1234, 555-5678, 5551234"
 pattern = r"\b\d{3}-?\d{4}\b"
