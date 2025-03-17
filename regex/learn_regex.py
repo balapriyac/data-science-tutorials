@@ -62,3 +62,12 @@ print(matches)
 # You can use these to create structured data
 for year, month, day in matches:
     print(f"Year: {year}, Month: {month}, Day: {day}")
+
+
+text = "Contact: john.doe@example.com"
+pattern = r"(?P[\w.]+)@(?P[\w.]+)"
+
+match = re.search(pattern, text)
+if match:
+    print(f"Username: {match.group('username')}")
+    print(f"Domain: {match.group('domain')}")
