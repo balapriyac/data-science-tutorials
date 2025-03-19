@@ -3,7 +3,8 @@
 Contents
 - [Docker](https://github.com/balapriyac/data-science-tutorials/tree/main/docker)
 - [FastAPI](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)
-- [DuckDB](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb)
+- [DuckDB Tutorial](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb)
+- [DuckDB Miniseries]()
 - [Machine Learning](https://github.com/balapriyac/data-science-tutorials/tree/main/machine-learning)
 - [Deploying ML Models](https://github.com/balapriyac/data-science-tutorials/tree/main/model_deployment)
 - [Pandas](https://github.com/balapriyac/data-science-tutorials/tree/main/pandas)
