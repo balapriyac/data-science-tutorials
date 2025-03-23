@@ -1,5 +1,5 @@
 # Data Science Tutorials
-Repository to hl
+If you're coming from one of my data science tutorials, you'll find the code and the links to the tutorials here. 
 |No.| Article| Code|
 |----|----|------|
 |||
