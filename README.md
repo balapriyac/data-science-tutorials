@@ -1,6 +1,10 @@
 # Data Science Tutorials
 If you're coming from one of my data science tutorials, you'll find the code and the links to the tutorials here. Hope you find it useful. Happy learning and coding!
-![data-science-tutorials](https://i.imgur.com/Da3iKuA.jpeg)
+
+<img src="https://i.imgur.com/Da3iKuA.jpeg" alt="data-science-tutorials" width="800"/></img>
+
+
+
 |No.| Article| Code|
 |----|----|------|
 |1|[Build a Data Science App with Python in 10 Easy Steps](https://www.kdnuggets.com/build-data-science-app-with-python-10-easy-steps)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/data-science-app)|
