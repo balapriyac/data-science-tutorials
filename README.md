@@ -3,12 +3,12 @@ If you're coming from one of my data science tutorials, you'll find the code and
 ![data-science-tutorials](https://i.imgur.com/Da3iKuA.jpeg)
 |No.| Article| Code|
 |----|----|------|
-|||
+|1|[Build a Data Science App with Python in 10 Easy Steps](https://www.kdnuggets.com/build-data-science-app-with-python-10-easy-steps)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/data-science-app)|
 |||
 |||
 |||
 
-Contents
+## Contents at a Glance
 - [Docker](https://github.com/balapriyac/data-science-tutorials/tree/main/docker)
 - [FastAPI](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)
 - [DuckDB Tutorial](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb)
