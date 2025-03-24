@@ -11,3 +11,8 @@ If you're coming from one of my data science tutorials, you'll find the code and
 |2|[A Practical Guide to Deploying Machine Learning Models](https://machinelearningmastery.com/a-practical-guide-to-deploying-machine-learning-models/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/model_deployment)|
 |3|[FastAPI Tutorial: Build APIs with Python in Minutes](https://www.kdnuggets.com/fastapi-tutorial-build-apis-with-python-in-minutes)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)|
 |4|[The Beginner’s Guide to Natural Language Processing with Python](https://machinelearningmastery.com/the-beginners-guide-to-natural-language-processing-with-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/natural-language-processing)|
+|5|[How to Interpret Statistical Plots in Python](https://www.statology.org/how-to-perform-statistical-analysis-sparse-data-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/sparse_data_analysis_v0_1.ipynb)|
+|||
+|||
+|||
+|||
