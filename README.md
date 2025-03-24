@@ -1,5 +1,5 @@
 # Data Science Tutorials
-If you're coming from one of my data science tutorials, you'll find the code and the links to the tutorials here. Hope you find it useful. Happy learning and coding!
+If you're coming from one of my data science tutorials, you'll find the code and the links to the tutorials here. I hope you find them helpful. Happy learning and coding!
 
 <img src="https://i.imgur.com/Da3iKuA.jpeg" alt="data-science-tutorials" width="800"/></img>
 
