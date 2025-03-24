@@ -11,15 +11,3 @@ If you're coming from one of my data science tutorials, you'll find the code and
 |2|[A Practical Guide to Deploying Machine Learning Models](https://machinelearningmastery.com/a-practical-guide-to-deploying-machine-learning-models/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/model_deployment)|
 |3|[FastAPI Tutorial: Build APIs with Python in Minutes](https://www.kdnuggets.com/fastapi-tutorial-build-apis-with-python-in-minutes)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)|
 |4|[The Beginner’s Guide to Natural Language Processing with Python](https://machinelearningmastery.com/the-beginners-guide-to-natural-language-processing-with-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/natural-language-processing)|
-
-## Contents at a Glance
-- [Docker](https://github.com/balapriyac/data-science-tutorials/tree/main/docker)
-- [FastAPI](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)
-- [DuckDB Tutorial](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb)
-- [DuckDB Miniseries]()
-- [Machine Learning](https://github.com/balapriyac/data-science-tutorials/tree/main/machine-learning)
-- [Deploying ML Models](https://github.com/balapriyac/data-science-tutorials/tree/main/model_deployment)
-- [Pandas](https://github.com/balapriyac/data-science-tutorials/tree/main/pandas)
-- [PostgreSQL](https://github.com/balapriyac/data-science-tutorials/tree/main/postgres)
-- [PySpark](https://github.com/balapriyac/data-science-tutorials/tree/main/pyspark)
-- [Statistics](https://github.com/balapriyac/data-science-tutorials/tree/main/statistics)
