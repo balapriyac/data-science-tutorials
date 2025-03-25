@@ -19,4 +19,5 @@ I hope you find them helpful. Happy learning and coding!
 |9|[How to Use the Beta Distribution in Python](https://www.statology.org/how-to-use-the-beta-distribution-in-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/probability/beta_distribution.ipynb)|
 |10|[How to Use the Cauchy Distribution in Python](https://www.statology.org/how-to-use-the-cauchy-distribution-in-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/probability/cauchy_distribution.ipynb)|
 |11|[Tips for Effective Outlier Detection in Real-World Datasets](https://www.statology.org/tips-for-effective-outlier-detection-in-real-world-datasets/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/Outlier_Detection_Tips.ipynb)|
+|12|[How to Interpret Statistical Plots in Python](https://www.statology.org/how-to-interpret-statistical-plots-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistical_plots.ipynb)|
 
