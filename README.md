@@ -13,6 +13,9 @@ If you're coming from one of my data science tutorials, you'll find the code and
 |4|[The Beginner’s Guide to Natural Language Processing with Python](https://machinelearningmastery.com/the-beginners-guide-to-natural-language-processing-with-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/natural-language-processing)|
 |5|[How to Perform Statistical Analysis on Sparse Data in Python](https://www.statology.org/how-to-perform-statistical-analysis-sparse-data-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/sparse_data_analysis_v0_1.ipynb)|
 |6|[10 Essential Statistical Functions in Python](https://www.statology.org/10-essential-statistical-functions-in-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/Basic_Stats_Functions_Python.ipynb)|
-|||
-|||
-|||
+|7|[How to Calculate Joint and Conditional Probabilities in Python](https://www.statology.org/how-to-calculate-joint-and-conditional-probabilities-in-python/)|[Code]()|
+|8|[How to Use the Geometric Distribution in Python](https://www.statology.org/how-to-use-the-geometric-distribution-in-python/)|[Code]()|
+|9|[How to Use the Beta Distribution in Python](https://www.statology.org/how-to-use-the-beta-distribution-in-python/)|[Code]()|
+|10|[How to Use the Cauchy Distribution in Python](https://www.statology.org/how-to-use-the-cauchy-distribution-in-python/)|[Code]()|
+|11|[Tips for Effective Outlier Detection in Real-World Datasets](https://www.statology.org/tips-for-effective-outlier-detection-in-real-world-datasets/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/Outlier_Detection_Tips.ipynb)|
+
