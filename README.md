@@ -12,7 +12,7 @@ If you're coming from one of my data science tutorials, you'll find the code and
 |3|[FastAPI Tutorial: Build APIs with Python in Minutes](https://www.kdnuggets.com/fastapi-tutorial-build-apis-with-python-in-minutes)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi)|
 |4|[The Beginner’s Guide to Natural Language Processing with Python](https://machinelearningmastery.com/the-beginners-guide-to-natural-language-processing-with-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/natural-language-processing)|
 |5|[How to Perform Statistical Analysis on Sparse Data in Python](https://www.statology.org/how-to-perform-statistical-analysis-sparse-data-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/sparse_data_analysis_v0_1.ipynb)|
-|||
+|6|[10 Essential Statistical Functions in Python](https://www.statology.org/10-essential-statistical-functions-in-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/Basic_Stats_Functions_Python.ipynb)|
 |||
 |||
 |||
