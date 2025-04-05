@@ -20,3 +20,26 @@ id,first_name,last_name,email,signup_date,last_login,purchase_amount
 3,Bob,Johnson,bob@example.com,2023-01-17,2023-03-22,0
 4,Alice,Williams,alice.williams@example.com,2023-01-18,,75.25
 ```
+```
+$ grep -c ",," users.csv
+2
+```
+
+```
+grep -n ",," users.csv
+5:4,Alice,Williams,alice.williams@example.com,2023-01-18,,75.25
+6:5,,Brown,mike.brown@example.com,2023-01-19,2023-03-24,150.75
+```
+
+```
+$ grep -v -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' users.csv | grep "invalid_date"
+6,Sarah,Miller,sarah.miller@example.com,invalid_date,2023-03-25,95.00
+
+```
+
+```
+$ awk -F, '$7 < 0 {print $0}' users.csv
+8,Lisa,Garcia,lisa.garcia@example.com,2023-01-22,2023-03-27,-50.00
+```
+
+```
