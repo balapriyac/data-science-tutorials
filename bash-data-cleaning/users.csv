@@ -1,0 +1,11 @@
+id,first_name,last_name,email,signup_date,last_login,purchase_amount
+1,John,Smith,john.smith@example.com,2023-01-15,2023-03-20,125.99
+2,Jane,Doe,jane.doe@example.com,2023-01-16,2023-03-21,210.50
+3,Bob,Johnson,bob@example.com,2023-01-17,2023-03-22,0
+4,Alice,Williams,alice.williams@example.com,2023-01-18,,75.25
+5,,Brown,mike.brown@example.com,2023-01-19,2023-03-24,150.75
+6,Sarah,Miller,sarah.miller@example.com,invalid_date,2023-03-25,95.00
+7,David,Jones,david.jones@example.com,2023-01-21,2023-03-26,300.00
+8,Lisa,Garcia,lisa.garcia@example.com,2023-01-22,2023-03-27,-50.00
+9,James,Martinez,mymail@example.com,2023-01-23,2023-03-28,125.00
+10,Emily,Anderson,emily.anderson@example.com,2023-01-24,2023-03-29,200.00
