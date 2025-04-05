@@ -43,3 +43,25 @@ $ awk -F, '$7 < 0 {print $0}' users.csv
 ```
 
 ```
+$ awk -F, 'NR>1 {sum += $7} END {print "Total purchases: $" sum}' users_cleaned.csv
+```
+```
+Total purchases: $1282.49
+```
+
+```
+balapriya@balapriya-82C4:~/bash-data-cleaning$ awk -F, 'NR>1 {sum += $7; count++} END {print "Average purchase: $" sum/count}' users_cleaned.csv
+Average purchase: $128.249
+```
+```
+$ awk -F, 'NR>1 {
+    split($5, date, "-");
+    months[date[2]]++;
+} 
+END {
+    for (month in months) {
+        print "Month " month ": " months[month] " users"
+    }
+}' users_cleaned.csv
+Month 01: 10 users
+```
