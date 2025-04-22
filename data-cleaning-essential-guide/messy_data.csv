@@ -1,0 +1,16 @@
+id,name,age,gender,email,income,job_title,department,start_date,education,customer_rating,comments,phone_number,country,purchase_amount
+1,john smith,34,M,john.smith@email.com,75000,Sr. Developer,IT,2019-03-15,Bachelor's,4.5,Loyal customer since 2019,555-123-4567,USA,1250.99
+2,Jane Doe,28,F,jane.doe@email.com,82000,Senior Developer,Engineering,2020-01-10,Masters,4.8,Has premium membership,555-987-6543,united states,879.50
+3,Bob Johnson,,Male,bob.j@email,65000,Data Analyst,Analytics,2018-05-20,bachelor,3.2,occasional buyer,5551234567,US,450
+4,,42,M,mike.wilson@email.com,92000,Project Manager,IT,2017-11-05,PHD,4.2,,555-555-5555,United States,1500
+5,Sarah Williams,31,female,sarah.w@email.com,,UX Designer,Design,2021-02-28,Masters Degree,4.9,Very satisfied with service,555-789-0123,usa,2100.75
+6,Alex Brown,38,M,alex@email.com,78500,senior developer,IT,2019-08-12,Bachelors,,"Left a positive review, potential for upsell",555.111.2222,United States,950.25
+7,Emily Wilson,27,F,emily@incomplete,69000,Data Scientist,Analytics,2020/07/15,PHD,4.6,New customer - first purchase,5559876543,US,780
+8,Jane Doe,29,Female,different.jane@email.com,81000,Sr. Developer,Engineering,2020-01-10,Masters,4.5,Duplicate customer record,555-987-6543,USA,1200
+9,Chris Martin,45,M,chris.martin@email.com,-5000,Marketing Specialist,Marketing,2022-04-18,bachelor's degree,3.8,Returned last purchase,555-123-7890,U.S.A.,350.99
+10,Lisa Johnson,33,F,lisa.j@email.com,88000,Product Manager,Product,1/15/2021,MBA,6.2,High-value customer,555-444-3333,United States,3500
+11,David Thompson,51,Male,david.t@email.com,110000,Director,Executive,2015-09-30,masters degree,4.1,Prefers phone contact,555)-222-1111,us,2700.50
+12,Jennifer Clark,36,F,jennifer@email,72000,HR Specialist,Human Resources,2018-12-05,Bachelors,3.9,Seasonal buyer,555*789*4561,USA,575.25
+13,Michael Scott,44,M,mscott@email.com,80000,Regional Manager,Management,2022/02/10,Ba chelor,2.1,Multiple complaints filed,5551112222,United states,150
+14,amanda king,39,f,amanda.king@email.com,93500,Lead Engineer,Engineering,2017-06-22,PhD,4.7,Technical customer - reads documentation,555-333-9876,usa,1850.75
+15,Ryan Chen,32,M,ryan.chen@email.com,79000,BI Analyst,Analytics,2019-11-18,MSc,,"Contact attempted, no response yet",555-666-7777,United States,0
