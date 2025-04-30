@@ -28,3 +28,53 @@ SELECT
     customer->>'name' AS customer_name
 FROM ecommerce
 WHERE customer->'address'->>'city' = 'Seattle';
+
+-- Get payment details
+SELECT 
+    order_id,
+    payment->>'method' AS payment_method,
+    CAST(payment->>'total' AS DECIMAL) AS total_amount
+FROM ecommerce;
+
+-- Unnest the items array into separate rows
+SELECT 
+    order_id,
+    customer->>'name' AS customer_name,
+    unnest(items) AS item
+FROM ecommerce;
+
+-- Get specific item details
+SELECT 
+    order_id,
+    customer->>'name' AS customer_name,
+    item->>'name' AS product_name,
+    item->>'category' AS category,
+    CAST(item->>'price' AS DECIMAL) AS price,
+    CAST(item->>'quantity' AS INTEGER) AS quantity
+FROM (
+    SELECT 
+        order_id,
+        customer,
+        unnest(items) AS item
+    FROM ecommerce
+) AS unnested_items;
+
+-- Calculate total value of each order
+SELECT 
+    order_id,
+    customer->>'name' AS customer_name,
+    CAST(payment->>'total' AS DECIMAL) AS order_total,
+    json_array_length(items) AS item_count
+FROM ecommerce;
+
+-- Calculate average price by product category
+SELECT 
+    item->>'category' AS category,
+    AVG(CAST(item->>'price' AS DECIMAL)) AS avg_price
+FROM (
+    SELECT unnest(items) AS item
+    FROM ecommerce
+) AS unnested_items
+GROUP BY category
+ORDER BY avg_price DESC;
+
