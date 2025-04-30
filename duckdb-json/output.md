@@ -104,3 +104,15 @@
 │ 4 rows                              6 columns (4 shown) │
 └─────────────────────────────────────────────────────────┘
 ```
+
+```
+┌──────────┬───────────────┬───────────────────────────────────────────────────┐
+│ order_id │ customer_name │                       item                        │
+│ varchar  │    varchar    │ struct(product_id varchar, "name" varchar, cate…  │
+├──────────┼───────────────┼───────────────────────────────────────────────────┤
+│ ORD-1001 │ Alex Johnson  │ {'product_id': PROD-501, 'name': Wireless Headp…  │
+│ ORD-1001 │ Alex Johnson  │ {'product_id': PROD-245, 'name': Smartphone Cas…  │
+│ ORD-1002 │ Sarah Miller  │ {'product_id': PROD-103, 'name': Coffee Maker, …  │
+│ ORD-1002 │ Sarah Miller  │ {'product_id': PROD-107, 'name': Coffee Beans P…  │
+└──────────┴───────────────┴───────────────────────────────────────────────────┘
+```
