@@ -1,0 +1,80 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "customer": {
+      "id": "CUST-101",
+      "name": "Alex Johnson",
+      "email": "alex.j@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108"
+      },
+      "loyalty_tier": "gold"
+    },
+    "order_date": "2023-10-15T14:30:00",
+    "items": [
+      {
+        "product_id": "PROD-501",
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 129.99,
+        "quantity": 1,
+        "tags": ["bluetooth", "noise-cancelling", "audio"]
+      },
+      {
+        "product_id": "PROD-245",
+        "name": "Smartphone Case",
+        "category": "Accessories",
+        "price": 24.99,
+        "quantity": 2,
+        "tags": ["protective", "smartphone", "silicone"]
+      }
+    ],
+    "payment": {
+      "method": "credit_card",
+      "total": 179.97,
+      "status": "completed"
+    }
+  },
+  {
+    "order_id": "ORD-1002",
+    "customer": {
+      "id": "CUST-102",
+      "name": "Sarah Miller",
+      "email": "sarahm@example.com",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101"
+      },
+      "loyalty_tier": "silver"
+    },
+    "order_date": "2023-10-16T09:15:00",
+    "items": [
+      {
+        "product_id": "PROD-103",
+        "name": "Coffee Maker",
+        "category": "Kitchen",
+        "price": 89.99,
+        "quantity": 1,
+        "tags": ["appliance", "coffee", "automatic"]
+      },
+      {
+        "product_id": "PROD-107",
+        "name": "Coffee Beans Premium Blend",
+        "category": "Food & Beverage",
+        "price": 15.99,
+        "quantity": 3,
+        "tags": ["coffee", "organic", "fair-trade"]
+      }
+    ],
+    "payment": {
+      "method": "paypal",
+      "total": 137.96,
+      "status": "completed"
+    }
+  }
+]
