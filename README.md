@@ -21,4 +21,5 @@ I hope you find them helpful. Happy learning and coding!
 |11|[Tips for Effective Outlier Detection in Real-World Datasets](https://www.statology.org/tips-for-effective-outlier-detection-in-real-world-datasets/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/Outlier_Detection_Tips.ipynb)|
 |12|[How to Interpret Statistical Plots in Python](https://www.statology.org/how-to-interpret-statistical-plots-python/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistical_plots.ipynb)|
 |13|[Data Cleaning with Bash: A Handbook for Developers](https://www.kdnuggets.com/data-cleaning-with-bash-a-handbook-for-developers)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/bash-data-cleaning)|
+|14| [Analyzing JSON Data with DuckDB & SQL](https://www.kdnuggets.com/analyzing-json-data-with-duckdb-sql)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-json)|
 
