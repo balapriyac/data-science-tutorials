@@ -23,4 +23,5 @@ I hope you find them helpful. Happy learning and coding!
 |13|[Data Cleaning with Bash: A Handbook for Developers](https://www.kdnuggets.com/data-cleaning-with-bash-a-handbook-for-developers)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/bash-data-cleaning)|
 |14| [Analyzing JSON Data with DuckDB & SQL](https://www.kdnuggets.com/analyzing-json-data-with-duckdb-sql)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-json)|
 |15| [The Poisson Distribution: From Basics to Real-World Examples](https://www.statology.org/the-poisson-distribution-from-basics-to-real-world-examples/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/probability/poisson_distribution.ipynb)|
+|16|[Why & How to Containerize Your Existing Python Apps](https://www.kdnuggets.com/why-how-to-containerize-your-existing-python-apps)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/containerizing-python-apps/currency-api)|
 
