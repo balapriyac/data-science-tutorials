@@ -24,4 +24,10 @@ I hope you find them helpful. Happy learning and coding!
 |14| [Analyzing JSON Data with DuckDB & SQL](https://www.kdnuggets.com/analyzing-json-data-with-duckdb-sql)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-json)|
 |15| [The Poisson Distribution: From Basics to Real-World Examples](https://www.statology.org/the-poisson-distribution-from-basics-to-real-world-examples/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/probability/poisson_distribution.ipynb)|
 |16|[Why & How to Containerize Your Existing Python Apps](https://www.kdnuggets.com/why-how-to-containerize-your-existing-python-apps)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/containerizing-python-apps/currency-api)|
+|17|[How to Analyze Parquet Files with DuckDB](https://www.statology.org/how-to-analyze-parquet-files-with-duckdb/)|[Code]()|
+|18|[How to Analyze CSV Files with DuckDB](https://www.statology.org/how-to-analyze-csv-files-with-duckdb/)|[Code]()|
+|19|[How to Query Pandas DataFrames with DuckDB](https://www.statology.org/how-to-query-pandas-dataframes-with-duckdb/)|[Code]()|
+|20|[How to Calculate Descriptive Statistics in DuckDB](https://www.statology.org/how-to-calculate-descriptive-statistics-in-duckdb/)|[Code]()|
+|21|[How to Perform Hypothesis Testing in DuckDB](https://www.statology.org/how-to-perform-hypothesis-testing-in-duckdb/)|[Code]()|
+
 
