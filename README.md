@@ -29,5 +29,6 @@ I hope you find them helpful. Happy learning and coding!
 |19|[How to Query Pandas DataFrames with DuckDB](https://www.statology.org/how-to-query-pandas-dataframes-with-duckdb/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-miniseries/analyze-pandas-dataframes)|
 |20|[How to Calculate Descriptive Statistics in DuckDB](https://www.statology.org/how-to-calculate-descriptive-statistics-in-duckdb/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-miniseries/descriptive-statistics)|
 |21|[How to Perform Hypothesis Testing in DuckDB](https://www.statology.org/how-to-perform-hypothesis-testing-in-duckdb/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-miniseries/hypothesis-testing)|
+|22|[Top 5 Statistical Techniques to Detect and Handle Outliers in Data](https://www.statology.org/top-5-statistical-techniques-detect-handle-outliers-data/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/outlier_detection_techniques.ipynb)|
 
 
