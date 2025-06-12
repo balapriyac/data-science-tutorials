@@ -2,16 +2,16 @@
 
 A minimalist command-line speed reading application using RSVP (Rapid Serial Visual Presentation) technique. Read faster, comprehend better, and eliminate distractions with this clean terminal-based reader.
 
-## ✨ Features
+## Features
 
-- **🎯 Focused Reading**: Words appear one at a time in a fixed position, eliminating eye movement
-- **⚡ Variable Speed**: Adjustable reading speed from 50 to 1000+ words per minute
-- **🎮 Real-time Controls**: Pause, navigate, and adjust speed while reading
-- **📱 Adaptive Display**: Uses 40% center area of your terminal with clean borders
-- **📊 Progress Tracking**: Visual progress indicator and word count
-- **📝 Multiple Input Methods**: Read from files or paste text directly
-- **🎨 Clean Interface**: Static controls, distraction-free design
-- **🔧 Smart Timing**: Longer words get slightly more display time
+- **Focused Reading**: Words appear one at a time in a fixed position, eliminating eye movement
+- **Variable Speed**: Adjustable reading speed from 50 to 1000+ words per minute
+- **Real-time Controls**: Pause, navigate, and adjust speed while reading
+- **Adaptive Display**: Uses 40% center area of your terminal with clean borders
+- **Progress Tracking**: Visual progress indicator and word count
+- **Multiple Input Methods**: Read from files or paste text directly
+- **Clean Interface**: Static controls, distraction-free design
+- **Smart Timing**: Longer words get slightly more display time
 
 ## Interface Overview
 
@@ -125,9 +125,6 @@ python3 rsvp_reader.py -f documentation.txt -w 200 -c 2
 - **Experienced reader**: Start at 250 WPM  
 - **Technical content**: Use 120-180 WPM with chunks
 - **Light reading**: 300-400 WPM is comfortable
-
-
-
 
 
 ## 🐛 Troubleshooting
