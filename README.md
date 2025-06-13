@@ -31,5 +31,6 @@ I hope you find them helpful. Happy learning and coding!
 |21|[How to Perform Hypothesis Testing in DuckDB](https://www.statology.org/how-to-perform-hypothesis-testing-in-duckdb/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/duckdb-miniseries/hypothesis-testing)|
 |22|[Top 5 Statistical Techniques to Detect and Handle Outliers in Data](https://www.statology.org/top-5-statistical-techniques-detect-handle-outliers-data/)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/statistics/outlier_detection_techniques.ipynb)|
 |23|[Why & How to Containerize Your Existing Python Apps](https://www.kdnuggets.com/why-how-to-containerize-your-existing-python-apps)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/containerizing-python-apps/currency-api)|
+|24|[Step-by-Step Guide to Deploying Machine Learning Models with FastAPI and Docker](https://machinelearningmastery.com/step-by-step-guide-to-deploying-machine-learning-models-with-fastapi-and-docker/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi-docker-for-ml-model-deployment/diabetes-predictor)|
 
 
