@@ -35,3 +35,4 @@ I hope you find them helpful. Happy learning and coding!
 
 A few more (possibly interesting) articles:
 - [7 Concepts Behind Large Language Models Explained in 7 Minutes](https://machinelearningmastery.com/7-concepts-behind-large-language-models-explained-in-7-minutes/)
+- [How to Learn Math for Data Science: A Roadmap for Beginners](https://www.kdnuggets.com/how-to-learn-math-for-data-science-a-roadmap-for-beginners)
