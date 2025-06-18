@@ -33,4 +33,5 @@ I hope you find them helpful. Happy learning and coding!
 |23|[Why & How to Containerize Your Existing Python Apps](https://www.kdnuggets.com/why-how-to-containerize-your-existing-python-apps)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/containerizing-python-apps/currency-api)|
 |24|[Step-by-Step Guide to Deploying Machine Learning Models with FastAPI and Docker](https://machinelearningmastery.com/step-by-step-guide-to-deploying-machine-learning-models-with-fastapi-and-docker/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/fastapi-docker-for-ml-model-deployment/diabetes-predictor)|
 
-
+A few more (possibly interesting) articles:
+- [7 Concepts Behind Large Language Models Explained in 7 Minutes](https://machinelearningmastery.com/7-concepts-behind-large-language-models-explained-in-7-minutes/)
