@@ -67,5 +67,3 @@ Or use the provided requirements file:
 ```bash
 pip install -r requirements.txt
 ```
-
-## File Structure
