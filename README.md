@@ -35,6 +35,7 @@ I hope you find them helpful. Happy learning and coding!
 |25|[Build a Data Cleaning & Validation Pipeline in Under 50 Lines of Python](https://www.kdnuggets.com/build-a-data-cleaning-validation-pipeline-in-under-50-lines-of-python)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/build-with-python/data-cleaning-n-validation-pipeline/main.py)|
 |26|[Vibe Coding a Speed Reading App with Python in Just 15 Minutes](https://www.kdnuggets.com/vibe-coding-a-speed-reading-app-with-python-in-just-15-minutes)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/vibe-coding/speed-reader)|
 |27|[Build ETL Pipelines for Data Science Workflows in About 30 Lines of Python](https://www.kdnuggets.com/build-etl-pipelines-for-data-science-workflows-in-about-30-lines-of-python)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/build-with-python/etl-pipeline)|
+|28|[5 Useful Python Scripts for Busy Data Scientists]()|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-scripts)|
 
 A few more (possibly interesting) articles:
 - [7 Concepts Behind Large Language Models Explained in 7 Minutes](https://machinelearningmastery.com/7-concepts-behind-large-language-models-explained-in-7-minutes/)
