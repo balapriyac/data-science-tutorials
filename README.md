@@ -36,9 +36,3 @@ I hope you find them helpful. Happy learning and coding!
 |26|[Vibe Coding a Speed Reading App with Python in Just 15 Minutes](https://www.kdnuggets.com/vibe-coding-a-speed-reading-app-with-python-in-just-15-minutes)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/vibe-coding/speed-reader)|
 |27|[Build ETL Pipelines for Data Science Workflows in About 30 Lines of Python](https://www.kdnuggets.com/build-etl-pipelines-for-data-science-workflows-in-about-30-lines-of-python)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/build-with-python/etl-pipeline)|
 |28|[5 Useful Python Scripts for Busy Data Scientists]()|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-scripts)|
-
-A few more (possibly interesting) articles:
-- [7 Concepts Behind Large Language Models Explained in 7 Minutes](https://machinelearningmastery.com/7-concepts-behind-large-language-models-explained-in-7-minutes/)
-- [How to Learn Math for Data Science: A Roadmap for Beginners](https://www.kdnuggets.com/how-to-learn-math-for-data-science-a-roadmap-for-beginners)
-- [How to Learn Programming for Data Science: A Roadmap for Beginners](https://www.kdnuggets.com/how-to-learn-programming-for-data-science-a-roadmap-for-beginners)
-- [Go vs. Python for Modern Data Workflows: Need Help Deciding?](https://www.kdnuggets.com/go-vs-python-for-modern-data-workflows-need-help-deciding)
