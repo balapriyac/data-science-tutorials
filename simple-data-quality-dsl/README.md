@@ -44,11 +44,11 @@ for issue in issues:
 - Statistical outlier detection (`within_standard_deviations`)
 - Cross-table referential integrity (`foreign_key_exists`)
 
-### Advanced Features
+### Additional Features
 - **Cross-column validation**: Rules that involve multiple columns
 - **Custom business logic**: Write your own validation functions
 - **Production decorators**: Validate data before processing
-- **Sampling support**: Handle large datasets efficiently
+- **Sampling support**: Handle large datasets efficiently (only if you want to run this validator on a small subset of a very large dataset)
 - **Detailed error reporting**: Get violation counts and sample rows
 
 ## Installation
