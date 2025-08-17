@@ -50,7 +50,6 @@ class BusinessMetricsAnalyzer:
         return conversions
 
 # Example usage
-"""
 # Sample data
 data = pd.DataFrame({
     'date': pd.date_range('2024-01-01', periods=90, freq='D'),
