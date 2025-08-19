@@ -1,3 +1,7 @@
+# =====================================================
+# SCRIPT 1: Business Metrics Calculator & Trend Analyzer
+# =====================================================
+
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
