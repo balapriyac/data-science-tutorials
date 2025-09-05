@@ -21,4 +21,20 @@ print(f"{l1_norm = :.2f}")
 
 # Output >> l1_norm = 21.00
 
+# assert sum(vector) == l1_norm
 
+inf_norm = linalg.norm(vector, ord=np.inf)
+print(f"{inf_norm = }")
+
+# Output >> inf_norm = 6.0
+
+neg_inf_norm = linalg.norm(vector, ord=-np.inf)
+print(f"{neg_inf_norm = }")
+
+# Output >> neg_inf_norm = 1.0
+
+another_vector = np.array([1,2,0,5,0])
+l0_norm = linalg.norm(another_vector,ord=0)
+print(f"{l0_norm = }")
+
+# Output >> l0_norm = 3.0
