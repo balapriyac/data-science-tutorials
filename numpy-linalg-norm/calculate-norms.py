@@ -56,3 +56,13 @@ nuc_norm = linalg.norm(matrix,ord='nuc')
 print(f"{nuc_norm = :.2f}")
 
 # Output >> nuc_norm = 10.28
+
+matrix_1_norm = linalg.norm(matrix,ord=1,axis=0)
+print(f"{matrix_1_norm = }")
+
+# Output >> matrix_1_norm = array([5., 7., 9.])
+
+matrix_1_norm = linalg.norm(matrix,ord=1,axis=1)
+print(f"{matrix_1_norm = }")
+
+# Output >> matrix_1_norm = array([ 6., 15.])
