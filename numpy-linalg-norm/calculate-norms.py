@@ -38,3 +38,21 @@ l0_norm = linalg.norm(another_vector,ord=0)
 print(f"{l0_norm = }")
 
 # Output >> l0_norm = 3.0
+
+matrix = vector.reshape(2,3)
+print(matrix)
+
+frob_norm = linalg.norm(matrix,ord='fro')
+print(f"{frob_norm = :.2f}")
+
+# Output >> frob_norm = 9.54
+
+frob_norm = linalg.norm(matrix)
+print(f"{frob_norm = :.2f}")
+
+# Output >> frob_norm = 9.54
+
+nuc_norm = linalg.norm(matrix,ord='nuc')
+print(f"{nuc_norm = :.2f}")
+
+# Output >> nuc_norm = 10.28
