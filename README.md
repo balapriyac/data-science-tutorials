@@ -51,3 +51,4 @@ I hope you find them helpful. Happy learning and coding!
 |41|[Distance Metrics: Euclidean, Manhattan, Minkowski, Oh My!](https://www.kdnuggets.com/2023/03/distance-metrics-euclidean-manhattan-minkowski-oh.html)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/distance-metrics/distances.py)|
 |42|[Vector and Matrix Norms with NumPy Linalg Norm](https://www.kdnuggets.com/2023/05/vector-matrix-norms-numpy-linalg-norm.html)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/numpy-linalg-norm/calculate-norms.py)|
 |43|[SQL in Pandas with Pandasql](https://www.kdnuggets.com/sql-in-pandas-with-pandasql)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pandasql)|
+|44|[Principal Component Analysis (PCA) with Scikit-Learn](https://www.kdnuggets.com/2023/05/principal-component-analysis-pca-scikitlearn.html)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pca-sklearn)|
