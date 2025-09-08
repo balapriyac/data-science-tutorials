@@ -1,3 +1,5 @@
+# ! pip install numpy pandas matplotlib scikit-learn
+
 from sklearn import datasets
 wine_data = datasets.load_wine(as_frame=True)
 df = wine_data.data
