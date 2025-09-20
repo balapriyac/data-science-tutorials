@@ -52,3 +52,4 @@ I hope you find them helpful. Happy learning and coding!
 |[Vector and Matrix Norms with NumPy Linalg Norm](https://www.kdnuggets.com/2023/05/vector-matrix-norms-numpy-linalg-norm.html)|[Code](https://github.com/balapriyac/data-science-tutorials/blob/main/numpy-linalg-norm/calculate-norms.py)|
 |[SQL in Pandas with Pandasql](https://www.kdnuggets.com/sql-in-pandas-with-pandasql)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pandasql)|
 |[Principal Component Analysis (PCA) with Scikit-Learn](https://www.kdnuggets.com/2023/05/principal-component-analysis-pca-scikitlearn.html)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pca-sklearn)|
+|[Beginner’s Guide to Data Analysis with Polars](https://www.kdnuggets.com/beginners-guide-to-data-analysis-with-polars) | [Code](https://github.com/balapriyac/data-science-tutorials/tree/main/polars-beginners-guide)|
