@@ -1,0 +1,30 @@
+transaction_id,customer_name,product_category,revenue,transaction_date,sales_rep,region,customer_tier,payment_method,discount_percent
+TXN-2024-001,Acme Corp,Software,45000.00,2024-01-15,Sarah Chen,North America,Enterprise,Wire Transfer,5.0
+TXN-2024-002,Beta Industries,Hardware,12500.50,2024-01-16,Mike Rodriguez,Europe,SMB,Credit Card,0.0
+TXN-2024-003,Gamma Solutions,Consulting,78900.00,2024-01-17,Sarah Chen,North America,Enterprise,ACH,10.0
+TXN-2024-004,Delta Corp,Software,23400.75,2024-01-18,Lisa Park,Asia Pacific,Mid-Market,Credit Card,2.5
+TXN-2024-005,Epsilon LLC,Hardware,8750.25,2024-01-19,Mike Rodriguez,Europe,SMB,Wire Transfer,0.0
+TXN-2024-006,Zeta Systems,Software,156000.00,2024-01-20,James Wilson,North America,Enterprise,Wire Transfer,15.0
+TXN-2024-007,Eta Technologies,Consulting,34500.50,2024-01-21,Lisa Park,Asia Pacific,Mid-Market,Credit Card,5.0
+TXN-2024-008,Theta Corp,Hardware,19800.00,2024-01-22,Sarah Chen,North America,SMB,ACH,0.0
+TXN-2024-009,Iota Industries,Software,67500.25,2024-01-23,Mike Rodriguez,Europe,Enterprise,Wire Transfer,8.0
+TXN-2024-010,Kappa LLC,Consulting,91200.75,2024-01-24,James Wilson,North America,Enterprise,Wire Transfer,12.0
+TXN-2024-011,Lambda Corp,Hardware,28750.00,2024-01-25,Lisa Park,Asia Pacific,Mid-Market,Credit Card,3.0
+TXN-2024-012,Mu Systems,Software,43200.50,2024-01-26,Sarah Chen,North America,SMB,ACH,0.0
+TXN-2024-013,Nu Technologies,Consulting,76800.25,2024-01-27,Mike Rodriguez,Europe,Enterprise,Wire Transfer,9.0
+TXN-2024-014,Xi Corp,Hardware,15600.75,2024-01-28,James Wilson,North America,SMB,Credit Card,0.0
+TXN-2024-015,Omicron LLC,Software,128900.00,2024-01-29,Lisa Park,Asia Pacific,Enterprise,Wire Transfer,18.0
+TXN-2024-016,Pi Industries,Consulting,52300.50,2024-01-30,Sarah Chen,North America,Mid-Market,ACH,7.0
+TXN-2024-017,Rho Systems,Hardware,31200.25,2024-01-31,Mike Rodriguez,Europe,SMB,Credit Card,0.0
+TXN-2024-018,Sigma Corp,Software,89700.75,2024-02-01,James Wilson,North America,Enterprise,Wire Transfer,11.0
+TXN-2024-019,Tau Technologies,Consulting,64800.00,2024-02-02,Lisa Park,Asia Pacific,Mid-Market,Credit Card,6.0
+TXN-2024-020,Upsilon LLC,Hardware,22450.50,2024-02-03,Sarah Chen,North America,SMB,ACH,0.0
+TXN-2024-021,Phi Corp,Software,176500.25,2024-02-04,Mike Rodriguez,Europe,Enterprise,Wire Transfer,20.0
+TXN-2024-022,Chi Systems,Consulting,38900.75,2024-02-05,James Wilson,North America,Mid-Market,Credit Card,4.0
+TXN-2024-023,Psi Industries,Hardware,27300.00,2024-02-06,Lisa Park,Asia Pacific,SMB,Wire Transfer,0.0
+TXN-2024-024,Omega Technologies,Software,134600.50,2024-02-07,Sarah Chen,North America,Enterprise,ACH,16.0
+TXN-2024-025,Alpha Solutions,Consulting,71200.25,2024-02-08,Mike Rodriguez,Europe,Enterprise,Wire Transfer,8.5
+TXN-2024-026,Nexus Corp,Software,92300.75,2024-02-09,Sarah Chen,North America,Mid-Market,Credit Card,6.5
+TXN-2024-027,Vertex LLC,Hardware,18900.50,2024-02-10,Lisa Park,Asia Pacific,SMB,ACH,0.0
+TXN-2024-028,Matrix Systems,Consulting,105600.25,2024-02-11,James Wilson,North America,Enterprise,Wire Transfer,14.0
+TXN-2024-029,Apex Industries,Software,57800.00,2024-02-12,Mike Rodriguez,Europe,Mid-Market,Credit Card,4.5
