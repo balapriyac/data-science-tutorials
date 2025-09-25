@@ -53,3 +53,4 @@ I hope you find them helpful. Happy learning and coding!
 |[SQL in Pandas with Pandasql](https://www.kdnuggets.com/sql-in-pandas-with-pandasql)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pandasql)|
 |[Principal Component Analysis (PCA) with Scikit-Learn](https://www.kdnuggets.com/2023/05/principal-component-analysis-pca-scikitlearn.html)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pca-sklearn)|
 |[Beginner’s Guide to Data Analysis with Polars](https://www.kdnuggets.com/beginners-guide-to-data-analysis-with-polars) | [Code](https://github.com/balapriyac/data-science-tutorials/tree/main/polars-beginners-guide)|
+|[10 Useful Python One-Liners for Data Engineering](https://www.kdnuggets.com/10-useful-python-one-liners-for-data-engineering)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/data-engineering-one-liners)|
