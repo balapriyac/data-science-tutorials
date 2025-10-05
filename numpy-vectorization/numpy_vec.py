@@ -101,3 +101,25 @@ matrix = np.arange(20).reshape(4, 5)
 row_indices = np.array([0, 2, 3])
 col_indices = np.array([1, 3, 4])
 values = matrix[row_indices, col_indices]  # Gets matrix[0,1], matrix[2,3], matrix[3,4]
+
+# Clean: einsum
+A = np.random.rand(100, 50)
+B = np.random.rand(50, 80)
+C = np.einsum('ij,jk->ik', A, B)
+
+# Batch matrix multiply - single line
+batch_A = np.random.rand(32, 10, 20)
+batch_B = np.random.rand(32, 20, 15)
+results = np.einsum('bij,bjk->bik', batch_A, batch_B)
+
+# Trace (sum of diagonal)
+matrix = np.random.rand(100, 100)
+trace = np.einsum('ii->', matrix)
+
+# Transpose
+transposed = np.einsum('ij->ji', matrix)
+
+# Element-wise multiply then sum
+A = np.random.rand(50, 50)
+B = np.random.rand(50, 50)
+result = np.einsum('ij,ij->', A, B)  # Same as np.sum(A * B)
