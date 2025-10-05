@@ -123,3 +123,24 @@ transposed = np.einsum('ij->ji', matrix)
 A = np.random.rand(50, 50)
 B = np.random.rand(50, 50)
 result = np.einsum('ij,ij->', A, B)  # Same as np.sum(A * B)
+
+# Slow: Manual row iteration
+data = np.random.rand(1000, 50)
+row_stats = []
+for i in range(data.shape[0]):
+    row = data[i]
+    # Custom statistic not in NumPy
+    stat = (np.max(row) - np.min(row)) / np.median(row)
+    row_stats.append(stat)
+row_stats = np.array(row_stats)
+
+# Cleaner: apply_along_axis
+data = np.random.rand(1000, 50)
+
+def custom_stat(row):
+    return (np.max(row) - np.min(row)) / np.median(row)
+
+row_stats = np.apply_along_axis(custom_stat, axis=1, arr=data)
+
+# Apply to each column
+col_stats = np.apply_along_axis(custom_stat, axis=0, arr=data)
