@@ -25,6 +25,41 @@ for i in range(matrix.shape[0]):
 # Fast: Broadcasting
 matrix = np.random.rand(1000, 500)
 row_means = np.mean(matrix, axis=1, keepdims=True)
+
+# Slow: Manual looping
+def complex_transform(x):
+    if x < 0:
+        return np.sqrt(abs(x)) * -1
+    else:
+        return x ** 2
+
+data = np.random.randn(10000)
+results = np.array([complex_transform(x) for x in data])
+
+# Cleaner: np.vectorize()
+def complex_transform(x):
+    if x < 0:
+        return np.sqrt(abs(x)) * -1
+    else:
+        return x ** 2
+
+vec_transform = np.vectorize(complex_transform)
+data = np.random.randn(10000)
+results = vec_transform(data)
+
+# Matrix multiplication the standard way
+A = np.random.rand(100, 50)
+B = np.random.rand(50, 80)
+C = np.dot(A, B)
+
+# Batch matrix multiply - gets messy
+batch_A = np.random.rand(32, 10, 20)
+batch_B = np.random.rand(32, 20, 15)
+results = np.zeros((32, 10, 15))
+for i in range(32):
+    results[i] = np.dot(batch_A[i], batch_B[i])
+
+
 centered = matrix - row_means
 
 # Slow: Conditional logic in loops
