@@ -49,3 +49,20 @@ classifications = np.select(
 # For simple splits, np.where() is cleaner:
 scores = np.random.randint(0, 100, 10000)
 results = np.where(scores >= 60, 'pass', 'fail')
+
+# Slow: Loop-based gathering
+lookup_table = np.array([10, 20, 30, 40, 50])
+indices = np.random.randint(0, 5, 100000)
+results = []
+for idx in indices:
+    results.append(lookup_table[idx])
+results = np.array(results)
+
+lookup_table = np.array([10, 20, 30, 40, 50])
+indices = np.random.randint(0, 5, 100000)
+results = lookup_table[indices]
+
+matrix = np.arange(20).reshape(4, 5)
+row_indices = np.array([0, 2, 3])
+col_indices = np.array([1, 3, 4])
+values = matrix[row_indices, col_indices]  # Gets matrix[0,1], matrix[2,3], matrix[3,4]
