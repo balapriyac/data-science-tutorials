@@ -189,5 +189,3 @@ pip install pandas openpyxl fuzzywuzzy python-dateutil plotly sqlalchemy schedul
 
 ---
 
-
-**Made with ❤️ for Data Analysts who deserve better tools**
