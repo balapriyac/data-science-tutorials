@@ -122,7 +122,7 @@ refresher.schedule_refresh(
 
 ---
 
-### 5. Bulk Chart Generator
+### 5. Smart Chart Generator
 **Problem:** Creating dozens of similar charts with consistent formatting for presentations.
 
 **Solution:** Generates hundreds of formatted charts in seconds with consistent branding.
@@ -137,9 +137,9 @@ refresher.schedule_refresh(
 
 **Usage:**
 ```python
-from chart_generator import BulkChartGenerator
+from chart_generator import SmartChartGenerator
 
-generator = BulkChartGenerator(style='seaborn-v0_8-darkgrid')
+generator = SmartChartGenerator(style='seaborn-v0_8-darkgrid')
 
 config = {
     'line_charts': {
