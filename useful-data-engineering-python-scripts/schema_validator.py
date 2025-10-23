@@ -224,6 +224,29 @@ Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         })
         
         return report
-
-
+    # Example usage
+    
+if __name__ == "__main__":
+    # Sample DataFrame
+    df_original = pd.DataFrame({
+        'id': [1, 2, 3],
+        'name': ['Alice', 'Bob', 'Charlie'],
+        'age': [25, 30, 35],
+        'email': ['alice@example.com', 'bob@example.com', 'charlie@example.com']
+    })
+    
+    # Create baseline
+    validator = SchemaValidator()
+    schema = validator.extract_schema_from_dataframe(df_original, 'users')
+    validator.save_baseline(schema, 'users_baseline')
+    
+    # Simulate schema change
+    df_modified = df_original.copy()
+    df_modified['phone'] = ['555-1234', '555-5678', '555-9012']  # New column
+    df_modified = df_modified.drop('email', axis=1)  # Removed column
+    
+    # Validate
+    current_schema = validator.extract_schema_from_dataframe(df_modified, 'users')
+    report = validator.validate_and_report(current_schema, 'users_baseline')\
     print(report)
+    
