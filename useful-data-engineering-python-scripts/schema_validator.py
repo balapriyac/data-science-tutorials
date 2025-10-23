@@ -224,7 +224,8 @@ Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         })
         
         return report
-    # Example usage
+
+# Example usage
     
 if __name__ == "__main__":
     # Sample DataFrame
