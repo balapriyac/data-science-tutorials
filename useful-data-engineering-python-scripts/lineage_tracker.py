@@ -217,4 +217,26 @@ UPSTREAM DEPENDENCIES ({len(upstream)}):
         
         print(f"✓ Lineage exported to {output_file}")
 
+# Example usage
+if __name__ == "__main__":
+    tracker = DataLineageTracker()
+    
+    # Simulate adding lineage from SQL queries
+    tracker.add_lineage(['raw_orders', 'raw_customers'], 'stg_orders', 
+                       'Join orders with customer data')
+    tracker.add_lineage(['stg_orders'], 'fact_orders', 
+                       'Apply business logic and aggregations')
+    tracker.add_lineage(['fact_orders', 'dim_products'], 'sales_report',
+                       'Generate sales report')
+    tracker.add_lineage(['raw_products'], 'dim_products',
+                       'Transform product dimension')
+    
+    # Perform impact analysis
+    print(tracker.impact_analysis('stg_orders'))
+    
+    # Generate diagram
+    diagram = tracker.generate_mermaid_diagram('stg_orders')
+    print("\nMermaid Diagram:")
+    print(diagram)
+
 
