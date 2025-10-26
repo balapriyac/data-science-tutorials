@@ -414,3 +414,26 @@ Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         
         print(f"✓ Recommendations exported to {output_file}")
 
+
+# Example usage
+if __name__ == "__main__":
+    # Example for PostgreSQL
+    # engine = create_engine('postgresql://user:password@localhost:5432/mydb')
+    
+    # Example for MySQL
+    # engine = create_engine('mysql+pymysql://user:password@localhost:3306/mydb')
+    
+    # analyzer = DatabasePerformanceAnalyzer(engine)
+    # report = analyzer.generate_performance_report()
+    # print(report)
+    # analyzer.export_recommendations()
+    
+    print("Database Performance Analyzer")
+    print("=" * 50)
+    print("\nUsage:")
+    print("1. Create SQLAlchemy engine for your database")
+    print("2. Initialize analyzer: analyzer = DatabasePerformanceAnalyzer(engine)")
+    print("3. Generate report: report = analyzer.generate_performance_report()")
+    print("4. Export results: analyzer.export_recommendations()")
+
+
