@@ -250,12 +250,3 @@ Assertions → Runner → Results Collector → Report Generator → Exporter
 ```
 
 ---
-
-
-
-
-
-
-
-
-**Built by Data Engineers, for Data Engineers** 🛠️
