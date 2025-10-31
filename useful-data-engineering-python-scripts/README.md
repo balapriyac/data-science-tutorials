@@ -183,13 +183,6 @@ dq.export_results('quality_report.json')
 pip install pandas sqlalchemy schedule fuzzywuzzy psycopg2-binary pymysql numpy scipy
 ```
 
-### Installation
-```bash
-git clone https://github.com/yourusername/engineer-python-scripts.git
-cd engineer-python-scripts
-pip install -r requirements.txt
-```
-
 ### Quick Start
 1. Identify your biggest operational pain point
 2. Copy the relevant script to your workspace
