@@ -2,7 +2,7 @@
 
 Automate the most tedious data cleaning tasks with these 5 Python scripts.
 
-## 📦 Scripts Included
+## Scripts Included
 
 1. **Missing Value Handler** - Intelligent imputation based on data type and patterns
 2. **Duplicate Detector and Resolver** - Finds exact and fuzzy duplicates
@@ -12,7 +12,7 @@ Automate the most tedious data cleaning tasks with these 5 Python scripts.
 
 ---
 
-## 📚 Dependencies
+## Dependencies
 
 ```bash
 pip install pandas numpy scikit-learn
