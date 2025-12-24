@@ -182,6 +182,112 @@ print(f"Selected {len(selected_features)} features")
 
 ---
 
+## Complete Feature Engineering Pipeline Example
+
+```python
+import pandas as pd
+from smart_encoder import SmartEncoder
+from numerical_transformer import NumericalTransformer
+from interaction_generator import InteractionGenerator
+from datetime_extractor import DatetimeExtractor
+from feature_selector import FeatureSelector
+
+# Load data
+df = pd.read_csv('data.csv')
+y = df['target']
+X = df.drop('target', axis=1)
+
+print(f"Starting with {X.shape[1]} features")
+
+# Step 1: Extract datetime features
+print("\n1. Extracting datetime features...")
+dt_extractor = DatetimeExtractor()
+datetime_features = dt_extractor.extract_all(X, include_lag_features=False)
+X = pd.concat([X, datetime_features], axis=1)
+print(f"After datetime extraction: {X.shape[1]} features")
+
+# Step 2: Encode categorical features
+print("\n2. Encoding categorical features...")
+encoder = SmartEncoder(cardinality_threshold=10)
+X_encoded = encoder.fit_transform(X, y)
+print(f"After encoding: {X_encoded.shape[1]} features")
+
+# Step 3: Transform numerical features
+print("\n3. Transforming numerical features...")
+transformer = NumericalTransformer()
+X_transformed = transformer.fit_transform(X_encoded, auto_transform=True)
+print(f"After transformation: {X_transformed.shape[1]} features")
+
+# Step 4: Generate interactions
+print("\n4. Generating feature interactions...")
+generator = InteractionGenerator(max_interactions=30, task='classification')
+interactions = generator.generate_and_select(
+    X_transformed, y,
+    numeric_operations=['multiply', 'divide'],
+    include_polynomials=True
+)
+X_enhanced = pd.concat([X_transformed, interactions], axis=1)
+print(f"After interactions: {X_enhanced.shape[1]} features")
+
+# Step 5: Select best features
+print("\n5. Selecting best features...")
+selector = FeatureSelector(task='classification', n_features=50)
+X_final, scores = selector.select_features(X_enhanced, y)
+print(f"Final feature set: {X_final.shape[1]} features")
+
+# Save for modeling
+X_final.to_csv('engineered_features.csv', index=False)
+print("\nEngineered features saved!")
+
+# Get comprehensive report
+print("\nTop 20 Features by Importance:")
+print(selector.get_feature_importance_report(scores, top_n=20))
+```
+
+---
+
+## 🎯 Pipeline for Train/Test Data
+
+```python
+# Train data
+train_df = pd.read_csv('train.csv')
+y_train = train_df['target']
+X_train = train_df.drop('target', axis=1)
+
+# Test data
+test_df = pd.read_csv('test.csv')
+y_test = test_df['target']
+X_test = test_df.drop('target', axis=1)
+
+# Fit on training data only
+encoder = SmartEncoder()
+X_train_encoded = encoder.fit_transform(X_train, y_train)
+
+transformer = NumericalTransformer()
+X_train_transformed = transformer.fit_transform(X_train_encoded)
+
+generator = InteractionGenerator(max_interactions=30)
+interactions_train = generator.generate_and_select(X_train_transformed, y_train)
+X_train_final = pd.concat([X_train_transformed, interactions_train], axis=1)
+
+selector = FeatureSelector(n_features=50)
+X_train_selected, _ = selector.select_features(X_train_final, y_train)
+
+# Apply to test data (using fitted transformations)
+X_test_encoded = encoder.transform(X_test)
+X_test_transformed = transformer.transform(X_test_encoded)
+
+# For interactions on test: would need to regenerate using same logic
+# For selection: use the selected feature names
+selected_cols = selector.get_selected_features()
+X_test_selected = X_test_transformed[selected_cols]
+
+print(f"Train shape: {X_train_selected.shape}")
+print(f"Test shape: {X_test_selected.shape}")
+```
+
+
+---
 
 ## Performance Tips
 
