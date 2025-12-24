@@ -12,7 +12,7 @@ Automate feature engineering with these 5 powerful Python scripts designed to cr
 
 ---
 
-## 📚 Dependencies
+## Dependencies
 
 ```bash
 pip install pandas numpy scikit-learn scipy dateutil
@@ -246,7 +246,7 @@ print(selector.get_feature_importance_report(scores, top_n=20))
 
 ---
 
-## 🎯 Pipeline for Train/Test Data
+## Pipeline for Train/Test Data
 
 ```python
 # Train data
