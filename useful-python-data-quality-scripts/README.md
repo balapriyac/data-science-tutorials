@@ -13,6 +13,41 @@ These scripts provide automated validation for:
 
 Each script can be run standalone or integrated into data pipelines for continuous validation.
 
+## 📦 Dependencies
+
+### Core Dependencies
+```
+pandas          # Data manipulation and analysis
+numpy          # Numerical operations
+matplotlib      # Plotting and visualization
+seaborn        # Statistical visualizations
+scipy          # Scientific computing (for outlier detection)
+```
+
+### Optional Dependencies
+```
+openpyxl>=3.0.0        # Excel file support (.xlsx)
+xlrd>=2.0.0            # Excel file support (.xls)
+python-Levenshtein>=0.12.0  # Faster fuzzy string matching (optional)
+```
+
+### Installing All Dependencies
+Create a `requirements.txt` file:
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+openpyxl
+xlrd
+```
+
+Then install:
+```bash
+pip install -r requirements.txt
+```
+
 ## Scripts
 
 ### 1. Missing Data Analyzer
@@ -170,4 +205,5 @@ python consistency_checker.py data.csv rules.json
 **Output**: Console report, JSON violations file
 
 ---
+
 
