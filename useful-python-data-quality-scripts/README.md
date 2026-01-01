@@ -206,47 +206,6 @@ python consistency_checker.py data.csv rules.json
 
 ---
 
-
-## 🎯 Quick Start
-
-### Example 1: Complete Data Quality Check
-```bash
-# Check for missing data
-python missing_data_analyzer.py sales_data.csv
-
-# Validate data types
-python data_type_validator.py sales_data.csv schema.json
-
-# Find duplicates
-python duplicate_detector.py sales_data.csv --fuzzy
-
-# Detect outliers
-python outlier_detector.py sales_data.csv
-
-# Check consistency
-python consistency_checker.py sales_data.csv rules.json
-```
-
-### Example 2: Python Integration
-```python
-from missing_data_analyzer import MissingDataAnalyzer
-from data_type_validator import DataTypeValidator
-
-# Analyze missing data
-analyzer = MissingDataAnalyzer('data.csv')
-report = analyzer.analyze()
-analyzer.print_report()
-
-# Validate types
-schema = {
-    'id': {'type': 'integer', 'nullable': False},
-    'email': {'type': 'email', 'nullable': False}
-}
-validator = DataTypeValidator('data.csv', schema)
-results = validator.validate()
-validator.print_report()
-```
-
 ## Detailed Usage
 
 ### Missing Data Analyzer
