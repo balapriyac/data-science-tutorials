@@ -68,3 +68,5 @@ I hope you find them helpful. Happy learning and coding!
 |[Statistics at the Command Line for Beginner Data Scientists](https://www.kdnuggets.com/statistics-at-the-command-line-for-beginner-data-scientists)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/stats-at-cmd-line)|
 |[5 Useful Python Scripts to Automate Boring Everyday Tasks](https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-everyday-tasks)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-automation-scripts)|
 |[5 Useful Python Scripts to Automate Data Cleaning](https://www.kdnuggets.com/5-useful-python-scripts-to-automate-data-cleaning)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-scripts-for-data-cleaning)|
+|[5 Useful Python Scripts for Effective Feature Engineering](https://www.kdnuggets.com/5-useful-python-scripts-for-effective-feature-engineering)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-feature-engineering-python-scripts)|
+
