@@ -18,8 +18,8 @@ Generates sample data and runs all examples from the article.
 ## What It Does
 
 - Creates realistic e-commerce dataset (50K orders)
-- Saves as Parquet files (8-10x smaller than CSV)
-- Queries with DuckDB (10-100x faster than pandas)
+- Saves as Parquet files
+- Queries with DuckDB
 - Shows compression, joins, aggregations, performance comparisons
 
 ## Files
