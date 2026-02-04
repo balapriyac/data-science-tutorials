@@ -151,8 +151,53 @@ python metadata_extractor.py /path/to/media --type audio --type video
 
 ---
 
+## 5. Empty & Stale Folder Purger
+
+Finds directories that are either completely empty or contain only files older than a set threshold. Reports findings before removing anything. Uses bottom-up traversal so nested empty folders are caught correctly.
+
+**No dependencies** — standard library only.
+
+```bash
+# Scan with default 90-day stale threshold
+python stale_folder_purger.py /path/to/scan
+
+# Use a 60-day threshold
+python stale_folder_purger.py /path/to/scan --days 60
+
+# Dry run — see what would be removed
+python stale_folder_purger.py /path/to/scan --dry-run
+
+# Protect specific directories from deletion
+python stale_folder_purger.py /path/to/scan --protect /path/to/important --protect /other/path
+```
+
+### Options
+
+| Flag | Description | Default |
+|------|-------------|---------|
+| `--days N` | Stale threshold in days | 90 |
+| `--dry-run` | Preview without deleting | — |
+| `--auto-confirm` | Skip the yes/no prompt | — |
+| `--protect PATH` | Additional protected paths. Repeatable. | System paths only |
+| `--log FILE` | Deletion log path | `purge_log.txt` |
+
+System directories (like `/usr`, `/var`, `C:\Windows`) are always protected and can never be targeted.
+
+---
+
+## Dependencies
+
+Scripts 1, 2, and 5 use only the Python standard library — no installs needed.
+
+Scripts 3 and 4 have external dependencies. Install them all as needed:
 
 
+```bash
+# Script 3 — Bulk Format Converter
+pip install pillow pydub python-docx ffmpeg
 
+# Script 4 — Media Metadata Extractor
+pip install pillow piexif mutagen ffmpeg
+```
 
-
+---
