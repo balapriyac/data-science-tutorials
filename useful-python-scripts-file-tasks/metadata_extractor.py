@@ -7,10 +7,10 @@ clean CSV. Supports EXIF data from images, tags from audio files,
 and technical specs from video files.
 
 Usage:
-    python metadata_harvester.py /path/to/media
-    python metadata_harvester.py /path/to/media --output metadata.csv
-    python metadata_harvester.py /path/to/media --type images
-    python metadata_harvester.py /path/to/media --type audio --type video
+    python metadata_extractor.py /path/to/media
+    python metadata_extractor.py /path/to/media --output metadata.csv
+    python metadata_extractor.py /path/to/media --type images
+    python metadata_extractor.py /path/to/media --type audio --type video
 
 Dependencies:
     pip install Pillow piexif mutagen
