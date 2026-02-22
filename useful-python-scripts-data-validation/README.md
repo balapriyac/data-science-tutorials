@@ -350,3 +350,180 @@ if not results['connectivity']['is_connected']:
 
 ---
 
+### 5. Referential Integrity Validator
+
+Validates foreign key relationships and cross-table data consistency.
+
+#### Features
+- Foreign key validation across multiple tables
+- Orphaned record detection (parents without children, children without parents)
+- Cardinality constraint validation (one-to-one, one-to-many)
+- Composite key validation
+- Cascade delete impact analysis
+- Circular reference detection across tables
+
+#### Command Line Usage
+```bash
+# Basic validation with config file
+python referential_integrity_validator.py employees.csv --config validation_config.json
+
+# Export results
+python referential_integrity_validator.py employees.csv -c config.json -e violations.json
+```
+
+#### Configuration File
+Create a `validation_config.json` file:
+
+```json
+{
+  "reference_tables": {
+    "departments": "departments.csv",
+    "locations": "locations.csv",
+    "job_titles": "job_titles.csv"
+  },
+  "foreign_key_rules": [
+    {
+      "name": "valid_department",
+      "foreign_key_column": "department_id",
+      "reference_table": "departments",
+      "reference_column": "id",
+      "allow_null": false
+    },
+    {
+      "name": "valid_location",
+      "foreign_key_column": "location_id",
+      "reference_table": "locations",
+      "reference_column": "location_id",
+      "allow_null": true
+    }
+  ],
+  "orphan_rules": [
+    {
+      "name": "departments_with_employees",
+      "parent_table": "departments",
+      "parent_key_column": "id",
+      "child_table": "primary",
+      "child_key_column": "department_id"
+    }
+  ],
+  "cardinality_rules": [
+    {
+      "name": "unique_employee_id",
+      "type": "one-to-one",
+      "child_table": "primary",
+      "child_key_column": "employee_id"
+    }
+  ],
+  "composite_key_rules": [
+    {
+      "name": "unique_employee_department",
+      "key_columns": ["employee_id", "department_id"],
+      "uniqueness": "unique"
+    }
+  ],
+  "cascade_rules": [
+    {
+      "name": "department_deletion_impact",
+      "parent_table": "departments",
+      "parent_key_column": "id",
+      "child_table": "primary",
+      "child_foreign_key_column": "department_id"
+    }
+  ]
+}
+```
+
+#### Programmatic Usage
+```python
+from referential_integrity_validator import ReferentialIntegrityValidator
+import json
+
+# Define reference tables
+reference_tables = {
+    'departments': 'departments.csv',
+    'locations': 'locations.csv',
+    'job_titles': 'job_titles.csv'
+}
+
+# Define validation rules
+config = {
+    'reference_tables': reference_tables,
+    'foreign_key_rules': [
+        {
+            'name': 'valid_department',
+            'foreign_key_column': 'department_id',
+            'reference_table': 'departments',
+            'reference_column': 'id',
+            'allow_null': False
+        },
+        {
+            'name': 'valid_manager',
+            'foreign_key_column': 'manager_id',
+            'reference_table': 'primary',  # Self-reference
+            'reference_column': 'employee_id',
+            'allow_null': True
+        }
+    ],
+    'orphan_rules': [
+        {
+            'name': 'departments_without_employees',
+            'parent_table': 'departments',
+            'parent_key_column': 'id',
+            'child_table': 'primary',
+            'child_key_column': 'department_id'
+        }
+    ],
+    'cardinality_rules': [
+        {
+            'name': 'unique_employee_email',
+            'type': 'one-to-one',
+            'child_table': 'primary',
+            'child_key_column': 'email'
+        }
+    ],
+    'composite_key_rules': [
+        {
+            'name': 'unique_employee_location_combo',
+            'key_columns': ['employee_id', 'location_id'],
+            'uniqueness': 'unique'
+        }
+    ],
+    'cascade_rules': [
+        {
+            'name': 'manager_deletion_impact',
+            'parent_table': 'primary',
+            'parent_key_column': 'employee_id',
+            'child_table': 'primary',
+            'child_foreign_key_column': 'manager_id'
+        }
+    ]
+}
+
+# Initialize and run validator
+validator = ReferentialIntegrityValidator(
+    primary_filepath='employees.csv',
+    reference_tables=reference_tables
+)
+
+results = validator.analyze_all(config)
+validator.print_report(results)
+
+# Access specific violation types
+fk_violations = results['violations']['foreign_keys']
+print(f"Foreign key violations: {len(fk_violations)}")
+
+orphans = results['violations']['orphaned_records']
+print(f"Orphaned records: {len(orphans)}")
+
+# Check cascade impacts before deleting
+cascade_impacts = results['violations']['cascade_impact']
+for impact in cascade_impacts:
+    print(f"Deleting {impact['parent_key']} would affect {impact['affected_child_count']} records")
+
+# Export results
+validator.export_report('integrity_report.json', results)
+```
+
+---
+
+
