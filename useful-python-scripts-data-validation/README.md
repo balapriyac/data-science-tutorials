@@ -4,8 +4,6 @@ Five Python scripts for validating data beyond simple quality checks.
 
 ## Install Dependencies
 
-
-Or install individually:
 ```bash
 pip install pandas numpy scipy matplotlib seaborn
 ```
