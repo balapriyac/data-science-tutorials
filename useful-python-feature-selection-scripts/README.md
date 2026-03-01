@@ -182,4 +182,61 @@ print(f"Selected: {X_selected.columns.tolist()}")
 
 ---
 
-Happy feature selecting! 🚀
+
+
+## Complete Pipeline Example
+
+Combine multiple selectors for comprehensive feature selection:
+
+```python
+import pandas as pd
+from variance_threshold_selector import VarianceThresholdSelector
+from correlation_selector import CorrelationSelector
+from statistical_test_selector import StatisticalTestSelector
+from model_based_selector import ModelBasedSelector
+from recursive_feature_eliminator import RecursiveFeatureEliminator
+
+# Load data
+df = pd.read_csv('your_data.csv')
+X = df.drop('target', axis=1)
+y = df['target']
+
+print(f"Starting with {X.shape[1]} features")
+
+# Step 1: Remove low-variance features
+variance_selector = VarianceThresholdSelector(threshold=0.01)
+X = variance_selector.fit_transform(X)
+print(f"After variance filter: {X.shape[1]} features")
+
+# Step 2: Remove correlated features
+corr_selector = CorrelationSelector(threshold=0.95)
+X = corr_selector.fit_transform(X, y)
+print(f"After correlation filter: {X.shape[1]} features")
+
+# Step 3: Select statistically significant features
+stat_selector = StatisticalTestSelector(alpha=0.05, correction='fdr')
+X = stat_selector.fit_transform(X, y, task='classification')
+print(f"After statistical tests: {X.shape[1]} features")
+
+# Step 4: Select top features by model importance
+model_selector = ModelBasedSelector(n_features=20)
+X = model_selector.fit_transform(X, y, task='classification')
+print(f"After model selection: {X.shape[1]} features")
+
+# Step 5: Find optimal subset with RFE
+rfe = RecursiveFeatureEliminator(step=1, cv=5)
+X_final = rfe.fit_transform(X, y)
+print(f"Final optimal subset: {X_final.shape[1]} features")
+print(f"Selected features: {X_final.columns.tolist()}")
+```
+
+## When to Use Each Selector
+
+| Selector | Best For | Typical Use Case |
+|----------|----------|------------------|
+| Variance Threshold | Removing uninformative features | First step to eliminate constants |
+| Correlation-Based | Handling multicollinearity | Linear models, reducing redundancy |
+| Statistical Test | Ensuring significance | Validating feature-target relationships |
+| Model-Based | General-purpose ranking | Identifying most predictive features |
+| RFE | Finding optimal subset | Final optimization, feature interactions |
+
