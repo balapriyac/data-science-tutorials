@@ -1,4 +1,4 @@
-# Feature Selection Python Scripts
+# Feature Selection Useful Python Scripts
 
 A collection of five automated feature selection scripts for machine learning projects. These scripts help identify the most relevant/valuable features, remove redundancy, and optimize your feature set for better model performance.
 
@@ -240,3 +240,13 @@ print(f"Selected features: {X_final.columns.tolist()}")
 | Model-Based | General-purpose ranking | Identifying most predictive features |
 | RFE | Finding optimal subset | Final optimization, feature interactions |
 
+
+## Tips and Best Practices
+
+1. **Start with variance filtering** - Quick way to remove obvious noise
+2. **Apply correlation filtering early** - Reduces dimensionality before expensive operations
+3. **Use statistical tests for validation** - Ensure features have meaningful relationships
+4. **Combine multiple methods as needed** - Different selectors capture different aspects
+5. **Always use cross-validation** - Especially with RFE to avoid overfitting
+6. **Monitor performance** - Track model metrics throughout the selection process
+7. **Consider domain knowledge** - Please don't remove features that make business sense
