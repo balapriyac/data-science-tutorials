@@ -1,4 +1,4 @@
-# Feature Selection Useful Python Scripts
+#  Useful Python Scripts for Feature Selection
 
 A collection of five automated feature selection scripts for machine learning projects. These scripts help identify the most relevant/valuable features, remove redundancy, and optimize your feature set for better model performance.
 
