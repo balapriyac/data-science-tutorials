@@ -77,5 +77,4 @@ I hope you find them helpful. Happy learning and coding!
 |[5 Useful Python Scripts to Automate Exploratory Data Analysis](https://www.kdnuggets.com/5-useful-python-scripts-to-automate-exploratory-data-analysis)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-scripts-eda)|
 | [Pandas vs. Polars: A Complete Comparison of Syntax, Speed, and Memory](https://www.kdnuggets.com/pandas-vs-polars-a-complete-comparison-of-syntax-speed-and-memory)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/pandas-vs-polars)|
 |[7 Essential Python Itertools for Feature Engineering](https://machinelearningmastery.com/7-essential-python-itertools-for-feature-engineering/)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/itertools-interesting-use-cases/feature-engineering)|
-|[
-5 Useful Python Scripts for Effective Feature Selection](https://www.kdnuggets.com/5-useful-python-scripts-for-effective-feature-selection)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-feature-selection-scripts)|
+|[5 Useful Python Scripts for Effective Feature Selection](https://www.kdnuggets.com/5-useful-python-scripts-for-effective-feature-selection)|[Code](https://github.com/balapriyac/data-science-tutorials/tree/main/useful-python-feature-selection-scripts)|
