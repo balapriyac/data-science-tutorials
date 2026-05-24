@@ -1,0 +1,46 @@
+CREATE TABLE transactions (
+    transaction_id   SERIAL PRIMARY KEY,
+    customer_id      INT,
+    plan_type        VARCHAR(20),   -- 'starter', 'pro', 'enterprise'
+    amount           NUMERIC(10,2),
+    status           VARCHAR(20),   -- 'completed', 'refunded', 'failed'
+    created_at       TIMESTAMP
+);
+
+INSERT INTO transactions (customer_id, plan_type, amount, status, created_at) VALUES
+(4482, 'starter',    19.00, 'completed', '2023-09-10 09:00:00'),
+(4482, 'starter',    19.00, 'completed', '2023-10-10 09:00:00'),
+(4482, 'pro',        79.00, 'completed', '2023-11-10 09:14:00'),
+(4482, 'pro',        79.00, 'completed', '2024-01-03 09:14:00'),
+(4482, 'pro',        79.00, 'refunded',  '2024-02-03 08:55:00'),
+(4482, 'pro',        79.00, 'completed', '2024-03-03 08:20:00'),
+(4482, 'pro',        79.00, 'completed', '2024-04-03 10:00:00'),
+(4482, 'enterprise', 299.00, 'completed', '2024-05-01 11:00:00'),
+(4482, 'enterprise', 299.00, 'failed',    '2024-06-01 11:00:00'),
+(3317, 'starter',    19.00, 'completed', '2024-01-03 11:02:00'),
+(3317, 'starter',    19.00, 'completed', '2024-03-15 10:45:00'),
+(3317, 'starter',    19.00, 'completed', '2024-05-22 09:30:00'),
+(3317, 'starter',    19.00, 'failed',    '2024-06-01 14:00:00'),
+(5901, 'enterprise', 299.00, 'completed', '2024-02-10 14:33:00'),
+(5901, 'enterprise', 299.00, 'completed', '2024-03-10 14:33:00'),
+(5901, 'enterprise', 299.00, 'completed', '2024-04-10 14:33:00'),
+(5901, 'enterprise', 299.00, 'refunded',  '2024-04-20 10:00:00'),
+(5901, 'enterprise', 299.00, 'completed', '2024-05-10 14:33:00'),
+(5901, 'enterprise', 299.00, 'completed', '2024-06-10 14:33:00'),
+(6103, 'pro',        79.00, 'completed', '2024-01-15 08:00:00'),
+(6103, 'pro',        79.00, 'completed', '2024-02-15 08:00:00'),
+(6103, 'pro',        79.00, 'completed', '2024-03-15 08:00:00'),
+(6103, 'enterprise', 299.00, 'completed', '2024-04-15 08:00:00'),
+(6103, 'enterprise', 299.00, 'failed',    '2024-05-01 09:00:00'),
+(6103, 'enterprise', 299.00, 'completed', '2024-06-15 08:00:00'),
+(6204, 'starter',    19.00, 'completed', '2024-01-20 10:00:00'),
+(6204, 'pro',        79.00, 'completed', '2024-03-20 10:00:00'),
+(6204, 'pro',        79.00, 'completed', '2024-05-20 10:00:00'),
+(7891, 'starter',    19.00, 'completed', '2024-02-01 09:00:00'),
+(7891, 'starter',    19.00, 'failed',    '2024-02-15 09:00:00'),
+(7891, 'pro',        79.00, 'completed', '2024-04-01 09:00:00'),
+(7891, 'pro',        79.00, 'completed', '2024-05-15 09:00:00'),
+(8810, 'pro',        79.00, 'completed', '2024-01-05 12:00:00'),
+(8810, 'pro',        79.00, 'completed', '2024-02-05 12:00:00'),
+(8810, 'pro',        79.00, 'refunded',  '2024-03-05 12:00:00'),
+(8810, 'pro',        79.00, 'completed', '2024-04-05 12:00:00');
