@@ -31,6 +31,9 @@ python scripts/04_csv_column_transformer.py input.csv output.csv config.json
 python scripts/05_csv_sampler_anonymizer.py input.csv output.csv \
     --sample-size 500 --mask email,phone,name --salt "some-secret"
 ```
+
+Each script also supports `-h` / `--help` for the full list of options.
+
 ## Config File Formats
 
 ### Schema (`schema.json`, used by script 1)
@@ -62,6 +65,4 @@ Supported types: `int`, `float`, `date`, `string`, `email`.
 
 Operations run in order. Available `convert` functions: `to_int`, `to_float`, `strip_currency`, `upper`, `lower`, `title`.
 
-
-Each script also supports `-h` / `--help` for the full list of options.
 
