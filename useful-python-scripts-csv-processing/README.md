@@ -31,6 +31,37 @@ python scripts/04_csv_column_transformer.py input.csv output.csv config.json
 python scripts/05_csv_sampler_anonymizer.py input.csv output.csv \
     --sample-size 500 --mask email,phone,name --salt "some-secret"
 ```
+## Config File Formats
+
+### Schema (`schema.json`, used by script 1)
+
+```json
+{
+  "columns": {
+    "email": {"type": "email", "required": true},
+    "age":   {"type": "int", "required": false, "min": 0, "max": 120},
+    "name":  {"type": "string", "required": true, "pattern": "^[A-Za-z ]+$"},
+    "signup_date": {"type": "date", "required": true, "date_format": "%Y-%m-%d"}
+  }
+}
+```
+
+Supported types: `int`, `float`, `date`, `string`, `email`.
+
+### Column operations (`config.json`, used by script 4)
+
+```json
+[
+  {"op": "rename", "mapping": {"fname": "first_name", "lname": "last_name"}},
+  {"op": "derive", "new_column": "full_name", "template": "{first_name} {last_name}"},
+  {"op": "derive", "new_column": "price", "template": "{price_str}", "convert": "strip_currency"},
+  {"op": "drop", "columns": ["fname", "lname", "price_str"]},
+  {"op": "reorder", "columns": ["full_name", "price", "email"]}
+]
+```
+
+Operations run in order. Available `convert` functions: `to_int`, `to_float`, `strip_currency`, `upper`, `lower`, `title`.
+
 
 Each script also supports `-h` / `--help` for the full list of options.
 
