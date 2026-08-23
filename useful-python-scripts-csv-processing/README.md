@@ -12,3 +12,25 @@ Five self-contained Python scripts for the CSV chores that come up constantly in
 | 4 | `csv_column_transformer.py` | Renames, drops, reorders, and derives columns based on a JSON config. |
 | 5 | `csv_sampler_anonymizer.py` | Randomly samples rows (reservoir sampling) and masks sensitive columns with a consistent keyed hash. |
 
+## Quick Start
+
+```bash
+# 1. Validate a CSV against a schema
+python scripts/01_csv_schema_validator.py data.csv schema.json --report errors.csv
+
+# 2. Diff two CSV snapshots by an id column
+python scripts/02_csv_diff_tool.py old.csv new.csv --key id --output diff_report.csv
+
+# 3. Normalize a messy export to clean UTF-8 / comma-delimited CSV
+python scripts/03_csv_normalizer.py messy_export.csv clean_output.csv
+
+# 4. Reshape columns using a config file
+python scripts/04_csv_column_transformer.py input.csv output.csv config.json
+
+# 5. Sample 500 rows and mask sensitive columns
+python scripts/05_csv_sampler_anonymizer.py input.csv output.csv \
+    --sample-size 500 --mask email,phone,name --salt "some-secret"
+```
+
+Each script also supports `-h` / `--help` for the full list of options.
+
