@@ -22,3 +22,13 @@ export ANTHROPIC_API_KEY=your-key-here     # only needed for real (non-mock) run
 
 The default model is `claude-sonnet-5-5`. Override it with the `AGENT_MODEL` environment variable or each script's `--model` flag. The Pydantic AI script expects a Pydantic AI model string, so it prefixes the name with `anthropic:` for you.
 
+## Scripts
+
+| Script | What it does |
+|--------|---------------|
+| `react_loop.py` | A reason-act-observe agent loop in plain Python, with a safe calculator, word counter and date tool. |
+| `typed_agent_pydantic_ai.py` | Triages support tickets into a validated Pydantic model, with retries and a business-rule validator. |
+| `planner_executor_agent.py` | Plans a CSV analysis up front, runs it, and re-plans when a step fails. |
+| `memory_manager.py` | Rolling summary, recent window and retrievable facts, saved to a JSON file. |
+| `human_in_the_loop_gatekeeper.py` | Risk-tiered approval prompts in the terminal, with an audit log. |
+
