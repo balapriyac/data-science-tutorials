@@ -32,3 +32,25 @@ The default model is `claude-sonnet-5-5`. Override it with the `AGENT_MODEL` env
 | `memory_manager.py` | Rolling summary, recent window and retrievable facts, saved to a JSON file. |
 | `human_in_the_loop_gatekeeper.py` | Risk-tiered approval prompts in the terminal, with an audit log. |
 
+## Quick Start
+
+```bash
+# Offline demos: no API key, no network
+python react_loop.py --mock
+python typed_agent_pydantic_ai.py --mock
+python planner_executor_agent.py --mock
+python memory_manager.py --demo
+python human_in_the_loop_gatekeeper.py --mock
+
+# Actual runs
+python react_loop.py "What is 15% of 2480, plus 37?"
+python typed_agent_pydantic_ai.py --ticket "Customers cannot log in" --json
+python planner_executor_agent.py sales.csv "Which region sells the most?"
+python memory_manager.py --chat --memory-file me.json
+python human_in_the_loop_gatekeeper.py "Summarize notes.txt into summary.txt"
+```
+
+Each script supports `-h` / `--help` for the full list of options.
+
+
+
