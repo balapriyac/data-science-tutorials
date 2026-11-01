@@ -53,4 +53,11 @@ python human_in_the_loop_gatekeeper.py "Summarize notes.txt into summary.txt"
 Each script supports `-h` / `--help` for the full list of options.
 
 
+## Notes
 
+- **Mock modes use scripted replies.** They prove the plumbing (parsing, validation, gating, memory) works; they are not real model output, and the answers are fixed.
+- **react_loop.py** parses calculator input with `ast` rather than `eval`, and always stops after `--max-steps`.
+- **typed_agent_pydantic_ai.py** retries invalid output up to twice. The mock deliberately fails twice, then succeeds.
+- **planner_executor_agent.py** validates every plan before running it, re-plans at most twice, and has a hard step limit. It can only read files in the same folder as your CSV, and writes `report.md` there.
+- **memory_manager.py** uses simple keyword matching to recall facts. That keeps it dependency-free; for large fact stores, replace `recall()` with embeddings or a vector index such as LlamaIndex.
+- **human_in_the_loop_gatekeeper.py** simulates email by writing to `outbox.jsonl`, confines file access to its workspace folder, fails closed when no human answers, and logs every decision to `audit.jsonl`. Treat it as a pattern to adapt, not a complete security boundary.
